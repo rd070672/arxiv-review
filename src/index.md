@@ -1,0 +1,41 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: ""
+  text: "Journal Club"
+  tagline: "材料工学、物性物理、マテリアルズ・インフォマティクスの最新研究を紹介するジャーナルクラブ"
+  actions:
+    - theme: brand
+      text: About
+      link: /about
+
+    - theme: alt
+      text: changelog
+      link: /changelog
+
+    - theme: alt
+      text: Github
+      link: https://github.com/yamazakilab-ynu/journal-club
+
+features:
+  - title: 材料工学
+    details: 材料合成、熱処理、プロセス制御、組織形成、特性評価を通じて、材料の設計・開発に必要な基礎と実践を学びます。材料開発の流れを俯瞰しながら、実験と解析をつなぐ視点を整理します。
+
+  - title: 物性物理
+    details: 第一原理計算や数値シミュレーションを活用し、電子・原子レベルの視点から材料物性の発現機構を理解します。理論背景、計算環境、解析手法、具体例を通じて、物性理解の基礎を体系的にまとめます。
+
+  - title: マテリアルズ・インフォマティクス
+    details: 機械学習、統計解析、深層学習、機械学習ポテンシャルなどを通じて、材料研究におけるデータ活用の基礎と応用を学びます。実データ解析や材料設計への展開、解釈性の考え方も含めて整理します。
+
+  - title: 量子ビーム
+    details: 放射光、X線、中性子、電子線などの量子ビームを用いた先端計測を通じて、材料の原子配列、電子状態、磁気構造、局所環境を多角的に調べます。計測原理からデータ解析、材料研究への応用までを整理します。
+---
+
+## arXiv論文の要約
+### 2026年3月
+- [2026-03-08](arxiv/2026-03-08)
+- [2026-03-08_2](arxiv/2026-03-08_2)
+- [2026-03-08_3](arxiv/2026-03-08_3)
+- [2026-03-08_4](arxiv/2026-03-08_4)
