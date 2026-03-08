@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: ""
-  text: "Journal Club"
-  tagline: "材料工学、物性物理、マテリアルズ・インフォマティクスの最新研究を紹介するジャーナルクラブ"
+  text: "arXiv review"
+  tagline: "材料工学、物性物理、マテリアルズ・インフォマティクスの最新研究を紹介します"
   actions:
     - theme: brand
       text: About
@@ -17,7 +17,7 @@ hero:
 
     - theme: alt
       text: Github
-      link: https://github.com/yamazakilab-ynu/journal-club
+      link: https://github.com/rd070672/arxiv-review
 
 features:
   - title: 材料工学

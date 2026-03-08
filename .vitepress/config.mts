@@ -4,10 +4,10 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 
-  base: '/journal-club/',
+  base: '/arxiv-review/',
   srcDir: 'src',
   title: "Journal Club",
-  description: "arXiv論文を参考に、材料工学・物性物理・マテリアルズインフォマティクス・量子ビームに関する最新情報を共有するジャーナルクラブ",
+  description: "arXiv論文を参考に、材料工学・物性物理・マテリアルズインフォマティクス・量子ビームに関する最新情報を共有します。",
     
   lang: 'ja-JP',
 
@@ -42,15 +42,14 @@ export default defineConfig({
     }],
 
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:site_name', content: 'Journal Club' }],
-    ["meta", { property: "og:image", content: "https://yamazakilab-ynu.github.io/journal-club/images/top.jpg" }],
+    ['meta', { property: 'og:site_name', content: 'arXiv review ' }],
+    ["meta", { property: "og:image", content: "https://rd070672.github.io/arxiv-review/images/top.jpg" }],
     ['meta', { property: 'og:locale', content: 'ja_JP' }],
-    ["meta", { property: "og:site_name", content: "journal-club" }],
     ["meta", { property: "twitter:card", content: "summary" }],
-    ["meta", { property: "twitter:site", content: "@journal-club"}],
-    ["meta", { property: "twitter:title", content: "journal-club"}],
-    ["meta", { property: "twitter:description", content: "横浜国立大学 山崎研究室のジャーナルクラブ。材料工学・物性物理・マテリアルズインフォマティクスに関する論文紹介・知見共有のWikiです。"}],
-    ["meta", { property: "twitter:image", content: "https://yamazakilab-ynu.github.io/journal-club/images/top.jpg" }]
+    ["meta", { property: "twitter:site", content: "@arXiv-review"}],
+    ["meta", { property: "twitter:title", content: "arXiv-review"}],
+    ["meta", { property: "twitter:description", content: "材料工学・物性物理・マテリアルズインフォマティクス・量子ビームに関する論文紹介します。"}],
+    ["meta", { property: "twitter:image", content: "https://rd070672.github.io/arxiv-review/images/top.jpg" }]
   ],
 
   // https://vitepress.dev/reference/default-theme-config
@@ -63,7 +62,7 @@ export default defineConfig({
     returnToTopLabel: 'Return to top',
 
     // editLink: {
-    //   pattern: 'https://github.com/yamazakilab-ynu/journal-club/edit/main/src/:path',
+    //   pattern: 'https://github.com/rd070672/arxiv-review/edit/main/src/:path',
     //   text: 'Edit this page on GitHub'
     // },
 
@@ -77,12 +76,12 @@ export default defineConfig({
         { text: 'About', link: '/about' },
         { text: 'Changelog', link: '/changelog' },
         { text: 'Website', link: '/#' },
-        { text: 'Github', link: 'https://github.com/yamazakilab-ynu/journal-club' },
+        { text: 'Github', link: 'https://github.com/rd070672/arxiv-review' },
       ]},
     ],
 
     sidebar: [
-      { text: '物性物理', collapsed: false, items: [
+      { text: 'arXiv review', collapsed: false, items: [
         { text: '2026年3月', collapsed: false, items: [
           { text: '2026-03-08', link: '/arxiv/2026-03-08' },
           { text: '2026-03-08_2', link: '/arxiv/2026-03-08_2' },
@@ -91,32 +90,32 @@ export default defineConfig({
         ]},
       ]},
 
-      { text: '材料工学', collapsed: false, items: [
-        { text: '2026年3月', collapsed: false, items: [
-          // { text: '2026-03-08', link: '/arxiv/2026-03-08' },
-          // { text: '2026-03-08_2', link: '/arxiv/2026-03-08_2' },
-        ]},
-      ]},
+      // { text: '材料工学', collapsed: false, items: [
+      //   { text: '2026年3月', collapsed: false, items: [
+      //     { text: '2026-03-08', link: '/arxiv/2026-03-08' },
+      //     { text: '2026-03-08_2', link: '/arxiv/2026-03-08_2' },
+      //   ]},
+      // ]},
 
-      { text: 'マテリアルズ・インフォマティクス', collapsed: false, items: [
-        { text: '2026年3月', collapsed: false, items: [
-          // { text: '2026-03-08', link: '/arxiv/2026-03-08' },
-          // { text: '2026-03-08_2', link: '/arxiv/2026-03-08_2' },
-        ]},
-      ]},
+      // { text: 'マテリアルズ・インフォマティクス', collapsed: false, items: [
+      //   { text: '2026年3月', collapsed: false, items: [
+      //     { text: '2026-03-08', link: '/arxiv/2026-03-08' },
+      //     { text: '2026-03-08_2', link: '/arxiv/2026-03-08_2' },
+      //   ]},
+      // ]},
 
-      { text: '量子ビーム', collapsed: false, items: [
-        { text: '2026年3月', collapsed: false, items: [
-          // { text: '2026-03-08', link: '/arxiv/2026-03-08' },
-          // { text: '2026-03-08_2', link: '/arxiv/2026-03-08_2' },
-        ]},
-      ]},
+      // { text: '量子ビーム', collapsed: false, items: [
+      //   { text: '2026年3月', collapsed: false, items: [
+      //     { text: '2026-03-08', link: '/arxiv/2026-03-08' },
+      //     { text: '2026-03-08_2', link: '/arxiv/2026-03-08_2' },
+      //   ]},
+      // ]},
 
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
       { text: 'Changelog', link: '/changelog' },
       // { text: 'Website', link: 'https://antimeron.com' },
-      // { text: 'Github', link: 'https://github.com/yamazakilab-ynu/journal-club' },
+      // { text: 'Github', link: 'https://github.com/rd070672/arxiv-review' },
     ],
 
     socialLinks: [
@@ -125,7 +124,7 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: '© 2026 - Journal Club',
+      copyright: '© 2026 - arXiv review',
     },
   },
 
