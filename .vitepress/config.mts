@@ -83,10 +83,12 @@ export default defineConfig({
     sidebar: [
       { text: 'arXiv review', collapsed: false, items: [
         { text: '2026年3月', collapsed: false, items: [
-          { text: '2026-03-08', link: '/arxiv/2026-03-08' },
+          { text: '2026-03-08_1', link: '/arxiv/2026-03-08_1' },
           { text: '2026-03-08_2', link: '/arxiv/2026-03-08_2' },
           { text: '2026-03-08_3', link: '/arxiv/2026-03-08_3' },
-          { text: '2026-03-08_4', link: '/arxiv/2026-03-08_4' },
+          { text: '2026-03-08', link: '/arxiv/2026-03-08' },
+          { text: '2026-03-09', link: '/arxiv/2026-03-09' },
+          { text: '2026-03-09_1', link: '/arxiv/2026-03-09_1' },
         ]},
       ]},
 
