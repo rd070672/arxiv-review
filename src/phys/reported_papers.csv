@@ -1,0 +1,57 @@
+arXiv ID,title,first author,category,date reported,output file name
+2603.05238,Multi-fidelity Machine Learning Interatomic Potentials for Charged Point Defects,Xinwei Wang,,2026/3/8,2026-03-08.md
+2603.05083,Large-scale Integration of Experimental and Computational Data for 2D Materials,Akhound,,2026/3/8,2026-03-08.md
+2603.0535,A Shift-Invariant Deep Learning Framework for Automated Analysis of XPS Spectra,Issa Saddiq,,2026/3/8,2026-03-08.md
+2603.05442,High-Pressure Inelastic Neutron Spectroscopy: A true test of Machine-Learned Interatomic Potential energy landscapes,Jeff Armstrong,,2026/3/8,2026-03-08_2.md
+2603.05188,Escaping the Hydrolysis Trap: An Agentic Workflow for Inverse Design of Durable Photocatalytic Covalent Organic Frameworks,Iman Peivaste,,2026/3/8,2026-03-08_2.md
+2603.04147,Nine-element machine-learned interatomic potentials for multiphase refractory alloys,Jesper Byggmästar,,2026/3/8,2026-03-08_2.md
+2603.04152,Machine-learned Interatomic Potential for Ti_{n+1}C_n MXenes,Jesper Byggmästar,cond-mat.mtrl-sci,2026/3/8,2026-03-08_3.md
+2603.05362,Automated High-Throughput Screening of Polymers Using a Computational Workflow,L. Smith,cond-mat.mtrl-sci,2026/3/8,2026-03-08_3.md
+2603.04103,Machine learning assisted High-Throughput study of M4X3Tx MXenes,S. Goel,cond-mat.mtrl-sci,2026/3/8,2026-03-08_3.md
+2603.0462,Moire Topological Magnetism Twist-Engineered from 2D Spin Spirals,Z. He,cond-mat.mtrl-sci,2026/3/8,2026-03-08_3.md
+2603.04575,Rapid modeling of segregation-driven metal-oxide adhesion in high-entropy alloys,D. Boakye,cond-mat.mtrl-sci,2026/3/8,2026-03-08_3.md
+2603.04111,Dispersion and lifetimes of magnons in non-collinear magnets from TDDFT,D. Eilmsteiner,cond-mat.mtrl-sci,2026/3/8,2026-03-08_3.md
+2603.03931,Hydrostatic Pressure Driven Band Gap Tuning in (4FPEA)2SnBr4 Halide Perovskite,R. Bartoszewicz,cond-mat.mtrl-sci,2026/3/8,2026-03-08_3.md
+2603.05056,Ab initio quasi-harmonic thermoelasticity piezoelectricity and thermoelectricity of wurtzite ZnO,X. Gong,cond-mat.mtrl-sci,2026/3/8,2026-03-08_3.md
+2603.03707,Insights into hydrogen-induced vacancy stability and creep in chemically complex alloys,P. Singh,cond-mat.mtrl-sci,2026/3/8,2026-03-08_3.md
+2603.05132,Inverse-design of two-dimensional magnonic crystals via topology optimization,R. Nagaoka,cond-mat.mtrl-sci,2026/3/8,2026-03-08_3.md
+2603.05112,Altermagnetic Metal-Organic Frameworks,Diego López-Alcalá,cond-mat.mtrl-sci,2026/3/8,2026-03-08_4.md
+2603.03694,X-ray magnetic circular dichroism evidence of intrinsic d-wave altermagnetism in NiF2,Zezhong Li,cond-mat.str-el,2026/3/8,2026-03-08_4.md
+2603.03635,Magnetic Signature of Chiral Phonons Revealed by Neutron Spectroscopy in Fe1.75Zn0.25Mo3O8,Song Bao,cond-mat.str-el,2026/3/8,2026-03-08_4.md
+2603.04600,Thermodynamics of the ultrafast phase transition of vanadium dioxide,Shreya Bagchi,cond-mat.str-el,2026/3/8,2026-03-08_4.md
+2603.05257,Lattice dynamics of the charge density wave compounds TaTe4 and NbTe4 and their evolution across solid solutions,D. Silvera-Vega,cond-mat.mtrl-sci,2026/3/8,2026-03-08_4.md
+2603.05199,Epitaxial Growth and Electronic Properties of QuasiFreeStanding Rhombohedral WSe2 Bilayers on Cubic W110,Niels Chapuis,cond-mat.mtrl-sci,2026/3/8,2026-03-08_4.md
+2603.04978,Systematic study of superconductivity in few-layer Td-MoTe2,Taro Wakamura,cond-mat.mes-hall,2026/3/8,2026-03-08_4.md
+2603.05103,Domain-Direct Band Gaps: Classification and Material Realization,Yalan Wei,cond-mat.mtrl-sci,2026/3/8,2026-03-08_4.md
+2603.04491,Giant Magnetocrystalline Anisotropy in Honeycomb Iridate NiIrO3 with Large Coercive Field Exceeding 17 T,Chuanhui Zhu,cond-mat.str-el,2026/3/8,2026-03-08_4.md
+2603.05161,A Geometry-Adaptive Deep Variational Framework for Phase Discovery in the Landau-Brazovskii Model,Yuchen Xie,cond-mat.mtrl-sci,2026/3/8,2026-03-08_4.md
+2603.02089,High-quality high-information datasets for universal atomistic machine learning,Cesare Malosso,cond-mat.mtrl-sci,2026/3/9,2026-03-09.md
+2603.04503,Superconducting States and Intertwined Orders in Metallic Altermagnets,Xuan Zou,cond-mat.supr-con,2026/3/9,2026-03-09.md
+2603.04717,Spectroscopic evidence of disorder-induced quantum phase transitions in monolayer Fe(Te Se) superconductor,Guanyang He,cond-mat.supr-con,2026/3/9,2026-03-09.md
+2603.03223,Expanding Universal Machine Learning Interatomic Potentials to 97 Elements Towards Nuclear Applications,Naoya Kuroda,physics.chem-ph,2026/3/9,2026-03-09.md
+2603.04739,Orbital-Selective Spin-Orbit Mott Insulator in Fractional Valence Iridate La3Ir3O11,Kai Wang,cond-mat.str-el,2026/3/9,2026-03-09.md
+2603.04138,Quantum oscillations and linear magnetoresistance in ultraclean CaVO3 thin films,M. Müller,cond-mat.str-el,2026/3/9,2026-03-09.md
+2603.05415,Antialtermagnetic Magnons and Nonrelativistic Thermal Edelstein Effect,Robin R. Neumann,cond-mat.mes-hall,2026/3/9,2026-03-09.md
+2603.05126,Crystal growth and magnetic properties of spin-1/2 distorted triangular lattice antiferromagnet CuLa2Ge2O8,S. Thamban,cond-mat.str-el,2026/3/9,2026-03-09.md
+2603.04539,Raman scattering spectroscopic observation of a ferroelastic crossover in bond-frustrated PrCd3P3,Jackson Davis,cond-mat.mtrl-sci,2026/3/9,2026-03-09.md
+2603.04907,Energy conservation and pressure relaxation in an extended two-temperature model for copper,Simon Kümmel,cond-mat.mtrl-sci,2026/3/9,2026-03-09.md
+2603.04680,High pressure melt dynamics in shock-compressed titanium,Saransh Singh,cond-mat.mtrl-sci,2026/3/9,2026-03-09_1.md
+2603.05456,Manipulation of ferromagnetism with a light-driven nonlinear Edelstein-Zeeman field,Yinchuan Lv,cond-mat.mes-hall,2026/3/9,2026-03-09_1.md
+2603.04954,Spin-polarized Andreev molecules and anomalous nonlocal Josephson effects in altermagnetic junctions,Sayan Mondal,cond-mat.supr-con,2026/3/9,2026-03-09_1.md
+2603.05242,Precise control of crystallography and magnetism in focused-ion-beam transformed iron-nickel thin films,Jakub Holobrádek,cond-mat.mtrl-sci,2026/3/9,2026-03-09_1.md
+2603.03980,Dynamics of Charge-Density-Wave puddles in 2H-NbSe2,Shreya Kumbhakar,cond-mat.str-el,2026/3/9,2026-03-09_1.md
+2603.05123,First-principles calculation of coherence length and penetration depth based on DFT for superconductors,Mitsuaki Kawamura,cond-mat.supr-con,2026/3/9,2026-03-09_1.md
+2603.03927,Demonstration of robust chiral edge transport in Chern insulator MnBi2Te4 devices with engineered geometric defects,Pinyuan Wang,cond-mat.mes-hall,2026/3/9,2026-03-09_1.md
+2603.03703,NMR evidence of spin supersolid and Pomeranchuk effect behaviors in the triangular-lattice antiferromagnet Rb2Ni2(SeO3)3,Ying Chen,cond-mat.str-el,2026/3/9,2026-03-09_1.md
+2603.05420,Equilibrium Thermochemistry and Crystallographic Morphology of Manganese Sulfide Nanocrystals,Junchi Chen,cond-mat.mtrl-sci,2026/3/9,2026-03-09_1.md
+2603.05254,Higher harmonics in Mott-Hubbard insulators as sensors,Abdelrahman Azab,cond-mat.str-el,2026/3/9,2026-03-09_1.md
+2603.06567,A recipe for scalable attention-based MLIPs: unlocking long-range accuracy with all-to-all node attention,Eric Qu,cond-mat.mtrl-sci,2026/3/10,2026-03-10.md
+2603.06144,Electric field switching of chiral phonons,Michael Grimes,cond-mat.mtrl-sci,2026/3/10,2026-03-10.md
+2603.05606,Evolution of the Superfluid Density in Infinite-Layer Nickelates,Bai Yang Wang,cond-mat.supr-con,2026/3/10,2026-03-10.md
+2603.06526,Predicting Atomistic Transitions with Transformers,Henry Tischler,cond-mat.mtrl-sci,2026/3/10,2026-03-10.md
+2603.06011,Spectra-Scope: A toolkit for automated and interpretable characterization of material properties from spectral data,Amalya C. Johnson,cond-mat.mtrl-sci,2026/3/10,2026-03-10.md
+2603.06188,Superconductivity as a Probe of Altermagnetism: Critical Temperature Field and Current,A. A. Mazanik,cond-mat.supr-con,2026/3/10,2026-03-10.md
+2603.06284,Competition between Charge Density Wave and Superconductivity in a Janus MXene Mo2NF2,Jakkapat Seeyangnok,cond-mat.supr-con,2026/3/10,2026-03-10.md
+2603.06115,Phase-resolved imaging of coherent phonon-magnon coupling,Yannik Kunz,cond-mat.mes-hall,2026/3/10,2026-03-10.md
+2603.06425,Giant orbital magnetoresistance in the antiferromagnet CoO driven by dynamic orbital angular momentum interaction,Christin Schmitt,cond-mat.mtrl-sci,2026/3/10,2026-03-10.md
+2603.06537,Deterministic Electrical Switching in Altermagnets via Surface Antisymmetry Groups,K. D. Belashchenko,cond-mat.mtrl-sci,2026/3/10,2026-03-10.md

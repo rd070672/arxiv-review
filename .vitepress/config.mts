@@ -6,8 +6,8 @@ export default defineConfig({
 
   base: '/arxiv-review/',
   srcDir: 'src',
-  title: "Journal Club",
-  description: "arXiv論文を参考に、材料工学・物性物理・マテリアルズインフォマティクス・量子ビームに関する最新情報を共有します。",
+  title: "arXiv review",
+  description: "物性物理・計算物質科学・マテリアルズインフォマティクス",
     
   lang: 'ja-JP',
 
@@ -35,7 +35,7 @@ export default defineConfig({
       })(window,document,'script','dataLayer','GTM-WX6PN5RH');`
     ],
 
-    ["link", { rel: "icon", href: "https://rd070672.github.io/antimeron/images/favicon.png" }],
+    ["link", { rel: "icon", href: "https://rd070672.github.io/arxiv-review/images/favicon.png" }],
     ['link', { 
       rel: 'stylesheet', 
       href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css'
@@ -48,7 +48,7 @@ export default defineConfig({
     ["meta", { property: "twitter:card", content: "summary" }],
     ["meta", { property: "twitter:site", content: "@arXiv-review"}],
     ["meta", { property: "twitter:title", content: "arXiv-review"}],
-    ["meta", { property: "twitter:description", content: "材料工学・物性物理・マテリアルズインフォマティクス・量子ビームに関する論文紹介します。"}],
+    ["meta", { property: "twitter:description", content: "物性物理・計算科学・マテリアルズインフォマティクス"}],
     ["meta", { property: "twitter:image", content: "https://rd070672.github.io/arxiv-review/images/top.jpg" }]
   ],
 
@@ -69,9 +69,8 @@ export default defineConfig({
     nav: [
       { text: 'ホーム', link: '/' },
       { text: '物性物理', link: '/#物性物理' },
-      { text: '材料工学', link: '/#材料工学' },
+      { text: '計算物質科学', link: '/#計算物質科学' },
       { text: 'マテリアルズ・インフォマティクス', link: '/#マテリアルズ・インフォマティクス'},
-      { text: '量子ビーム', link: '/#量子ビーム'},
       { text: 'その他', items: [
         { text: 'About', link: '/about' },
         { text: 'Changelog', link: '/changelog' },
@@ -82,7 +81,22 @@ export default defineConfig({
 
     sidebar: [
       { text: 'arXiv review', collapsed: false, items: [
+
         { text: '物性物理', collapsed: false, items: [
+          { text: '2026-03-08', link: '/phys/2026-03-08' },
+          { text: '2026-03-09', link: '/phys/2026-03-09' },
+          { text: '2026-03-10', link: '/phys/2026-03-10' },
+        ]},
+
+        { text: '計算物質科学', collapsed: false, items: [
+          { text: '2026-03-10', link: '/calc/2026-03-10' },
+        ]},
+
+        { text: 'マテリアルズ・インフォマティクス', collapsed: false, items: [
+          { text: '2026-03-10', link: '/mi/2026-03-10' },
+        ]},
+        
+        { text: 'テスト', collapsed: false, items: [
           { text: '2026-03-08_1', link: '/arxiv/2026-03-08_1' },
           { text: '2026-03-08_2', link: '/arxiv/2026-03-08_2' },
           { text: '2026-03-08_3', link: '/arxiv/2026-03-08_3' },
@@ -92,9 +106,6 @@ export default defineConfig({
           { text: '2026-03-10', link: '/arxiv/2026-03-10' },
         ]},
 
-        { text: 'マテリアルズ・インフォマティクス', collapsed: false, items: [
-          { text: '2026-03-10', link: '/mi/2026-03-10' },
-        ]},
       ]},
 
       { text: 'Home', link: '/' },
