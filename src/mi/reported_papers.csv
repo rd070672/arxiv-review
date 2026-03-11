@@ -9,3 +9,13 @@ arXiv ID,title,first author,category,date reported,output file name
 2603.04147,Nine-element machine-learned interatomic potentials for multiphase refractory alloys,Jesper Byggmästar,cond-mat.mtrl-sci,2026-03-10,2026-03-10_arxiv_digest.md
 2603.01234,NEP-CG and NEP-AACG: Efficient coarse-grained and multiscale all-atom-coarse-grained neuroevolution potentials,Zheyong Fan,physics.comp-ph,2026-03-10,2026-03-10_arxiv_digest.md
 2603.00726,Deformation mechanisms and compressive response of NbTaTiZr alloy via machine learning potentials,Hongyang Liu,cond-mat.mtrl-sci,2026-03-10,2026-03-10_arxiv_digest.md
+2603.07977,Scaling Machine Learning Interatomic Potentials with Mixtures of Experts,Yuzhi Liu,physics.chem-ph,2026-03-11,2026-03-11.md
+2603.06953,Universal electronic manifolds for extrapolative alloy discovery,Pranoy Ray,cond-mat.mtrl-sci,2026-03-11,2026-03-11.md
+2603.07260,Spin Neural Network Potential for Magnetic Phase Transitions in Uranium Dioxide,Keita Kobayashi,cond-mat.mtrl-sci,2026-03-11,2026-03-11.md
+2603.02002,MatRIS: Toward Reliable and Efficient Pretrained Machine Learning Interatomic Potentials,Yuanchang Zhou,cs.LG,2026-03-11,2026-03-11.md
+2603.03946,Lang2Str: Two-Stage Crystal Structure Generation with LLMs and Continuous Flow Models,Cong Liu,cs.LG,2026-03-11,2026-03-11.md
+2603.07425,A Perspective on Training Machine Learning Force Fields for Solid-State Electrolyte Materials,Zihan Yan,cond-mat.mtrl-sci,2026-03-11,2026-03-11.md
+2603.07805,Machine Learning for Electrode Materials: Property Prediction via Composition,Hao Wu,cond-mat.mtrl-sci,2026-03-11,2026-03-11.md
+2603.07666,AI-Driven Phase Identification from X-ray Hyperspectral Imaging of cycled Na-ion Cathode Materials,Fayçal Adrar,cond-mat.mtrl-sci,2026-03-11,2026-03-11.md
+2603.06882,Machine learning the two-electron reduced density matrix in molecules and condensed phases,Jessica A. Martinez B.,physics.chem-ph,2026-03-11,2026-03-11.md
+2603.05655,Latent space design of interatomic potentials,Susan R. Atlas,physics.chem-ph,2026-03-11,2026-03-11.md
