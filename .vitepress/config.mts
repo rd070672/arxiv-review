@@ -92,6 +92,7 @@ export default defineConfig({
         { text: '計算物質科学', collapsed: false, items: [
           { text: '2026-03-10', link: '/calc/2026-03-10' },
           { text: '2026-03-11', link: '/calc/2026-03-11' },
+          { text: '2026-03-12', link: '/calc/2026-03-12' },
         ]},
 
         { text: 'マテリアルズ・インフォマティクス', collapsed: false, items: [
