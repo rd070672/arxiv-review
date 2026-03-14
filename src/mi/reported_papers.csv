@@ -29,3 +29,13 @@ arXiv ID,title,first author,category,date reported,output file name
 2603.09804,Efficient method for calculation of low-temperature phase boundaries,Lucas Svensson,cond-mat.mtrl-sci,2026-03-12,2026-03-12.md
 2603.09247,Ab initio simulation of the first-order proton-ordering transition in water ice,Qi Zhang,cond-mat.mtrl-sci,2026-03-12,2026-03-12.md
 2603.09410,Infrared spectroscopy of protonated water clusters via the quantum thermal bath method and highly accurate machine-learned potentials,T. Baird,physics.comp-ph,2026-03-12,2026-03-12.md
+2603.12183,Proof-Carrying Materials: Falsifiable Safety Certificates for Machine-Learned Interatomic Potentials,Abhinaba Basu,cond-mat.mtrl-sci,2026-03-14,2026-03-14.md
+2603.11068,From Phase Prediction to Phase Design: A ReAct Agent Framework for High-Entropy Alloy Discovery,Iman Peivaste,cond-mat.mtrl-sci,2026-03-14,2026-03-14.md
+2603.11063,Matlantis-PFP v8: Universal Machine Learning Interatomic Potential with Better Experimental Agreements via r2SCAN Functional,Chikashi Shinagawa,physics.chem-ph,2026-03-14,2026-03-14.md
+2603.11695,PolyCrysDiff: Controllable Generation of Three-Dimensional Computable Polycrystalline Material Structures,Chi Chen,cond-mat.mtrl-sci,2026-03-14,2026-03-14.md
+2603.12017,Thermodynamic Descriptors from Molecular Dynamics as Machine Learning Features for Extrapolable Property Prediction,Nuria H. Espejo,physics.chem-ph,2026-03-14,2026-03-14.md
+2603.10631,High-Throughput-Screening Workflow for Predicting Volume Changes by Ion Intercalation in Battery Materials,Aljoscha Felix Baumann,cond-mat.mtrl-sci,2026-03-14,2026-03-14.md
+2603.11416,Atomic-Scale Mechanisms of SiO2 Plasma-Enhanced Chemical Vapor Deposition Revealed by Molecular Dynamics with a Machine-Learning Interatomic Potential,Jaehoon Kim,cond-mat.mtrl-sci,2026-03-14,2026-03-14.md
+2603.11836,A Decade of Generative Adversarial Networks for Porous Material Reconstruction,Ali Sadeghkhani,cs.CV,2026-03-14,2026-03-14.md
+2603.11722,Melting of thin silicon films: a molecular dynamics study with two machine learning potentials,Yu. D. Fomin,cond-mat.mtrl-sci,2026-03-14,2026-03-14.md
+2603.11414,MaterialFigBENCH: benchmark dataset with figures for evaluating college-level materials science problem-solving abilities of multimodal large language models,Michiko Yoshitake,cs.CL,2026-03-14,2026-03-14.md
