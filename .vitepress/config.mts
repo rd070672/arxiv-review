@@ -87,6 +87,7 @@ export default defineConfig({
           { text: '2026-03-09', link: '/phys/2026-03-09' },
           { text: '2026-03-10', link: '/phys/2026-03-10' },
           { text: '2026-03-11', link: '/phys/2026-03-11' },
+          { text: '2026-03-15', link: '/phys/2026-03-15' },
         ]},
 
         { text: '計算物質科学', collapsed: false, items: [
@@ -94,6 +95,7 @@ export default defineConfig({
           { text: '2026-03-11', link: '/calc/2026-03-11' },
           { text: '2026-03-12', link: '/calc/2026-03-12' },
           { text: '2026-03-14', link: '/calc/2026-03-14' },
+          { text: '2026-03-15', link: '/calc/2026-03-15' },
         ]},
 
         { text: 'マテリアルズ・インフォマティクス', collapsed: false, items: [
@@ -101,6 +103,7 @@ export default defineConfig({
           { text: '2026-03-11', link: '/mi/2026-03-11' },
           { text: '2026-03-12', link: '/mi/2026-03-12' },
           { text: '2026-03-14', link: '/mi/2026-03-14' },
+          { text: '2026-03-15', link: '/mi/2026-03-15' },
         ]},
         
         { text: 'テスト', collapsed: false, items: [
