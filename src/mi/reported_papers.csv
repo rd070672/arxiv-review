@@ -59,3 +59,13 @@ arXiv ID,title,first author,category,date reported,output file name
 2603.12666,RetroReasoner: A Reasoning LLM for Strategic Retrosynthesis Prediction,Hanbum Ko,cs.LG,2026-03-16,2026-03-16.md
 2603.12734,VecMol: Vector-Field Representations for 3D Molecule Generation,Yuchen Hua,stat.ML,2026-03-16,2026-03-16.md
 2603.10182,Deep learning statistical defect models on magnetic material dynamic and static properties,C. Eagan,cond-mat.mes-hall,2026-03-16,2026-03-16.md
+2603.12516,Learning Pore-scale Multiphase Flow from 4D Velocimetry,Chunyang Wang,cs.LG,2026-03-17,2026-03-17.md
+2603.12344,Generalist LLMs for Molecular Property Prediction: Distilling Knowledge from Specialist Models,Khiem Le,cs.LG,2026-03-17,2026-03-17.md
+2603.13227,Representation Learning for Spatiotemporal Physical Systems,Helen Qu,cs.LG,2026-03-17,2026-03-17.md
+2603.13068,GeoChemAD: Benchmarking Unsupervised Geochemical Anomaly Detection for Mineral Exploration,Yihao Ding,cs.LG,2026-03-17,2026-03-17.md
+2603.12635,Adaptive Diffusion Posterior Sampling for Data and Model Fusion of Complex Nonlinear Dynamical Systems,Dibyajyoti Chakraborty,cs.LG,2026-03-17,2026-03-17.md
+2603.12556,Scaling Laws and Pathologies of Single-Layer PINNs: Network Width and PDE Nonlinearity,Faris Chaudhry,cs.LG,2026-03-17,2026-03-17.md
+2603.12349,Budget-Sensitive Discovery Scoring: A Formally Verified Framework for Evaluating AI-Guided Scientific Selection,Abhinaba Basu,cs.LG,2026-03-17,2026-03-17.md
+2603.12778,Hydrogen-atom roaming reactions in water clusters: Unveiling an unusual dimension of water reactivity through first-principles calculations and machine learning,Rui Liu,physics.chem-ph,2026-03-17,2026-03-17.md
+2603.12982,RUNNs: Ritz-Uzawa Neural Networks for Solving Variational Problems,Pablo Herrera,math.NA,2026-03-17,2026-03-17.md
+2603.12892,Development of a Methodology for the Automated Spatial Mapping of Heterogeneous Elastoplastic Properties of Welded Joints,Robert Hamill,cs.CE,2026-03-17,2026-03-17.md
