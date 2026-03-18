@@ -110,9 +110,12 @@ export default defineConfig({
         { text: '2026-03-18-計算材料科学', link: '/calc/2026-03-18' },
         { text: '2026-03-18-マテインフォ', link: '/mi/2026-03-18' },
         { text: '2026-03-18-量子ビーム', link: '/beam/2026-03-18' },
+        { text: '2026-03-19-物性物理', link: '/phys/2026-03-19' },
+        { text: '2026-03-19-量子ビーム', link: '/beam/2026-03-19' },
+
         
 
-        { text: '物性物理', collapsed: false, items: [
+        { text: '物性物理', collapsed: true, items: [
           { text: '2026-03-08-物性物理', link: '/phys/2026-03-08' },
           { text: '2026-03-09-物性物理', link: '/phys/2026-03-09' },
           { text: '2026-03-10-物性物理', link: '/phys/2026-03-10' },
@@ -121,10 +124,11 @@ export default defineConfig({
           { text: '2026-03-16-物性物理', link: '/phys/2026-03-16' },
           { text: '2026-03-17-物性物理', link: '/phys/2026-03-17' },
           { text: '2026-03-18-物性物理', link: '/phys/2026-03-18' },
+          { text: '2026-03-19-物性物理', link: '/phys/2026-03-19' },
 
         ]},
 
-        { text: '計算材料科学', collapsed: false, items: [
+        { text: '計算材料科学', collapsed: true, items: [
           { text: '2026-03-10-計算材料科学', link: '/calc/2026-03-10' },
           { text: '2026-03-11-計算材料科学', link: '/calc/2026-03-11' },
           { text: '2026-03-12-計算材料科学', link: '/calc/2026-03-12' },
@@ -136,7 +140,7 @@ export default defineConfig({
           { text: '2026-03-18-計算材料科学', link: '/calc/2026-03-18' },
         ]},
 
-        { text: 'マテリアルズ・インフォマティクス', collapsed: false, items: [
+        { text: 'マテリアルズ・インフォマティクス', collapsed: true, items: [
           { text: '2026-03-10-マテインフォ', link: '/mi/2026-03-10' },
           { text: '2026-03-11-マテインフォ', link: '/mi/2026-03-11' },
           { text: '2026-03-12-マテインフォ', link: '/mi/2026-03-12' },
@@ -147,8 +151,9 @@ export default defineConfig({
           { text: '2026-03-18-マテインフォ', link: '/mi/2026-03-18' },
         ]},
 
-        { text: '量子ビーム', collapsed: false, items: [
+        { text: '量子ビーム', collapsed: true, items: [
           { text: '2026-03-18-量子ビーム', link: '/beam/2026-03-18' },
+          { text: '2026-03-19-量子ビーム', link: '/beam/2026-03-19' },
         ]},
         
         { text: 'テスト', collapsed: true, items: [
