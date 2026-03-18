@@ -109,6 +109,7 @@ export default defineConfig({
         { text: '2026-03-18-物性物理', link: '/phys/2026-03-18' },
         { text: '2026-03-18-計算材料科学', link: '/calc/2026-03-18' },
         { text: '2026-03-18-マテリアルズ・インフォマティクス', link: '/mi/2026-03-18' },
+        { text: '2026-03-18-量子ビーム', link: '/beam/2026-03-18' },
         
 
         { text: '物性物理', collapsed: false, items: [
@@ -147,7 +148,7 @@ export default defineConfig({
         ]},
 
         { text: '量子ビーム', collapsed: false, items: [
-          // { text: '2026-03-18-量子ビーム', link: '/beam/2026-03-18' },
+          { text: '2026-03-18-量子ビーム', link: '/beam/2026-03-18' },
         ]},
         
         { text: 'テスト', collapsed: true, items: [
