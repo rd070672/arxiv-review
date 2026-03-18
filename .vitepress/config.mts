@@ -35,7 +35,7 @@ export default defineConfig({
       })(window,document,'script','dataLayer','GTM-WX6PN5RH');`
     ],
 
-    ["link", { rel: "icon", href: "/arxiv-review/favicon.png" }],
+    ["link", { rel: "icon", type: 'image/png', href: '/favicon.png' }],
     ['link', { 
       rel: 'stylesheet', 
       href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css'
