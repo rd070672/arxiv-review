@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/arxiv-review/',
   srcDir: 'src',
   title: "arXiv review",
-  description: "固体物理・計算物質科学・マテリアルズインフォマティクス",
+  description: "物性物理・計算材料科学・マテリアルズ・インフォマティクス",
     
   lang: 'ja-JP',
 
@@ -35,7 +35,7 @@ export default defineConfig({
       })(window,document,'script','dataLayer','GTM-WX6PN5RH');`
     ],
 
-    ["link", { rel: "icon", href: "https://rd070672.github.io/arxiv-review/images/favicon.png" }],
+    ["link", { rel: "icon", href: "/arxiv-review/favicon.png" }],
     ['link', { 
       rel: 'stylesheet', 
       href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css'
@@ -48,7 +48,7 @@ export default defineConfig({
     ["meta", { property: "twitter:card", content: "summary" }],
     ["meta", { property: "twitter:site", content: "@arXiv-review"}],
     ["meta", { property: "twitter:title", content: "arXiv-review"}],
-    ["meta", { property: "twitter:description", content: "物性物理・計算材料科学・マテリアルズインフォマティクス"}],
+    ["meta", { property: "twitter:description", content: "物性物理・計算材料科学・マテリアルズ・インフォマティクス"}],
     ["meta", { property: "twitter:image", content: "https://rd070672.github.io/arxiv-review/images/top.jpg" }]
   ],
 

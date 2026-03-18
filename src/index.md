@@ -5,14 +5,14 @@ layout: home
 hero:
   name: ""
   text: "arXiv review"
-  tagline: "材料工学、物性物理、マテリアルズ・インフォマティクス"
+  tagline: "物性物理、計算材料科学、マテリアルズ・インフォマティクス"
   actions:
     - theme: brand
       text: About
       link: /about
 
     - theme: alt
-      text: changelog
+      text: Changelog
       link: /changelog
 
     - theme: alt
@@ -53,7 +53,7 @@ features:
 
 ## arXiv論文の要約
 
-### 固体物理に関する論文
+### 物性物理に関する論文
 - [2026-03-08](phys/2026-03-08)
 - [2026-03-09](phys/2026-03-09)
 - [2026-03-10](phys/2026-03-10)
@@ -84,7 +84,7 @@ features:
 - [2026-03-17](mi/2026-03-17)
 - [2026-03-18](mi/2026-03-18)
 
-### 量子ビームに関する論文
+### 放射光・量子ビームに関する論文
 <!-- - [2026-03-18](beam/2026-03-18) -->
 
 ### テスト
