@@ -43,13 +43,13 @@ export default defineConfig({
 
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'arXiv review ' }],
-    ["meta", { property: "og:image", content: "https://rd070672.github.io/arxiv-review/images/top.jpg" }],
+    // ["meta", { property: "og:image", content: "https://rd070672.github.io/arxiv-review/images/top.jpg" }],
     ['meta', { property: 'og:locale', content: 'ja_JP' }],
-    ["meta", { property: "twitter:card", content: "summary" }],
-    ["meta", { property: "twitter:site", content: "@arXiv-review"}],
-    ["meta", { property: "twitter:title", content: "arXiv-review"}],
-    ["meta", { property: "twitter:description", content: "物性物理・計算材料科学・マテリアルズ・インフォマティクス"}],
-    ["meta", { property: "twitter:image", content: "https://rd070672.github.io/arxiv-review/images/top.jpg" }]
+    // ["meta", { property: "twitter:card", content: "summary" }],
+    // ["meta", { property: "twitter:site", content: "@arXiv-review"}],
+    // ["meta", { property: "twitter:title", content: "arXiv-review"}],
+    // ["meta", { property: "twitter:description", content: "物性物理・計算材料科学・マテリアルズ・インフォマティクス"}],
+    // ["meta", { property: "twitter:image", content: "https://rd070672.github.io/arxiv-review/images/top.jpg" }]
   ],
 
   // https://vitepress.dev/reference/default-theme-config
