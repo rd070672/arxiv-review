@@ -48,7 +48,7 @@ export default defineConfig({
     ["meta", { property: "twitter:card", content: "summary" }],
     ["meta", { property: "twitter:site", content: "@arXiv-review"}],
     ["meta", { property: "twitter:title", content: "arXiv-review"}],
-    ["meta", { property: "twitter:description", content: "物性物理・計算科学・マテリアルズインフォマティクス"}],
+    ["meta", { property: "twitter:description", content: "物性物理・計算材料科学・マテリアルズインフォマティクス"}],
     ["meta", { property: "twitter:image", content: "https://rd070672.github.io/arxiv-review/images/top.jpg" }]
   ],
 
