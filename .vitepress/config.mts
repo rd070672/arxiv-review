@@ -32,7 +32,7 @@ export default defineConfig({
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-WX6PN5RH');`
+      })(window,document,'script','dataLayer','GTM-M9BP5Z66');`
     ],
 
     ["link", { rel: "icon", href: "https://rd070672.github.io/arxiv-review/images/favicon.png" }],
@@ -43,7 +43,7 @@ export default defineConfig({
 
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'arXiv review ' }],
-    // ["meta", { property: "og:image", content: "https://rd070672.github.io/arxiv-review/images/top.jpg" }],
+    ["meta", { property: "og:image", content: "https://rd070672.github.io/arxiv-review/images/back.jpg" }],
     ['meta', { property: 'og:locale', content: 'ja_JP' }],
     // ["meta", { property: "twitter:card", content: "summary" }],
     // ["meta", { property: "twitter:site", content: "@arXiv-review"}],
