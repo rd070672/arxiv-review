@@ -68,10 +68,11 @@ export default defineConfig({
 
     nav: [
       { text: 'ホーム', link: '/' },
-      { text: '物性物理', link: '/#物性物理' },
-      { text: '計算材料科学', link: '/#計算材料科学' },
-      { text: 'マテリアルズ・インフォマティクス', link: '/#マテリアルズ・インフォマティクス'},
-      { text: '量子ビーム', link: '/#量子ビーム'},
+      { text: '物性物理', link: '/#物性物理に関する論文' },
+      { text: '計算材料科学', link: '/#計算材料科学に関する論文' },
+      { text: 'マテリアルズ・インフォマティクス', link: '/#マテリアルズ・インフォマティクスに関する論文' },
+      { text: '放射光実験', link: '/#放射光実験に関する論文' },
+      { text: '量子マテリアル', link: '/#量子マテリアルに関する論文' },
 
       { text: 'その他', items: [
         { text: 'About', link: '/about' },
@@ -109,13 +110,13 @@ export default defineConfig({
         { text: '2026-03-18-物性物理', link: '/phys/2026-03-18' },
         { text: '2026-03-18-計算材料科学', link: '/calc/2026-03-18' },
         { text: '2026-03-18-マテインフォ', link: '/mi/2026-03-18' },
-        { text: '2026-03-18-量子ビーム', link: '/beam/2026-03-18' },
+        { text: '2026-03-18-放射光実験', link: '/beam/2026-03-18' },
         { text: '2026-03-19-物性物理', link: '/phys/2026-03-19' },
         { text: '2026-03-19-計算材料科学', link: '/calc/2026-03-19' },
         { text: '2026-03-19-マテインフォ', link: '/mi/2026-03-19' },
-        { text: '2026-03-19-量子ビーム', link: '/beam/2026-03-19' },
+        { text: '2026-03-19-放射光実験', link: '/beam/2026-03-19' },
+        { text: '2026-03-19-量子マテリアル', link: '/quantum/2026-03-19' },
 
-        
 
         { text: '物性物理', collapsed: true, items: [
           { text: '2026-03-08-物性物理', link: '/phys/2026-03-08' },
@@ -155,9 +156,13 @@ export default defineConfig({
           { text: '2026-03-19-マテインフォ', link: '/mi/2026-03-19' },
         ]},
 
-        { text: '量子ビーム', collapsed: true, items: [
-          { text: '2026-03-18-量子ビーム', link: '/beam/2026-03-18' },
-          { text: '2026-03-19-量子ビーム', link: '/beam/2026-03-19' },
+        { text: '放射光実験', collapsed: true, items: [
+          { text: '2026-03-18-放射光実験', link: '/beam/2026-03-18' },
+          { text: '2026-03-19-放射光実験', link: '/beam/2026-03-19' },
+        ]},
+
+        { text: '量子マテリアル', collapsed: true, items: [
+          { text: '2026-03-19-量子マテリアル', link: '/quantum/2026-03-19' },
         ]},
         
         { text: 'テスト', collapsed: true, items: [
