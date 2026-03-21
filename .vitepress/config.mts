@@ -170,7 +170,8 @@ export default defineConfig({
 
         { text: '量子機能デバイス', collapsed: true, items: [
           { text: '2026-03-19-量子機能デバイス', link: '/quantum/2026-03-19' },
-          { text: '2026-03-21-量子機能デバイス', link: '/quantum/2026-03-21' },
+          { text: '2026-03-20-量子機能デバイス', link: '/quantum/2026-03-20' },
+          // { text: '2026-03-21-量子機能デバイス', link: '/quantum/2026-03-21' },
         ]},
         
         // { text: 'テスト', collapsed: true, items: [
