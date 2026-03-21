@@ -89,3 +89,13 @@ arXiv ID,title,first author,category,date reported,output file name
 2603.16840,What DINO Saw: ALiBi Positional Encoding Reduces Positional Bias in Vision Transformers,Moritz Pawlowsky,cs.CV,2026-03-19,2026-03-19.md
 2603.16602,Fully Anharmonic Calculations of the Free Energy of Migration of Point Defects in UO2 and PuO2,Dillon G. Frost,cond-mat.mtrl-sci,2026-03-19,2026-03-19.md
 2603.16419,Early Prediction of Creep Failure via Bayesian Inference of Evolving Barriers,Juan Carlos Verano-Espitia,cond-mat.mtrl-sci,2026-03-19,2026-03-19.md
+2603.18389,An SO(3)-equivariant reciprocal-space neural potential for long-range interactions,Linfeng Zhang,physics.chem-ph,2026-03-21,2026-03-21.md
+2603.18876,Bridging Crystal Structure and Material Properties via Bond-Centric Descriptors,Jian-Feng Zhang,cond-mat.mtrl-sci,2026-03-21,2026-03-21.md
+2603.18650,DeePAW: A universal machine learning model for orbital-free ab initio calculations,Tianhao Su,cond-mat.mtrl-sci,2026-03-21,2026-03-21.md
+2603.11063,Matlantis-PFP v8: Universal Machine Learning Interatomic Potential with Better Experimental Agreements via r2SCAN Functional,Chikashi Shinagawa,physics.chem-ph,2026-03-21,2026-03-21.md
+2603.18058,Polarization Dynamics in Ferroelectrics: Insights Enabled by Machine Learning Molecular Dynamics,Dongyu Bai,cond-mat.mtrl-sci,2026-03-21,2026-03-21.md
+2603.18791,Phonon Band Center: A Robust Descriptor to Capture Anharmonicity,Madhubanti Mukherjee,cond-mat.mtrl-sci,2026-03-21,2026-03-21.md
+2603.18864,Data-driven construction of machine-learning-based interatomic potentials for gas-surface scattering dynamics,Samuel Del Fré,physics.chem-ph,2026-03-21,2026-03-21.md
+2603.18316,From Atomistic Models to Machine Learning: Predictive Design of Nanocarbons under Extreme Conditions,Xiaoli Yan,cond-mat.mtrl-sci,2026-03-21,2026-03-21.md
+2603.18225,A Hybrid Conditional Diffusion-DeepONet Framework for High-Fidelity Stress Prediction in Hyperelastic Materials,Purna Vindhya Kota,cs.LG,2026-03-21,2026-03-21.md
+2603.18274,sbml4md: A computational platform for System-Bath Modeling via Molecular Dynamics powered by Machine Learning,Kwanghee Park,physics.chem-ph,2026-03-21,2026-03-21.md

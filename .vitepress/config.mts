@@ -117,7 +117,9 @@ export default defineConfig({
         { text: '2026-03-19-放射光実験', link: '/beam/2026-03-19' },
         { text: '2026-03-19-量子マテリアル', link: '/quantum/2026-03-19' },
         { text: '2026-03-21-計算材料科学', link: '/calc/2026-03-21' },
-
+        { text: '2026-03-21-マテインフォ', link: '/mi/2026-03-21' },
+        { text: '2026-03-21-放射光実験', link: '/beam/2026-03-21' },
+        { text: '2026-03-21-量子マテリアル', link: '/quantum/2026-03-21' },
 
         { text: '物性物理', collapsed: true, items: [
           { text: '2026-03-08-物性物理', link: '/phys/2026-03-08' },
@@ -156,11 +158,14 @@ export default defineConfig({
           { text: '2026-03-17-マテインフォ', link: '/mi/2026-03-17' },
           { text: '2026-03-18-マテインフォ', link: '/mi/2026-03-18' },
           { text: '2026-03-19-マテインフォ', link: '/mi/2026-03-19' },
+          { text: '2026-03-21-マテインフォ', link: '/mi/2026-03-21' },
         ]},
 
         { text: '放射光実験', collapsed: true, items: [
           { text: '2026-03-18-放射光実験', link: '/beam/2026-03-18' },
           { text: '2026-03-19-放射光実験', link: '/beam/2026-03-19' },
+          { text: '2026-03-21-放射光実験', link: '/beam/2026-03-21' },
+
         ]},
 
         { text: '量子マテリアル', collapsed: true, items: [
