@@ -170,6 +170,7 @@ export default defineConfig({
 
         { text: '量子マテリアル', collapsed: true, items: [
           { text: '2026-03-19-量子マテリアル', link: '/quantum/2026-03-19' },
+          { text: '2026-03-21-量子マテリアル', link: '/quantum/2026-03-21' },
         ]},
         
         { text: 'テスト', collapsed: true, items: [
