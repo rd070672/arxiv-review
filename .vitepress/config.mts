@@ -124,6 +124,7 @@ export default defineConfig({
         { text: '2026-03-21-量子機能デバイス', link: '/quantum/2026-03-21' },
         { text: '2026-03-21-材料工学', link: '/eng/2026-03-21' },
         { text: '2026-03-22-量子機能デバイス', link: '/quantum/2026-03-22' },
+        { text: '2026-03-22-材料工学', link: '/eng/2026-03-22' },
 
 
         { text: '物性物理', collapsed: true, items: [
@@ -183,6 +184,7 @@ export default defineConfig({
 
         { text: '材料工学', collapsed: true, items: [
           { text: '2026-03-21-材料工学', link: '/eng/2026-03-21' },
+          { text: '2026-03-22-材料工学', link: '/eng/2026-03-22' },
         ]},
         
         // { text: 'テスト', collapsed: true, items: [
