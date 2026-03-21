@@ -71,7 +71,7 @@ export default defineConfig({
       { text: '物性物理', link: '/#物性物理に関する論文' },
       { text: '計算材料科学', link: '/#計算材料科学に関する論文' },
       { text: 'マテリアルズ・インフォマティクス', link: '/#マテリアルズ・インフォマティクスに関する論文' },
-      { text: '放射光実験', link: '/#放射光実験に関する論文' },
+      { text: '量子ビーム計測', link: '/#量子ビーム計測に関する論文' },
       { text: '量子マテリアル', link: '/#量子マテリアルに関する論文' },
 
       { text: 'その他', items: [
@@ -161,16 +161,16 @@ export default defineConfig({
           { text: '2026-03-21-マテインフォ', link: '/mi/2026-03-21' },
         ]},
 
-        { text: '放射光実験', collapsed: true, items: [
-          { text: '2026-03-18-放射光実験', link: '/beam/2026-03-18' },
-          { text: '2026-03-19-放射光実験', link: '/beam/2026-03-19' },
-          { text: '2026-03-21-放射光実験', link: '/beam/2026-03-21' },
+        { text: '量子ビーム計測', collapsed: true, items: [
+          { text: '2026-03-18-量子ビーム計測', link: '/beam/2026-03-18' },
+          { text: '2026-03-19-量子ビーム計測', link: '/beam/2026-03-19' },
+          { text: '2026-03-21-量子ビーム計測', link: '/beam/2026-03-21' },
 
         ]},
 
         { text: '量子マテリアル', collapsed: true, items: [
           { text: '2026-03-19-量子マテリアル', link: '/quantum/2026-03-19' },
-          // { text: '2026-03-21-量子マテリアル', link: '/quantum/2026-03-21' },
+          { text: '2026-03-21-量子マテリアル', link: '/quantum/2026-03-21' },
         ]},
         
         { text: 'テスト', collapsed: true, items: [
@@ -198,7 +198,7 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: '© 2026 - arXiv review',
+      copyright: '© 2026 - arXiv review. All rights reserved.',
     },
   },
 
