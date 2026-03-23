@@ -23,6 +23,7 @@ https://arxiv.org/list/cond-mat/recent?skip=0&show=250
 
 ### 2. 既報管理ファイル
 以下の CSV を読み込み、すでに報告済みの論文は原則として除外すること。
+また、アンカー論文についても、過去取り上げたことがないものを優先的に選択するようにしてください。
 `C:\Users\yamaz\Documents\GitHub\arxiv-review\src\review\reported_papers.csv`
 
 ### 3. 出力保存先
@@ -30,12 +31,12 @@ Markdown 形式の出力ファイルは以下に保存すること。
 `C:\Users\yamaz\Documents\GitHub\arxiv-review\src\review`
 
 ファイル名は必ず
-`YYYY-MM-DD_topic.md`
+`YYYY-MM_topic.md`
 とすること。
-- `YYYY-MM-DD` は記事作成日
+- `YYYY-MM` は記事作成日
 - `topic` は軸論文の中心トピックを短く表した英数字ベースの識別子
 - 空白は使わず、必要ならハイフン区切りにすること
-- 例: `2026-03-23_twisted-superconductivity.md`
+- 例: `2026-03_twisted-superconductivity.md`
 
 ### 4. 図の保存先
 図は以下のディレクトリに保存すること。
@@ -169,7 +170,7 @@ Markdown 内では、相対パスで参照すること。
 --------------------------------
 出力は日本語の Markdown 形式とし、タイトルは必ず
 
-# YYYY-MM-DD-トピック名
+# YYYY-MM-トピック名
 
 とすること。
 
@@ -239,7 +240,9 @@ Markdown 内では、相対パスで参照すること。
 --------------------------------
 ## reported_papers.csv の更新用ブロック
 --------------------------------
-記事の末尾に、`reported_papers.csv` に追記しやすいよう、CSV ブロックを出力すること。
+`reported_papers.csv` に以下の内容を追記する。
+記事の末尾には出力しない様に。
+
 最低限、以下の列を含めること。
 - date
 - topic

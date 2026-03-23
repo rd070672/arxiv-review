@@ -1,1 +1,7 @@
 date,topic,arxiv_id,title,category,role,used_in_article
+2026-03-23,altermagnet-Hall,2603.19737,"Magnon-Driven Anomalous Hall Effect in Altermagnets",cond-mat.mes-hall,anchor,yes
+2026-03-23,altermagnet-Hall,2603.16635,"Discerning ground state and photoemission-induced spin textures in altermagnetic alpha-MnTe",cond-mat.str-el,related,yes
+2026-03-23,altermagnet-Hall,2603.12259,"Emergent Anomalous Hall Effect from Surface States in the Altermagnet MnTe Thin Films",cond-mat.mtrl-sci,related,yes
+2026-03-23,altermagnet-Hall,2601.21172,"Magnonic Quantum Spin Hall Effect with Chiral Magnon Transport in Bilayer Altermagnets",cond-mat.mtrl-sci,related,yes
+2026-03-23,altermagnet-Hall,2602.11602,"Strain-Driven Altermagnetic Spin Splitting Effect in RuO2",cond-mat.mtrl-sci,related,yes
+2026-03-23,altermagnet-Hall,2603.19378,"Tailoring Corner States and Exceptional Points in Altermagnets",cond-mat.mes-hall,related,yes
