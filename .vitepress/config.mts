@@ -91,7 +91,8 @@ export default defineConfig({
           { text: 'p波磁性体', link: '/review/2026-03_p-wave-magnet' },
           { text: 'TaIrTe4超格子メモリ', link: '/review/2026-03_TaIrTe4-superlattice-memory' },
           { text: 'UTe2多成分超伝導体', link: '/review/2026-03_UTe2-multicomponent-SC' },
-          {}
+          { text: '双層ニッケル酸化物の半ドーム特性', link: '/review/2026-03_bilayer-nickelate-halfdome' },
+          { text: '化学組成の最適化によるFeTe超伝導体', link: '/review/2026-03_stoichiometric-FeTe-superconductor' },
         ]},
       ]},
 

@@ -41,3 +41,21 @@ date,topic,arxiv_id,title,category,role,used_in_article
 2026-03-23,UTe2-multicomponent-SC,2602.19678,"Bridging atomic and mesoscopic length scales with Replica Scanning Tunneling Microscopy",cond-mat.supr-con,related,yes
 2026-03-23,UTe2-multicomponent-SC,2602.02490,"Visualizing the Odd-parity Superconducting Order Parameter and its Quasiparticle Surface Band in UTe2",cond-mat.supr-con,related,yes
 2026-03-23,UTe2-multicomponent-SC,2601.02192,"Visualizing the low-energy electronic structure of the triplet superconductor UTe2 through quasiparticle interference",cond-mat.supr-con,related,yes
+2026-03-23,stoichiometric-FeTe-superconductor,2603.16115,Stoichiometric FeTe is a Superconductor,cond-mat.supr-con,anchor,yes
+2026-03-23,stoichiometric-FeTe-superconductor,2602.14398,Reversible tuning of magnetic order and intrinsic superconductivity in strained FeTe thin films via stoichiometry control,cond-mat.supr-con,related,yes
+2026-03-23,stoichiometric-FeTe-superconductor,2505.11732,Role of Nematic Fluctuations on Superconductivity in FeSe0.47Te0.53 Revealed by NMR under Pressure,cond-mat.supr-con,related,yes
+2026-03-23,stoichiometric-FeTe-superconductor,2503.03473,Revealing the electron-spin fluctuation coupling by photoemission in CaKFe4As4,cond-mat.supr-con,related,yes
+2026-03-23,stoichiometric-FeTe-superconductor,2508.11018,Study on fluctuations of interface-enhanced superconductivity in ultrathin FeSe/SrTiO3 by the Nernst effect,cond-mat.supr-con,related,yes
+2026-03-23,stoichiometric-FeTe-superconductor,2508.03427,Symmetry-breaking-induced topology in FeSe,cond-mat.mtrl-sci,related,yes
+2026-03-23,stoichiometric-FeTe-superconductor,2312.04353,Interface-Induced Superconductivity in Magnetic Topological Insulator-Iron Chalcogenide Heterostructures,cond-mat.supr-con,related,yes
+2026-03-23,stoichiometric-FeTe-superconductor,2308.00930,Searching for Majorana quasiparticles at vortex cores in iron-based superconductors,cond-mat.supr-con,related,yes
+2026-03-23,bilayer-nickelate-halfdome,2603.12196,A superconducting half-dome in bilayer nickelates,cond-mat.supr-con,anchor,yes
+2026-03-23,bilayer-nickelate-halfdome,2603.17657,Superconducting Lanthanum Nickel Oxides with Bilayered and Trilayered Crystal Structures,cond-mat.supr-con,related,yes
+2026-03-23,bilayer-nickelate-halfdome,2603.17451,H-linear magnetoresistance in the T² resistivity regime of overdoped infinite-layer nickelate La1-xSrxNiO2,cond-mat.supr-con,related,yes
+2026-03-23,bilayer-nickelate-halfdome,2603.13604,Hierarchical structure of primary and hybridization-induced superconducting correlations in bilayer nickelates,cond-mat.supr-con,related,yes
+2026-03-23,bilayer-nickelate-halfdome,2603.12924,Orbital dimerization-induced first-order structural phase transition: a case study in La3Ni2O7,cond-mat.supr-con,related,yes
+2026-03-23,bilayer-nickelate-halfdome,2603.11771,Theoretical proposal of superconductivity in hole-doped reduced bilayer nickelate La3Ni2O6,cond-mat.supr-con,related,yes
+2026-03-23,bilayer-nickelate-halfdome,2602.02174,Contrasting Momentum-Selective Spin-Density-Wave Gaps in Bilayer and Trilayer Nickelates,cond-mat.str-el,related,yes
+2026-03-23,bilayer-nickelate-halfdome,2601.13090,Spin-density-wave transition in monolayer-trilayer La3Ni2O7 single crystals,cond-mat.supr-con,related,yes
+2026-03-23,bilayer-nickelate-halfdome,2601.15858,Structural stability electronic structure and magnetic properties of the single-layer trilayer La3Ni2O7 polymorph,cond-mat.supr-con,related,yes
+2026-03-23,bilayer-nickelate-halfdome,2507.10399,Enhanced superconductivity in the compressively strained bilayer nickelate thin films by pressure,cond-mat.supr-con,related,yes
