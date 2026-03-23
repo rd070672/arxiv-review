@@ -66,6 +66,10 @@ features:
 - [GeO2のフォノン輸送](review/2026-03_GeO2-phonon-transport)
 - [物理インフォトモグラフィー解析](review/2026-03_low-dose-AET-PANN)
 
+### 論文の深読み
+-[高磁化多元素合金の発見](focus/topic)
+
+
 ## arXiv論文の要約
 
 ### 物性物理に関する論文

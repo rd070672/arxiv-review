@@ -94,6 +94,11 @@ export default defineConfig({
           { text: '物理インフォトモグラフィー解析', link: '/review/2026-03_low-dose-AET-PANN' },
 
         ]},
+
+        { text: '2026-03-23', collapsed: false, items: [
+          { text: '高磁化多元素合金の発見', link: '/focus/topic' },
+
+        ]},
       ]},
 
       { text: 'arXiv review', collapsed: false, items: [
