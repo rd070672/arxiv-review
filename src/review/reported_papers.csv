@@ -5,3 +5,9 @@ date,topic,arxiv_id,title,category,role,used_in_article
 2026-03-23,altermagnet-Hall,2601.21172,"Magnonic Quantum Spin Hall Effect with Chiral Magnon Transport in Bilayer Altermagnets",cond-mat.mtrl-sci,related,yes
 2026-03-23,altermagnet-Hall,2602.11602,"Strain-Driven Altermagnetic Spin Splitting Effect in RuO2",cond-mat.mtrl-sci,related,yes
 2026-03-23,altermagnet-Hall,2603.19378,"Tailoring Corner States and Exceptional Points in Altermagnets",cond-mat.mes-hall,related,yes
+2026-03-23,kagome-flat-band-resonance,2603.18537,Observation of Resonance of Kagome Flat Band Doublet,cond-mat.str-el,anchor,yes
+2026-03-23,kagome-flat-band-resonance,2404.12374,Realization of Kagome Kondo lattice,cond-mat.str-el,related,yes
+2026-03-23,kagome-flat-band-resonance,2508.08580,Emergent dynamical Kondo coherence and competing magnetic order in a correlated kagome flat-band metal CsCr6Sb6,cond-mat.str-el,related,yes
+2026-03-23,kagome-flat-band-resonance,2509.04902,Coexisting Kagome and Heavy Fermion Flat Bands in YbCr6Ge6,cond-mat.str-el,related,yes
+2026-03-23,kagome-flat-band-resonance,2601.14439,Pressure Tuning of Electronic Correlations and Flat Bands in CsCr3Sb5,cond-mat.str-el,related,yes
+2026-03-23,kagome-flat-band-resonance,2603.18672,Fermi surface of Kagome metal CsCr3Sb5 observed by laser photoemission microscopy,cond-mat.str-el,related,yes
