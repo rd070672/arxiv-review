@@ -90,6 +90,8 @@ export default defineConfig({
           { text: 'カゴメ平坦バンド共鳴', link: '/review/2026-03_kagome-flat-band-resonance' },
           { text: 'p波磁性体', link: '/review/2026-03_p-wave-magnet' },
           { text: 'TaIrTe4超格子メモリ', link: '/review/2026-03_TaIrTe4-superlattice-memory' },
+          { text: 'UTe2多成分超伝導体', link: '/review/2026-03_UTe2-multicomponent-SC' },
+          {}
         ]},
       ]},
 
