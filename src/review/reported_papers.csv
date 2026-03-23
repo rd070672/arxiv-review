@@ -22,3 +22,12 @@ date,topic,arxiv_id,title,category,role,used_in_article
 2026-03-23,p-wave-magnet,2502.15400,"Superconducting phenomena in systems with unconventional magnets",cond-mat.supr-con,related,yes
 2026-03-23,p-wave-magnet,2502.10386,"Metallic p-wave magnet with commensurate spin helix",cond-mat.str-el,related,yes
 2026-03-23,p-wave-magnet,2603.05415,"Antialtermagnetic Magnons and Nonrelativistic Thermal Edelstein Effect",cond-mat.mes-hall,related,yes
+2026-03-23,TaIrTe4-superlattice-memory,2603.19404,"Programmable, Spontaneous Superlattice Memory in a Monolayer Topological Insulator",cond-mat.mes-hall,anchor,yes
+2026-03-23,TaIrTe4-superlattice-memory,2403.15912,"Observation of the dual quantum spin Hall insulator by density-tuned correlations in a van der Waals monolayer",cond-mat.mes-hall,related,yes
+2026-03-23,TaIrTe4-superlattice-memory,2505.18335,"Quantum spin Hall effects in van der Waals materials",cond-mat.mes-hall,related,yes
+2026-03-23,TaIrTe4-superlattice-memory,2505.20837,"Observation of charge density wave excitonic order parameter in topological insulator monolayer WTe2",cond-mat.str-el,related,yes
+2026-03-23,TaIrTe4-superlattice-memory,2601.11504,"Visualization of Tunable Electronic Structure of Monolayer TaIrTe4",cond-mat.str-el,related,yes
+2026-03-23,TaIrTe4-superlattice-memory,2506.18412,"Interaction-Driven Topological Transitions in Monolayer TaIrTe4",cond-mat.str-el,related,yes
+2026-03-23,TaIrTe4-superlattice-memory,2501.16699,"Unconventional Superconducting Phase Diagram of Monolayer WTe2",cond-mat.supr-con,related,yes
+2026-03-23,TaIrTe4-superlattice-memory,2506.10657,"Electric field control of third-order nonlinear Hall effect",cond-mat.mes-hall,related,yes
+2026-03-23,TaIrTe4-superlattice-memory,2412.02937,"Orbital anomalous Hall effect in the few-layer Weyl semimetal TaIrTe4",cond-mat.mes-hall,related,yes
