@@ -67,7 +67,8 @@ features:
 - [物理インフォトモグラフィー解析](review/2026-03_low-dose-AET-PANN)
 
 ### 論文の深読み
--[高磁化多元素合金の発見](focus/topic)
+- [高磁化多元素合金の発見](focus/topic)
+- [FeCoIrのXMCD解析](focus/FeCoIr/topic)
 
 
 ## arXiv論文の要約

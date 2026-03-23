@@ -97,6 +97,8 @@ export default defineConfig({
 
         { text: '2026-03-23', collapsed: false, items: [
           { text: '高磁化多元素合金の発見', link: '/focus/topic' },
+          { text: 'FeCoIrのXMCD解析', link: '/focus/FeCoIr/topic' },
+
 
         ]},
       ]},
