@@ -56,6 +56,7 @@ features:
 ### 2026年3月
 - [交替磁性の新展開](review/2026-03_altermagnet-Hall)
 - [カゴメ平坦バンド共鳴](review/2026-03_kagome-flat-band-resonance)
+- [p波磁性体](review/2026-03_p-wave-magnet)
 
 
 ## arXiv論文の要約
