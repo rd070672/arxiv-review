@@ -86,14 +86,14 @@ export default defineConfig({
 
       { text: 'Topic summary', collapsed: false, items: [
         { text: '2026-03', collapsed: false, items: [
-          { text: '交替磁性の新展開', link: '/review/2026-03_hall-altermagnet' },
+          { text: '交替磁性のトポロジカル物性', link: '/review/2026-03_hall-altermagnet' },
           { text: 'カゴメ平坦バンド共鳴', link: '/review/2026-03_kagome-flat-band-resonance' },
-          { text: 'p波磁性体', link: '/review/2026-03_p-wave-magnet' },
+          { text: '強誘電性p波磁性体', link: '/review/2026-03_p-wave-magnet' },
           { text: 'TaIrTe4超格子メモリ', link: '/review/2026-03_TaIrTe4-superlattice-memory' },
           { text: 'UTe2多成分超伝導体', link: '/review/2026-03_UTe2-multicomponent-SC' },
           { text: '双層ニッケル酸化物の半ドーム特性', link: '/review/2026-03_bilayer-nickelate-halfdome' },
           { text: '化学組成の最適化によるFeTe超伝導体', link: '/review/2026-03_stoichiometric-FeTe-superconductor' },
-          { text: 'モアレ波による磁性体', link: '/review/2026-03_moire-magnonics' },
+          { text: 'モアレ・マグノニクス', link: '/review/2026-03_moire-magnonics' },
 
         ]},
       ]},
