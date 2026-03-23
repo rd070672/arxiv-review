@@ -86,7 +86,7 @@ export default defineConfig({
 
       { text: 'Topic summary', collapsed: false, items: [
         { text: '2026-03', collapsed: false, items: [
-          { text: '交替磁性', link: '/review/2026-03_altermagnet-Hall' },
+          { text: '交替磁性の新展開', link: '/review/2026-03_altermagnet-Hall' },
         ]},
       ]},
 
