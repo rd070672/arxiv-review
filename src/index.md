@@ -57,6 +57,7 @@ features:
 - [交替磁性の新展開](review/2026-03_hall-altermagnet)
 - [カゴメ平坦バンド共鳴](review/2026-03_kagome-flat-band-resonance)
 - [p波磁性体](review/2026-03_p-wave-magnet)
+- [TaIrTe4超格子メモリ](review/2026-03_TaIrTe4-superlattice-memory)
 
 
 ## arXiv論文の要約
