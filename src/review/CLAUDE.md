@@ -156,7 +156,7 @@ Markdown 内では、相対パスで参照すること。
 
 各図は Markdown で以下のように挿入すること。
 
-![Figure 1](./figures/2603.12345/fig1.png)
+`![Figure 1](./figures/2603.12345/fig1.png)`
 
 *Figure 1. 軸論文の主要結果を示す図（出典: arXiv:2603.12345）.*
 
