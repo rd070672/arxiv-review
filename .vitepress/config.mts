@@ -45,11 +45,6 @@ export default defineConfig({
     ['meta', { property: 'og:site_name', content: 'arXiv review ' }],
     ["meta", { property: "og:image", content: "https://rd070672.github.io/arxiv-review/images/back.jpg" }],
     ['meta', { property: 'og:locale', content: 'ja_JP' }],
-    // ["meta", { property: "twitter:card", content: "summary" }],
-    // ["meta", { property: "twitter:site", content: "@arXiv-review"}],
-    // ["meta", { property: "twitter:title", content: "arXiv-review"}],
-    // ["meta", { property: "twitter:description", content: "物性物理・計算材料科学・マテリアルズ・インフォマティクス"}],
-    // ["meta", { property: "twitter:image", content: "https://rd070672.github.io/arxiv-review/images/top.jpg" }]
   ],
 
   // https://vitepress.dev/reference/default-theme-config
@@ -77,7 +72,7 @@ export default defineConfig({
       { text: 'その他', items: [
         { text: 'About', link: '/about' },
         { text: 'Changelog', link: '/changelog' },
-        { text: 'Website', link: '/#' },
+        { text: 'X.com', link: 'https://x.com/antimeron' },
         { text: 'Github', link: 'https://github.com/rd070672/arxiv-review' },
       ]},
     ],
@@ -94,6 +89,7 @@ export default defineConfig({
           { text: '双層ニッケル酸化物の半ドーム特性', link: '/review/2026-03_bilayer-nickelate-halfdome' },
           { text: '化学組成の最適化によるFeTe超伝導体', link: '/review/2026-03_stoichiometric-FeTe-superconductor' },
           { text: 'モアレ・マグノニクス', link: '/review/2026-03_moire-magnonics' },
+          { text: '2D応力変換器', link: '/review/2026-03_2D-strain-transformer' },
 
         ]},
       ]},
@@ -197,13 +193,13 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
       { text: 'Changelog', link: '/changelog' },
-      // { text: 'Website', link: 'https://antimeron.com' },
-      // { text: 'Github', link: 'https://github.com/rd070672/arxiv-review' },
+      { text: 'X.com', link: 'https://x.com/antimeron' },
+      { text: 'Github', link: 'https://github.com/rd070672/arxiv-review' },
     ],
 
     socialLinks: [
-      { icon: 'x', link: '/' },
-      { icon: 'github', link: '/' }
+      { icon: 'x', link: 'https://x.com/antimeron' },
+      { icon: 'github', link: 'https://github.com/rd070672/arxiv-review' }
     ],
 
     footer: {

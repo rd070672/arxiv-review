@@ -62,6 +62,7 @@ features:
 - [双層ニッケル酸化物の半ドーム特性](review/2026-03_bilayer-nickelate-halfdome)
 - [化学組成の最適化によるFeTe超伝導体](review/2026-03_stoichiometric-FeTe-superconductor)
 - [モアレ・マグノニクス](review/2026-03_moire-magnonics)
+- [2D応力変換器](review/2026-03_2D-strain-transformer)
 
 ## arXiv論文の要約
 
