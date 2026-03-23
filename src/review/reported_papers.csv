@@ -59,3 +59,11 @@ date,topic,arxiv_id,title,category,role,used_in_article
 2026-03-23,bilayer-nickelate-halfdome,2601.13090,Spin-density-wave transition in monolayer-trilayer La3Ni2O7 single crystals,cond-mat.supr-con,related,yes
 2026-03-23,bilayer-nickelate-halfdome,2601.15858,Structural stability electronic structure and magnetic properties of the single-layer trilayer La3Ni2O7 polymorph,cond-mat.supr-con,related,yes
 2026-03-23,bilayer-nickelate-halfdome,2507.10399,Enhanced superconductivity in the compressively strained bilayer nickelate thin films by pressure,cond-mat.supr-con,related,yes
+2026-03-23,moire-magnonics,2603.19729,Twist-Tuned Magnonic Nanocavity Mode in a Trilayer Moiré Superlattice,cond-mat.mes-hall,anchor,yes
+2026-03-23,moire-magnonics,2602.08587,Magnon confinement and trapping at the nanoscale,cond-mat.mes-hall,related,yes
+2026-03-23,moire-magnonics,2601.03210,Emulating 2D Materials with Magnons,cond-mat.mes-hall,related,yes
+2026-03-23,moire-magnonics,2509.04045,Moiré spintronics: Emergent phenomena material realization and machine learning accelerating discovery,cond-mat.mtrl-sci,related,yes
+2026-03-23,moire-magnonics,2507.10922,Frequency comb in twisted magnonic crystals,cond-mat.mes-hall,related,yes
+2026-03-23,moire-magnonics,2506.10080,Electron-magnon coupling at the interface of a twin-twisted antiferromagnet,cond-mat.mes-hall,related,yes
+2026-03-23,moire-magnonics,2502.11010,Topological magnons and domain walls in twisted bilayer MoTe2,cond-mat.mes-hall,related,yes
+2026-03-23,moire-magnonics,2410.05765,Magnon confinement in a nanomagnonic waveguide by a magnetic Moiré superlattice,cond-mat.mes-hall,related,yes

@@ -61,6 +61,7 @@ features:
 - [UTe2多成分超伝導体](review/2026-03_UTe2-multicomponent-SC)
 - [双層ニッケル酸化物の半ドーム特性](review/2026-03_bilayer-nickelate-halfdome)
 - [化学組成の最適化によるFeTe超伝導体](review/2026-03_stoichiometric-FeTe-superconductor)
+- [モアレ波による磁性体](review/2026-03_moire-magnonics)
 
 ## arXiv論文の要約
 
