@@ -86,7 +86,7 @@ export default defineConfig({
 
       { text: 'Topic summary', collapsed: false, items: [
         { text: '2026-03', collapsed: false, items: [
-          { text: '交替磁性の新展開', link: '/review/2026-03_altermagnet-hall' },
+          { text: '交替磁性の新展開', link: '/review/2026-03_hall-altermagnet' },
           { text: 'カゴメ平坦バンド共鳴', link: '/review/2026-03_kagome-flat-band-resonance' },
           { text: 'p波磁性体', link: '/review/2026-03_p-wave-magnet' },
         ]},
