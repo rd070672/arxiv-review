@@ -88,6 +88,7 @@ export default defineConfig({
         { text: '2026-03-23', collapsed: false, items: [
           { text: '量子機能デバイス', link: '/quantum/2026-03-23' },
           { text: '材料工学', link: '/eng/2026-03-23' },
+          { text: '放射光実験', link: '/beam/2026-03-23' }
         ]},
 
         { text: '2026-03-22', collapsed: false, items: [
