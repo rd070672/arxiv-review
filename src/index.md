@@ -53,7 +53,7 @@ features:
 
 ## トピック記事
 
-### 2026年3月
+### 2026年3月23日更新
 - [交替磁性のトポロジカル物性](review/2026-03_hall-altermagnet)
 - [カゴメ平坦バンド共鳴](review/2026-03_kagome-flat-band-resonance)
 - [強誘電性p波磁性体](review/2026-03_p-wave-magnet)
@@ -61,8 +61,9 @@ features:
 - [UTe2多成分超伝導体](review/2026-03_UTe2-multicomponent-SC)
 - [双層ニッケル酸化物の半ドーム特性](review/2026-03_bilayer-nickelate-halfdome)
 - [化学組成の最適化によるFeTe超伝導体](review/2026-03_stoichiometric-FeTe-superconductor)
-- [モアレ・マグノニクス](review/2026-03_moire-magnonics)
+- [モアレ・マグノニクス](review/2026-03_moire-magnonics-superlattice)
 - [2D応力変換器](review/2026-03_2D-strain-transformer)
+- [GeO2のフォノン輸送](review/2026-03_GeO2-phonon-transport)
 
 ## arXiv論文の要約
 
