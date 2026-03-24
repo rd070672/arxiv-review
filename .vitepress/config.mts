@@ -100,7 +100,7 @@ export default defineConfig({
           { text: 'モアレ・マグノニクス', link: '/review/2026-03_moire-magnonics-superlattice' },
           { text: '2D応力変換器', link: '/review/2026-03_2D-strain-transformer' },
           { text: 'GeO2のフォノン輸送', link: '/review/2026-03_GeO2-phonon-transport' },
-          { text: '物理インフォトモグラフィー解析', link: '/review/2026-03_low-dose-AET-PANN' },
+          { text: '原子電子トモグラフィーのML解析', link: '/review/2026-03_low-dose-AET-PANN' },
         ]},
 
         { text: '2026-03-23', collapsed: false, items: [
