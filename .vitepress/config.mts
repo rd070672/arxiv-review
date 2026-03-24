@@ -85,7 +85,7 @@ export default defineConfig({
           { text: 'アモルファス固体のエネルギーランドスケープ', link: '/review/2026-03_amorphous-energy-landscape' },
           { text: 'ドメインウォールダイナミクス', link: '/review/2026-03_domain-wall-dynamics-ferrimagnet' },
           { text: '電子テスラバルブ', link: '/review/2026-03_electron-tesla-valve' },
-          { text: 'ユニバーサルMLIPによる電解質のイオン輸送', link: '/review/2026-03_universal-MLIP-electrolytes' },
+          { text: 'ユニバーサルMLIPによる電解質のイオン輸送', link: '/review/2026-03_universal-MLIP-electrolyte' },
           { text: '破壊力学のマルチスケールシミュレーション', link: '/review/2026-03_fracture-mechanics-multiscale-simulation' },
         ]},
 

@@ -57,7 +57,7 @@ features:
 - [アモルファス固体のエネルギーランドスケープ](review/2026-03_amorphous-energy-landscape)
 - [ドメインウォールダイナミクス](review/2026-03_domain-wall-dynamics-ferrimagnet)
 - [電子テスラバルブ](review/2026-03_electron-tesla-valve)
-- [ユニバーサルMLIPによる電解質のイオン輸送](review/2026-03_universal-MLIP-electrolytes)
+- [ユニバーサルMLIPによる電解質のイオン輸送](review/2026-03_universal-MLIP-electrolyte)
 - [破壊力学のマルチスケールシミュレーション](review/2026-03_fracture-mechanics-multiscale-simulation)
 
 ### 2026年3月23日更新
