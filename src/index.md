@@ -53,6 +53,13 @@ features:
 
 ## トピック記事
 
+### 2026年3月24日更新
+- [アモルファス固体のエネルギーランドスケープ](review/2026-03_amorphous-energy-landscape)
+- [ドメインウォールダイナミクス](review/2026-03_domain-wall-dynamics-ferrimagnet)
+- [電子テスラバルブ](review/2026-03_electron-tesla-valve)
+- [ユニバーサルMLIPによる電解質のイオン輸送](review/2026-03_universal-MLIP-electrolytes)
+- [破壊力学のマルチスケールシミュレーション](review/2026-03_fracture-mechanics-multiscale-simulation)
+
 ### 2026年3月23日更新
 - [交替磁性のトポロジカル物性](review/2026-03_hall-altermagnet)
 - [カゴメ平坦バンド共鳴](review/2026-03_kagome-flat-band-resonance)
@@ -67,8 +74,8 @@ features:
 - [物理インフォトモグラフィー解析](review/2026-03_low-dose-AET-PANN)
 
 ### 論文の深読み
-- [高磁化多元素合金の発見](focus/topic)
-- [FeCoIrのXMCD解析](focus/FeCoIr/topic)
+- [高磁化多元素合金の発見](focus/ML-FeCo-Ir-Pt)
+- [FeCoIrのXMCD解析](focus/FeCoIr/FeCoIr-xmcd)
 
 
 ## arXiv論文の要約

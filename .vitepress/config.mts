@@ -80,6 +80,15 @@ export default defineConfig({
     sidebar: [
 
       { text: 'Topic summary', collapsed: false, items: [
+
+        { text: '2026-03-24', collapsed: false, items: [
+          { text: 'アモルファス固体のエネルギーランドスケープ', link: '/review/2026-03_amorphous-energy-landscape' },
+          { text: 'ドメインウォールダイナミクス', link: '/review/2026-03_domain-wall-dynamics-ferrimagnet' },
+          { text: '電子テスラバルブ', link: '/review/2026-03_electron-tesla-valve' },
+          { text: 'ユニバーサルMLIPによる電解質のイオン輸送', link: '/review/2026-03_universal-MLIP-electrolytes' },
+          { text: '破壊力学のマルチスケールシミュレーション', link: '/review/2026-03_fracture-mechanics-multiscale-simulation' },
+        ]},
+
         { text: '2026-03-23', collapsed: false, items: [
           { text: '交替磁性のトポロジカル物性', link: '/review/2026-03_hall-altermagnet' },
           { text: 'カゴメ平坦バンド共鳴', link: '/review/2026-03_kagome-flat-band-resonance' },
@@ -92,12 +101,11 @@ export default defineConfig({
           { text: '2D応力変換器', link: '/review/2026-03_2D-strain-transformer' },
           { text: 'GeO2のフォノン輸送', link: '/review/2026-03_GeO2-phonon-transport' },
           { text: '物理インフォトモグラフィー解析', link: '/review/2026-03_low-dose-AET-PANN' },
-
         ]},
 
         { text: '2026-03-23', collapsed: false, items: [
-          { text: '高磁化多元素合金の発見', link: '/focus/topic' },
-          { text: 'FeCoIrのXMCD解析', link: '/focus/FeCoIr/topic' },
+          { text: '高磁化多元素合金の発見', link: '/focus/ML-FeCo-Ir-Pt' },
+          { text: 'FeCoIrのXMCD解析', link: '/focus/FeCoIr/FeCoIr-xmcd' },
 
 
         ]},
