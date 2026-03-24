@@ -3,8 +3,6 @@
 
 - **執筆日**: 2026-03-24
 - **トピック**: amorphous-energy-landscape
-- **Primary broad area**: 材料創製・プロセス
-- **Secondary broad area**: 非平衡ダイナミクス
 - **注目論文**: arXiv:2603.18317
 - **参照した関連論文数**: 6本
 

@@ -87,6 +87,7 @@ export default defineConfig({
           { text: '電子テスラバルブ', link: '/review/2026-03_electron-tesla-valve' },
           { text: 'ユニバーサルMLIPによる電解質のイオン輸送', link: '/review/2026-03_universal-MLIP-electrolyte' },
           { text: '破壊力学のマルチスケールシミュレーション', link: '/review/2026-03_fracture-mechanics-multiscale-simulation' },
+          { text: 'Kitaevスピンガラス', link: '/review/2026-03_kitaev-spin-glass' },
         ]},
 
         { text: '2026-03-23', collapsed: false, items: [
@@ -106,6 +107,7 @@ export default defineConfig({
         { text: '2026-03-23', collapsed: false, items: [
           { text: '高磁化多元素合金の発見', link: '/focus/ML-FeCo-Ir-Pt' },
           { text: 'FeCoIrのXMCD解析', link: '/focus/FeCoIr/FeCoIr-xmcd' },
+          { text: 'スピングラス動力学', link: '/focus/spin-glass/spin-glass-dynamics' },
         ]},
       ]},
 

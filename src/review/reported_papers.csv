@@ -132,3 +132,11 @@ date,topic,arxiv_id,title,category,role,used_in_article
 2026-03-24,fracture-mechanics-multiscale-simulation,2603.20120,"Deep learning-based phase-field modelling of brittle fracture in anisotropic media",physics.comp-ph,related,yes
 2026-03-24,fracture-mechanics-multiscale-simulation,2501.13882,"Grain-size dependence of plastic-brittle transgranular fracture",cond-mat.mtrl-sci,related,yes
 2026-03-24,fracture-mechanics-multiscale-simulation,2603.04753,"Damage Prediction of Sintered alpha-SiC Using Thermo-mechanical Coupled Fracture Model",cond-mat.mtrl-sci,related,yes
+2026-03-24,kitaev-spin-glass,2601.22280,"Anisotropic Kitaev Spin Glass in Li2RuxIr1-xO3",cond-mat.str-el,anchor,yes
+2026-03-24,kitaev-spin-glass,2603.22077,"Semiclassical picture of the Heisenberg spin glass in two dimensions: from weak localization to hydrodynamics",cond-mat.dis-nn,related,yes
+2026-03-24,kitaev-spin-glass,2603.11263,"Crossover to Sachdev-Ye-Kitaev criticality in an infinite-range quantum Heisenberg spin glass",cond-mat.str-el,related,yes
+2026-03-24,kitaev-spin-glass,2603.18486,"Phase Transitions in a Modified Ising Spin Glass Model",cond-mat.dis-nn,related,yes
+2026-03-24,kitaev-spin-glass,2403.02088,"Realization of a Spin Glass in a two-dimensional van der Waals material",cond-mat.str-el,related,yes
+2026-03-24,kitaev-spin-glass,2603.03513,"q-Gaussian Crossover in Overlap Spectra towards 3D Edwards-Anderson Criticality",cond-mat.dis-nn,related,yes
+2026-03-24,kitaev-spin-glass,2505.22658,"A multimode cavity QED Ising spin glass",quant-ph,related,yes
+2026-03-24,kitaev-spin-glass,2512.19818,"Spin Glasses: Disorder Frustration and Nonequilibrium Complexity",cond-mat.dis-nn,related,yes

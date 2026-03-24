@@ -1,0 +1,18 @@
+date,topic,arxiv_id,title,category,role,used_in_article
+2026-03-24,spin-glass dynamics,N/A (IOP),Spin glasses: redux: an updated experimental/materials survey (Mydosh 2015 Rep.Prog.Phys.78 052501),cond-mat.dis-nn,main,yes
+2026-03-24,spin-glass dynamics,2412.08381,Spin-glass dynamics: Experiment theory and simulation (Dahlberg et al. 2025 Rev.Mod.Phys.97 045005),cond-mat.dis-nn,main,yes
+2026-03-24,spin-glass dynamics,2406.07628,Interplay between aging and rejuvenation in spin glasses (Freedberg et al. 2025 PRB),cond-mat.dis-nn,補強,yes
+2026-03-24,spin-glass dynamics,2305.17296,Memory and Rejuvenation in Glassy Systems (Freedberg et al. 2024 PRB),cond-mat.dis-nn,補強,yes
+2026-03-24,spin-glass dynamics,2011.09419,Temperature chaos is present in off-equilibrium spin-glass dynamics (Janus 2021 Commun.Phys.),cond-mat.dis-nn,補強,yes
+2026-03-24,spin-glass dynamics,2101.00821,Spin-glass dynamics in the presence of a magnetic field (Paga et al. 2021 PRB),cond-mat.dis-nn,補強,yes
+2026-03-24,spin-glass dynamics,2002.07478,Slowing down of spin glass correlation length growth (Zhai et al. 2019 PRB),cond-mat.dis-nn,補強,yes
+2026-03-24,spin-glass dynamics,2007.03871,Scaling law describes the spin-glass response (Zhai et al. 2020 PRB),cond-mat.dis-nn,補強,yes
+2026-03-24,spin-glass dynamics,1804.07569,The Mpemba effect in spin glasses (Janus 2019 PNAS),cond-mat.dis-nn,波及先,yes
+2026-03-24,spin-glass dynamics,1610.01418,Statics-dynamics equivalence through fluctuation-dissipation ratio (Janus 2017 PNAS),cond-mat.dis-nn,補強,yes
+2026-03-24,spin-glass dynamics,1403.2622,3D Ising spin glass in external magnetic field (Janus 2014),cond-mat.dis-nn,背景,yes
+2026-03-24,spin-glass dynamics,1310.2910,Critical parameters of the 3D Ising spin glass (Janus 2013 PRB),cond-mat.dis-nn,背景,yes
+2026-03-24,spin-glass dynamics,1307.4998,Dynamical transition in D=3 EA spin glass in field (Janus 2014 PRE),cond-mat.dis-nn,背景,yes
+2026-03-24,spin-glass dynamics,2601.19192,Evidence of the de Almeida-Thouless transition in 3D spin glasses (2026),cond-mat.dis-nn,比較,yes
+2026-03-24,spin-glass dynamics,2403.08503,Small field chaos in spin glasses (Aguilar-Janita et al. 2024),cond-mat.dis-nn,補強,yes
+2026-03-24,spin-glass dynamics,2601.07635,Learning About Learning: Spin Glasses to AI (2026),cond-mat.dis-nn,波及先,yes
+2026-03-24,spin-glass dynamics,2307.02224,Quantifying memory in spin glasses (Janus 2023),cond-mat.dis-nn,補強,yes

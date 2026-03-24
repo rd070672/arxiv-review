@@ -259,8 +259,6 @@ reported_papers.csv を参照し、直近のレビューで多かった broad ar
 冒頭に以下を明記すること。
 - **執筆日**: YYYY-MM-DD
 - **トピック**:
-- **Primary broad area**:
-- **Secondary broad area**:
 - **注目論文**: arXivID
 - **参照した関連論文数**: N本
 
