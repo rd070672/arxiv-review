@@ -140,3 +140,31 @@ date,topic,arxiv_id,title,category,role,used_in_article
 2026-03-24,kitaev-spin-glass,2603.03513,"q-Gaussian Crossover in Overlap Spectra towards 3D Edwards-Anderson Criticality",cond-mat.dis-nn,related,yes
 2026-03-24,kitaev-spin-glass,2505.22658,"A multimode cavity QED Ising spin glass",quant-ph,related,yes
 2026-03-24,kitaev-spin-glass,2512.19818,"Spin Glasses: Disorder Frustration and Nonequilibrium Complexity",cond-mat.dis-nn,related,yes
+2026-03-25,ultrafast-phonon-thermodynamics,2603.22632,"Generalized thermodynamic closure in ultrafast phonon dynamics",cond-mat.mes-hall,anchor,yes
+2026-03-25,ultrafast-phonon-thermodynamics,2512.04041,"Quantum theory of nonlinear phononics",cond-mat.mtrl-sci,related,yes
+2026-03-25,ultrafast-phonon-thermodynamics,2512.03691,"Terahertz light driven coherent excitation of a zone-folded Raman-active phonon mode in the Spin-Ladder System alpha-NaV2O5",cond-mat.str-el,related,yes
+2026-03-25,ultrafast-phonon-thermodynamics,2603.08027,"Non-Markovian heat production in ultrafast phonon dynamics",cond-mat.mtrl-sci,related,yes
+2026-03-25,ultrafast-phonon-thermodynamics,2602.07462,"Spontaneous Symmetry Breaking and Collective Higgs-Goldstone Dynamics in Solid-State Phononic Frequency Combs",cond-mat.mtrl-sci,related,yes
+2026-03-25,ultrafast-phonon-thermodynamics,2503.02529,"THz-Driven Coherent Phonon Fingerprints of Hidden Symmetry Breaking in 2D Layered Hybrid Perovskites",cond-mat.mes-hall,related,yes
+2026-03-25,ultrafast-phonon-thermodynamics,2508.03257,"Microscopic Theory of Light-Induced Coherent Phonons Mediated by Quantum Geometry",cond-mat.mes-hall,related,yes
+2026-03-25,ultrafast-phonon-thermodynamics,2603.18182,"Ultrafast dynamics and light-induced superconductivity from first principles",cond-mat.supr-con,related,yes
+2026-03-25,ultrastrong-coupling-gatemon,2603.19438,"Ultrastrong Coupling and Coherent Dynamics in a Gate-Tunable Transmon Qubit",cond-mat.mes-hall,anchor,yes,量子機能デバイス,電子構造・物性物理,ultrastrong-coupling-gatemon,circuit-QED-USC
+2026-03-25,ultrastrong-coupling-gatemon,2408.16558,"Circuit QED Spectra in the Ultrastrong Coupling Regime: How They Differ from Cavity QED",cond-mat.mes-hall,related,yes,量子機能デバイス,,USC-circuit-QED-theory,quantum-Rabi-model
+2026-03-25,ultrastrong-coupling-gatemon,2401.02738,"Strong coupling between a single-photon and a two-photon Fock state",cond-mat.mes-hall,related,yes,量子機能デバイス,,single-photon-two-photon-coupling,USC-SHG-experiment
+2026-03-25,ultrastrong-coupling-gatemon,2512.23336,"Novel qubits in hybrid semiconductor-superconductor nanostructures",cond-mat.mes-hall,related,yes,量子機能デバイス,,hybrid-semiconductor-superconductor-qubits,Andreev-Majorana-review
+2026-03-25,ultrastrong-coupling-gatemon,2503.05284,"Flux-tunable parity-protected qubit based on a single full-shell nanowire Josephson junction",cond-mat.mes-hall,related,yes,量子機能デバイス,,parity-protected-qubit-fullshell-NW,flux-tunable-JJ
+2026-03-25,ultrastrong-coupling-gatemon,2603.23402,"Magnetic flux distribution, quasiparticle spectroscopy, and quality factors in Nb films for superconducting qubits",cond-mat.supr-con,related,yes,量子機能デバイス,材料創製・プロセス,Nb-film-qubit-quality,magneto-optical-imaging
+2026-03-25,ultrastrong-coupling-gatemon,2603.23148,"Pre-Patterned Superconducting Contacts for Clean Superconductor-Topological Material Interfaces Enabling Long-Range Josephson Coupling",cond-mat.mes-hall,related,yes,量子機能デバイス,,topological-Josephson-coupling,vdW-interface-engineering
+2026-03-25,PXRD-deep-learning,2603.23367,"AlphaDiffract: Automated Crystallographic Analysis of Powder X-ray Diffraction Data",cond-mat.mtrl-sci,anchor,yes,放射光・量子ビーム,計算材料科学,PXRD-auto-crystallography,1D-ConvNeXt-GEMD
+2026-03-25,PXRD-deep-learning,2603.23210,"Generative Inversion of Spectroscopic Data for Amorphous Structure Elucidation (GLASS)",cond-mat.mtrl-sci,related,yes,放射光・量子ビーム,計算材料科学,amorphous-structure-spectral-inversion,score-diffusion-PDF
+2026-03-25,PXRD-deep-learning,2511.04055,"KAN-Enhanced Contrastive Learning for Crystal Structure Identification (XCCP)",cond-mat.mtrl-sci,related,yes,計算材料科学,放射光・量子ビーム,XRD-contrastive-learning,KAN-dual-expert
+2026-03-25,PXRD-deep-learning,2508.08349,"DiffractGPT: Generative Pre-Trained Transformer for Crystal Structure Determination from XRD",cond-mat.mtrl-sci,related,yes,計算材料科学,放射光・量子ビーム,XRD-LLM-structure-determination,LoRA-Mistral
+2026-03-25,PXRD-deep-learning,2502.02189,"deCIFer: Autoregressive Language Model for Crystal Structure Prediction from Powder Diffraction",cond-mat.mtrl-sci,related,yes,計算材料科学,放射光・量子ビーム,PXRD-autoregressive-CIF-generation,decoder-transformer
+2026-03-25,PXRD-deep-learning,2303.11699,"Neural networks trained on synthetically generated crystals can extract structural information from ICSD powder X-ray diffractograms",cond-mat.mtrl-sci,related,yes,計算材料科学,放射光・量子ビーム,PXRD-synthetic-training,synthetic-crystal-generation
+2026-03-25,PXRD-deep-learning,2409.04727,"PXRDGen: End-to-End Neural Network Pipeline for Crystal Structure Determination from PXRD",cond-mat.mtrl-sci,related,yes,計算材料科学,放射光・量子ビーム,PXRD-diffusion-pipeline,encoder-diffusion-Rietveld
+2026-03-25,ultrafast-sintering-HEC,2603.23423,"Ultrafast Sintering",cond-mat.mtrl-sci,anchor,yes,材料創製・プロセス,,ultrafast-sintering-HEC,flash-sintering-UHS-reactive
+2026-03-25,ultrafast-sintering-HEC,2510.05629,"From High-Entropy Ceramics (HECs) to Compositionally Complex Ceramics (CCCs) and Beyond",cond-mat.mtrl-sci,related,yes,材料創製・プロセス,,HEC-CCC-SRO,perspective-entropy-design
+2026-03-25,ultrafast-sintering-HEC,2510.13130,"Thermal and Electrical Properties of (Cr,Mo,Ta,V,W)C High-Entropy Carbide Ceramics",cond-mat.mtrl-sci,related,yes,材料創製・プロセス,,HEC-carbide-properties,SPS-characterization
+2026-03-25,ultrafast-sintering-HEC,2512.13204,"Computational tuning of the elastic properties of low- and high-entropy ultra-high temperature ceramics",cond-mat.mtrl-sci,related,yes,計算材料科学,材料創製・プロセス,UHTC-elastic-ML,MACE-fine-tuning
+2026-03-25,ultrafast-sintering-HEC,2512.03881,"Resolving Structural Transitions in Lanthanide High-Entropy Oxides",cond-mat.mtrl-sci,related,yes,材料創製・プロセス,,HEO-phase-diagram-bixbyite-fluorite,multi-scale-characterization
+2026-03-25,ultrafast-sintering-HEC,2507.03804,"Exploring the Complex Landscape of Entropy Stabilized Oxides",cond-mat.mtrl-sci,related,yes,材料創製・プロセス,,ESO-SRO-local-structure,DFT-SQS

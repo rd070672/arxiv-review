@@ -53,6 +53,12 @@ features:
 
 ## トピック記事
 
+### 2026年3月25日更新
+- [PXRDと深層学習を用いた材料解析](review/2026-03_PXRD-deep-learning)
+- [超高速熱力学](review/2026-03_ultrafast-thermodynamics)
+- [高エントロピーセラミックス](review/2026-03_ultrafast-sintering-HEC)
+- [ゲートモン量子ビット](review/2026-03_ultrastrong-coupling-gatemon)
+
 ### 2026年3月24日更新
 - [アモルファス固体のエネルギーランドスケープ](review/2026-03_amorphous-energy-landscape)
 - [ドメインウォールダイナミクス](review/2026-03_domain-wall-dynamics-ferrimagnet)

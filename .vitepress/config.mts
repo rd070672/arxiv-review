@@ -81,6 +81,13 @@ export default defineConfig({
 
       { text: 'Topic summary', collapsed: false, items: [
 
+        { text: '2026-03-25', collapsed: false, items: [
+          { text: 'PXRDと深層学習を用いた材料解析', link: '/review/2026-03_PXRD-deep-learning' },
+          { text: '超高速熱力学', link: '/review/2026-03_ultrafast-thermodynamics' },
+          { text: '高エントロピーセラミックス', link: '/review/2026-03_ultrafast-sintering-HEC' },
+          { text: 'ゲートモン量子ビット', link: '/review/2026-03_ultrastrong-coupling-gatemon' },
+        ]},
+
         { text: '2026-03-24', collapsed: false, items: [
           { text: 'アモルファス固体のエネルギーランドスケープ', link: '/review/2026-03_amorphous-energy-landscape' },
           { text: 'ドメインウォールダイナミクス', link: '/review/2026-03_domain-wall-dynamics-ferrimagnet' },
