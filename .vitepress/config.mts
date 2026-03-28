@@ -82,6 +82,10 @@ export default defineConfig({
       { text: 'Topic summary', collapsed: false, items: [
 
         { text: '2026-03-28', collapsed: false, items: [
+          { text: 'フォノン熱ホール効果と電荷プール', link: '/topic/2026-03_phonon-thermal-Hall-charge-puddle' },
+        ]},
+
+        { text: '2026-03-28', collapsed: false, items: [
           { text: '軌道交替磁性体の電子構造', link: '/review/2026-03_orbital-altermagnetism' },
           { text: '強誘電体における超高速光-電子-フォノン相互作用', link: '/review/2026-03_ultrafast-ferroelectric-phonons' },
           { text: 'カイラルフォノンの軌道熱電変換', link: '/review/2026-03_phonon-orbital-seebeck' },

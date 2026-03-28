@@ -54,6 +54,9 @@ features:
 ## トピック記事
 
 ### 2026年3月28日更新
+- [フォノン熱ホール効果と電荷プール](topic/2026-03_phonon-thermal-Hall-charge-puddle)
+
+### 2026年3月28日更新
 - [軌道交替磁性体の電子構造](review/2026-03_orbital-altermagnetism)
 - [強誘電体における超高速光-電子-フォノン相互作用](review/2026-03_ultrafast-ferroelectric-phonons)
 - [カイラルフォノンの軌道熱電変換](review/2026-03_phonon-orbital-seebeck)
