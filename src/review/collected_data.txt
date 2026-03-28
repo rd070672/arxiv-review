@@ -1,0 +1,224 @@
+================================================================================
+FOCAL PAPER (注目論文)
+================================================================================
+
+arXiv ID: 2603.25659
+Title: Diffusion in interacting two-dimensional systems under a uniform magnetic field
+Authors: Łukasz Iwanek, Marcin Mierzejewski (et al.)
+Submitted: 26 Mar 2026
+Category: cond-mat.quant-gas
+Primary Broad Area: 非平衡ダイナミクス
+Secondary Broad Area: 計算材料科学
+
+License: Standard arXiv (non-exclusive)
+Figure License: Standard arXiv (non-exclusive) - Cannot re-use without explicit permission
+Note: arXiv standard license does not permit re-use of figures. However, figures are
+      saved as reference for original research documentation.
+
+Abstract:
+The dynamics of interacting particles in orbital magnetic fields are notoriously difficult to study,
+as this physics is inherently connected to electronic correlations in two-dimensional systems, for
+which no straightforward theoretical methods are available. The authors report on the diffusion of
+interacting fermionic particles in 2D lattices under uniform magnetic fields at infinite temperature
+using the fermionic truncated Wigner approximation (fTWA).
+
+Main Methodology:
+- Fermionic truncated Wigner approximation (fTWA)
+- Lanczos numerical diagonalization (for benchmarking)
+- Optical lattice platforms (for experimental feasibility)
+
+Key Findings:
+1. Strong interactions exceeding hopping energy suppress magnetic field effects on transport
+2. When interactions match kinetic energy scales, magnetic flux significantly reduces diffusion
+3. Effects become prominent in larger systems (400+ lattice sites) where finite-size effects diminish
+4. Results should be experimentally feasible using optical lattice platforms
+5. fTWA captures equilibration dynamics well for intermediate interaction strengths
+
+Figures Saved:
+- fig1.png: Schematic visualization of 2D lattice system with magnetic flux
+- fig2.png: Time evolution of amplitude A for 10×2 ladder system comparing Lanczos vs fTWA
+- fig3.png: Deviations of fTWA from Lanczos results vs system size and interaction strength
+- fig4.png: Time evolution for ladder vs 1D systems, comparing Lanczos and fTWA
+- fig5.png: Time evolution for system sizes L=22×2 and L=34×2 with different phases
+- fig6.png: Diffusion constant D/J as function of system size L for 32×8 to 64×8
+- fig7.png: Diffusion constant vs (a) system size, (b) magnetic phase, (c) interaction strength
+
+File Locations:
+/sessions/clever-nifty-ptolemy/mnt/review/figures/2603.25659/fig1.png
+/sessions/clever-nifty-ptolemy/mnt/review/figures/2603.25659/fig2.png
+... (7 figures total)
+
+Research Significance:
+This work addresses a fundamental challenge in understanding quantum many-body dynamics under
+magnetic fields—a problem relevant to both condensed matter physics and quantum simulation
+experiments with ultracold atoms. The validated applicability of fTWA at intermediate interaction
+strengths provides a valuable computational tool for studying non-equilibrium phenomena in
+2D interacting systems.
+
+================================================================================
+RELATED PAPERS (関連論文)
+================================================================================
+
+RELATED PAPER 1:
+arXiv ID: 2603.25577
+Title: Josephson effects in an interaction-asymmetric junction across the BCS-BEC crossover
+Authors: Tingyu Zhang, Hiroyuki Tajima, et al.
+Submitted: 26 Mar 2026
+Category: cond-mat.quant-gas
+Role: Background - Interacting ultracold fermions & tunneling phenomena
+License: Standard arXiv (non-exclusive)
+
+Key Finding: A tunneling current peak emerges when one junction side is in the BCS regime
+while the other transitions into the BEC regime, representing an interaction-biased Riedel
+peak phenomenon.
+
+Methodology: Nonequilibrium Green's function approach combined with tunnel Hamiltonian formalism
+
+Relevance: Both papers study nonequilibrium phenomena in strongly interacting fermionic systems
+using theoretical frameworks applicable to ultracold atoms.
+
+---
+
+RELATED PAPER 2:
+arXiv ID: 2603.25724
+Title: Krylov-space anatomy and spread complexity of a disordered quantum spin chain
+Authors: Bikram Pain, David E. Logan
+Submitted: 26 Mar 2026
+Category: cond-mat.str-el
+Role: Support - Quantum dynamics & complexity measures in non-equilibrium systems
+License: Standard arXiv (non-exclusive)
+
+Key Finding: The long-time Krylov spread complexity sharply distinguishes ergodic and
+many-body localized phases, with complexity scaling linearly versus sublinearly respectively.
+
+Relevance: Provides complementary theoretical framework for analyzing quantum evolution
+and information spreading in many-body systems, applicable to understanding diffusion behavior.
+
+---
+
+RELATED PAPER 3:
+arXiv ID: 2603.25557
+Title: Neural network as low-cost surrogates for impurity solvers in quantum embedding methods
+Authors: Rohan Nain, Philip M. Dee, et al.
+Submitted: 26 Mar 2026
+Category: cond-mat.str-el
+Role: Alternative Method - Computational approaches for strongly correlated systems
+License: Standard arXiv (non-exclusive)
+
+Key Finding: Neural networks trained on minimal data achieve accuracy comparable to CTQMC
+solvers for interpolation, enabling 5x acceleration of DMFT simulations.
+
+Methodology: Machine learning surrogates for impurity solvers in DMFT (dynamical mean-field theory)
+
+Relevance: Represents modern computational strategies for simulating interacting many-body
+systems—complementary to the fTWA approach used in the focal paper.
+
+---
+
+RELATED PAPER 4:
+arXiv ID: 2603.25700
+Title: Magnetic field Controlled Anderson Delocalization in a Spinful Non-Hermitian Chain
+Authors: Moirangthem Sanah, et al.
+Submitted: 26 Mar 2026
+Category: cond-mat.dis-nn
+Role: Comparison - Magnetic field effects on transport & localization phenomena
+License: Standard arXiv (non-exclusive)
+
+Key Finding: An external magnetic field triggers Anderson delocalization in strongly disordered
+systems through Zeeman-induced inter-chain coupling across spin sectors.
+
+Relevance: Directly addresses magnetic field-controlled transport, complementing the focal
+paper's investigation of diffusion under magnetic fields in interacting systems.
+
+---
+
+RELATED PAPER 5:
+arXiv ID: 2603.25708
+Title: Provably Efficient Long-Time Exponential Decompositions of Non-Markovian Gaussian Baths
+Authors: et al.
+Submitted: 26 Mar 2026
+Category: cond-mat.stat-mech
+Role: Background - Theory of open quantum system dynamics
+License: Standard arXiv (non-exclusive)
+
+Key Finding: Required number of exponentials is bounded independently of time, achieving
+time-uniform complexity for a broad class of spectral densities.
+
+Relevance: Provides theoretical foundations for understanding non-Markovian dynamics, relevant
+to understanding memory effects in quantum evolution of interacting systems.
+
+---
+
+RELATED PAPER 6:
+arXiv ID: 2603.25312
+Title: A High-Flux Source of Cold Strontium with a Loading Rate of 4×10¹⁰ atoms/s for Open Release
+Authors: Thomas Walker, Anna L. Marchant, et al.
+Submitted: 26 Mar 2026
+Category: cond-mat.quant-gas
+Role: Experimental Foundation - Technical basis for ultracold atom experiments
+License: Standard arXiv (non-exclusive)
+
+Key Achievement: Demonstrated highest reported loading flux for strontium atoms (4×10¹⁰ atoms/s)
+using 2D magneto-optical trap combined with Zeeman slower.
+
+Relevance: Provides experimental platform foundations for realizing optical lattice experiments
+discussed in the focal paper's feasibility section.
+
+---
+
+RELATED PAPER 7:
+arXiv ID: 2603.25245
+Title: Microscopic nature of 4a₀×4a₀ plaquettes in stripe LDOS and 2a₀ shift
+Authors: Ying Liang, Yi-Da Chu, Shi-Jie Hu, Xue-Feng Zhang
+Submitted: 26 Mar 2026
+Category: cond-mat.str-el
+Role: Extension - Microscopic structures in strongly correlated systems
+License: Standard arXiv (non-exclusive)
+
+Key Finding: The microscopic origin of 4a₀×4a₀ plaquettes is closely related to spinon
+singlet pairs, with particle-hole symmetry breaking manifesting as spatial shifts.
+
+Relevance: Demonstrates detailed microscopic analysis of charge and spin structures in
+correlated systems—complementary to collective diffusion phenomena in focal paper.
+
+================================================================================
+CSV ENTRY FOR reported_papers.csv
+================================================================================
+
+Date,Topic,arXiv_ID,Title,Category,Status,Listed,Primary_Area,Secondary_Area,Subtopic,Tags
+2026-03-28,magnetic-field-2d-diffusion,2603.25659,"Diffusion in interacting two-dimensional systems under a uniform magnetic field",cond-mat.quant-gas,anchor,yes,非平衡ダイナミクス,計算材料科学,magnetic-diffusion-fTWA,truncated-wigner-2D-fermions
+2026-03-28,magnetic-field-2d-diffusion,2603.25577,"Josephson effects in an interaction-asymmetric junction across the BCS-BEC crossover",cond-mat.quant-gas,related,yes,非平衡ダイナミクス,,ultracold-fermion-tunneling,interaction-asymmetric-BCS-BEC
+2026-03-28,magnetic-field-2d-diffusion,2603.25724,"Krylov-space anatomy and spread complexity of a disordered quantum spin chain",cond-mat.str-el,related,yes,非平衡ダイナミクス,計算材料科学,krylov-complexity-dynamics,many-body-localization
+2026-03-28,magnetic-field-2d-diffusion,2603.25557,"Neural network as low-cost surrogates for impurity solvers in quantum embedding methods",cond-mat.str-el,related,yes,計算材料科学,,NN-DMFT-surrogates,machine-learning-impurity-solver
+2026-03-28,magnetic-field-2d-diffusion,2603.25700,"Magnetic field Controlled Anderson Delocalization in a Spinful Non-Hermitian Chain",cond-mat.dis-nn,related,yes,非平衡ダイナミクス,,magnetic-field-localization,non-Hermitian-delocalization
+2026-03-28,magnetic-field-2d-diffusion,2603.25708,"Provably Efficient Long-Time Exponential Decompositions of Non-Markovian Gaussian Baths",cond-mat.stat-mech,related,yes,非平衡ダイナミクス,,non-Markovian-bath-theory,exponential-decomposition
+2026-03-28,magnetic-field-2d-diffusion,2603.25312,"A High-Flux Source of Cold Strontium with a Loading Rate of 4×10¹⁰ atoms/s for Open Release",cond-mat.quant-gas,related,yes,,量子機能デバイス,cold-atom-source,optical-lattice-preparation
+2026-03-28,magnetic-field-2d-diffusion,2603.25245,"Microscopic nature of 4a₀×4a₀ plaquettes in stripe LDOS and 2a₀ shift",cond-mat.str-el,related,yes,電子構造・物性物理,,cuprate-charge-order-microscopy,quantum-string-STM
+
+================================================================================
+FIGURE ACQUISITION STATUS
+================================================================================
+
+All figures successfully downloaded from arxiv.org/html/2603.25659v1/:
+
+✓ fig1.png (72 KB) - Schematic visualization of 2D lattice system
+✓ fig2.png (88 KB) - Time evolution comparison: Lanczos vs fTWA
+✓ fig3.png (17 KB) - fTWA deviation analysis
+✓ fig4.png (33 KB) - Ladder vs 1D system comparison
+✓ fig5.png (33 KB) - Time evolution for different system parameters
+✓ fig6.png (36 KB) - Diffusion constant vs system size
+✓ fig7.png (49 KB) - Diffusion constant vs multiple parameters
+
+Total figures saved: 7
+Total size: 328 KB
+Location: /sessions/clever-nifty-ptolemy/mnt/review/figures/2603.25659/
+
+License Status:
+All figures are from arXiv papers with Standard arXiv (non-exclusive) license.
+These figures are saved for reference and internal documentation purposes.
+For publication or external distribution, original copyright and attribution
+must be properly acknowledged.
+
+================================================================================
+END OF REPORT
+================================================================================
