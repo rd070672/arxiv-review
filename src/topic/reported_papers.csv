@@ -1,0 +1,7 @@
+date,topic,arxiv_id,title,category,role,used_in_article,main-area,sub-area,method-tag
+2026-03-28,oxide-heterostructure-charge-transfer,2603.25514,Interfacial charge-transfer in 3d/5d complex oxide heterostructures,cond-mat.mtrl-sci,focus,yes,電子構造,ヘテロ構造/薄膜・界面,放射光計測/第一原理計算
+2026-03-28,oxide-heterostructure-charge-transfer,2503.21093,Insulator-to-Metal Transition via Magnetic Reconstruction at Oxide Interfaces,cond-mat.mes-hall,support,yes,電子構造,ヘテロ構造/薄膜・界面,放射光計測/第一原理計算
+2026-03-28,oxide-heterostructure-charge-transfer,2512.03785,Interfacial Control of Orbital Occupancy and Spin State in LaCoO3,cond-mat.mtrl-sci,comparison,yes,電子構造,ヘテロ構造/薄膜・界面,放射光計測
+2026-03-28,oxide-heterostructure-charge-transfer,2307.06064,Giant non-volatile electric field control of proximity induced magnetism in the spin-orbit semimetal SrIrO3,cond-mat.mtrl-sci,application,yes,電子構造,ヘテロ構造/薄膜・界面,輸送測定
+2026-03-28,oxide-heterostructure-charge-transfer,2310.10297,Generation and detection of spin current in iridate/manganite heterostructures,physics.app-ph,application,yes,電子構造,ヘテロ構造/薄膜・界面,輸送測定
+2026-03-28,oxide-heterostructure-charge-transfer,2511.04513,Band Alignment Tuning from Charge Transfer in Epitaxial SrIrO3/SrCoO3 Superlattices,cond-mat.mtrl-sci,background,yes,電子構造,ヘテロ構造/薄膜・界面,放射光計測/第一原理計算

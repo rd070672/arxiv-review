@@ -56,6 +56,11 @@ features:
 ### 2026年3月28日更新
 - [軌道交替磁性体の電子構造](review/2026-03_orbital-altermagnetism)
 - [強誘電体における超高速光-電子-フォノン相互作用](review/2026-03_ultrafast-ferroelectric-phonons)
+- [カイラルフォノンの軌道熱電変換](review/2026-03_phonon-orbital-seebeck)
+- [軌道交替磁性体の平坦バンド](topic/2026-03_altermagnet-CrSb-flatband)
+- [強誘電体における超高速光-電子-フォノン相互作用](topic/2026-03_BaTiO3-ultrafast-carrier)
+- [La₃Ni₂O₇における電荷秩序](topic/2026-03_La3Ni2O7-charge-order)
+- [酸化物異質構造における電荷移転](topic/2026-03_oxide-heterostructure-charge-transfer)
 
 ### 2026年3月25日更新
 - [PXRDと深層学習を用いた材料解析](review/2026-03_PXRD-deep-learning)

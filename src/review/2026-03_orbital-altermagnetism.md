@@ -1,4 +1,4 @@
-# 軌道秩序駆動の2次元金属交替磁性体：新しいスピン機能材料への道
+# 軌道秩序駆動の2次元金属交替磁性体
 
 **執筆日**: 2026-03-28
 **トピック**: Orbital-order-driven altermagnetism in 2D metals
