@@ -81,7 +81,7 @@ export default defineConfig({
 
       { text: 'Topic summary', collapsed: false, items: [
 
-        { text: '2026-03-28', collapsed: false, items: [
+        { text: '2026-03-29', collapsed: false, items: [
           { text: 'フォノン熱ホール効果と電荷プール', link: '/topic/2026-03_phonon-thermal-Hall-charge-puddle' },
         ]},
 
@@ -125,6 +125,7 @@ export default defineConfig({
         { text: '2026-03-23', collapsed: false, items: [
           { text: '高磁化多元素合金の発見', link: '/focus/ML-FeCo-Ir-Pt' },
           { text: 'FeCoIrのXMCD解析', link: '/focus/FeCoIr/FeCoIr-xmcd' },
+          { text: 'X線磁気円二色性とsum-rule則', link: '/focus/MCD/1992-03_XMCD-sum-rules' },
           { text: 'スピングラス動力学', link: '/focus/spin-glass/spin-glass-dynamics' },
         ]},
       ]},

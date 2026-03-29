@@ -53,8 +53,10 @@ features:
 
 ## トピック記事
 
-### 2026年3月28日更新
+### 2026年3月29日更新
 - [フォノン熱ホール効果と電荷プール](topic/2026-03_phonon-thermal-Hall-charge-puddle)
+- [超伝導ダイオード効果](topic/2026-03_superconducting-diode-effect)
+- [カゴメ強磁性体Fe3Sn2における圧力下磁気相図](topic/2026-03_kagome-Fe3Sn2-pressure)
 
 ### 2026年3月28日更新
 - [軌道交替磁性体の電子構造](review/2026-03_orbital-altermagnetism)
@@ -95,6 +97,7 @@ features:
 ### 論文の深読み
 - [高磁化多元素合金の発見](focus/ML-FeCo-Ir-Pt)
 - [FeCoIrのXMCD解析](focus/FeCoIr/FeCoIr-xmcd)
+- [X線磁気円二色性とsum-rule則](focus/MCD/1992-03_XMCD-sum-rules)
 - [スピングラス動力学](focus/spin-glass/spin-glass-dynamics.md)
 
 
