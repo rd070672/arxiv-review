@@ -86,6 +86,9 @@ export default defineConfig({
           { text: '超伝導ダイオード効果', link: '/topic/2026-03_superconducting-diode-effect' },
           { text: 'カゴメ強磁性体Fe3Sn2における圧力下磁気相図', link: '/topic/2026-03_kagome-Fe3Sn2-pressure' },
           { text: 'クラスターモット絶縁体における次元依存性', link: '/topic/2026-03_Nb3Cl8-Mott-exciton-dimension' },
+          { text: 'ナノ結晶のゆらぎダイナミクス', link: '/topic/2026-03_liquid-cell-TEM-nanocrystal-dynamics' },
+          { text: '軌道交替磁性体の電子構造', link: '/topic/2026-03_orbital-order-altermagnet-2D' },
+          { text: '反転対称性の工学的破れと非線形光誘起電流', link: '/topic/2026-03_nonlinear-photocurrent-Bi2Se3' },
         ]},
 
         { text: '2026-03-28', collapsed: false, items: [
@@ -103,8 +106,8 @@ export default defineConfig({
         ]},
 
         { text: '2026-03-24', collapsed: false, items: [
-          { text: 'アモルファス固体のエネルギーランドスケープ', link: '/review/2026-03_amorphous-energy-landscape' },
-          { text: 'ドメインウォールダイナミクス', link: '/review/2026-03_domain-wall-dynamics-ferrimagnet' },
+          { text: 'アモルファス固体のエネルギー地形', link: '/review/2026-03_amorphous-energy-landscape' },
+          { text: 'フェリ磁性の磁壁ダイナミクス', link: '/review/2026-03_domain-wall-dynamics-ferrimagnet' },
           { text: '電子テスラバルブ', link: '/review/2026-03_electron-tesla-valve' },
           { text: 'ユニバーサルMLIPによる電解質のイオン輸送', link: '/review/2026-03_universal-MLIP-electrolyte' },
           { text: '破壊力学のマルチスケールシミュレーション', link: '/review/2026-03_fracture-mechanics-multiscale-simulation' },
