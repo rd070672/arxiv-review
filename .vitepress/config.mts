@@ -83,6 +83,9 @@ export default defineConfig({
 
         { text: '2026-03-29', collapsed: false, items: [
           { text: 'フォノン熱ホール効果と電荷プール', link: '/topic/2026-03_phonon-thermal-Hall-charge-puddle' },
+          { text: '超伝導ダイオード効果', link: '/topic/2026-03_superconducting-diode-effect' },
+          { text: 'カゴメ強磁性体Fe3Sn2における圧力下磁気相図', link: '/topic/2026-03_kagome-Fe3Sn2-pressure' },
+          { text: 'クラスターモット絶縁体における次元依存性', link: '/topic/2026-03_Nb3Cl8-Mott-exciton-dimension' },
         ]},
 
         { text: '2026-03-28', collapsed: false, items: [

@@ -57,7 +57,8 @@ features:
 - [フォノン熱ホール効果と電荷プール](topic/2026-03_phonon-thermal-Hall-charge-puddle)
 - [超伝導ダイオード効果](topic/2026-03_superconducting-diode-effect)
 - [カゴメ強磁性体Fe3Sn2における圧力下磁気相図](topic/2026-03_kagome-Fe3Sn2-pressure)
-
+- [クラスターモット絶縁体における次元依存性](topic/2026-03_Nb3Cl8-Mott-exciton-dimension)
+  
 ### 2026年3月28日更新
 - [軌道交替磁性体の電子構造](review/2026-03_orbital-altermagnetism)
 - [強誘電体における超高速光-電子-フォノン相互作用](review/2026-03_ultrafast-ferroelectric-phonons)
