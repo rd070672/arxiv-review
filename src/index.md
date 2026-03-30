@@ -56,6 +56,8 @@ features:
 ### 2026年3月31日更新
 - [XMCDによる交替磁性体の研究](topic/2026-03_XMCD-altermagnetism)
 - [円偏光RIXSによるカイラルフォノン](topic/2026-03_RIXS-chiral-phonon-BaTiO3)
+- [超強束縛励起子の時間分解ARPES](topic/2026-03_CrSBr-trARPES-exciton)
+- [スピン超固体相における巨大磁気熱量効果](topic/2026-03_metallic-spin-supersolid-MCE)
 
 ### 2026年3月29日更新
 - [フォノン熱ホール効果と電荷プール](topic/2026-03_phonon-thermal-Hall-charge-puddle)
