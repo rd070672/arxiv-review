@@ -81,6 +81,11 @@ export default defineConfig({
 
       { text: 'Topic summary', collapsed: false, items: [
 
+        { text: '2026-03-31', collapsed: false, items: [
+          { text: 'XMCDによる交替磁性体の研究', link: '/topic/2026-03_XMCD-altermagnetism' },
+          { text: '円偏光RIXSによるカイラルフォノン', link: '/topic/2026-03_RIXS-chiral-phonon-BaTiO3' },
+        ]},
+
         { text: '2026-03-29', collapsed: false, items: [
           { text: 'フォノン熱ホール効果と電荷プール', link: '/topic/2026-03_phonon-thermal-Hall-charge-puddle' },
           { text: '超伝導ダイオード効果', link: '/topic/2026-03_superconducting-diode-effect' },
