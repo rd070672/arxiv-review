@@ -81,9 +81,17 @@ export default defineConfig({
 
       { text: 'Topic summary', collapsed: false, items: [
 
+        
+        { text: '2026-04-01', collapsed: false, items: [
+          { text: 'MLアシスト格子モンテカルロ計算', link: '/topic/2026-04_HEA-lattice-MC-chemical-order' },
+        ]},
+
         { text: '2026-03-31', collapsed: false, items: [
           { text: 'XMCDによる交替磁性体の研究', link: '/topic/2026-03_XMCD-altermagnetism' },
           { text: '円偏光RIXSによるカイラルフォノン', link: '/topic/2026-03_RIXS-chiral-phonon-BaTiO3' },
+          { text: '超強束縛励起子の時間分解ARPES', link: '/topic/2026-03_CrSBr-trARPES-exciton' },
+          { text: 'スピン超固体相における巨大磁気熱量効果', link: '/topic/2026-03_metallic-spin-supersolid-MCE' },
+          { text: '自己修復ビトリマー', link: '/topic/2026-03_self-healing-vitrimer' },
         ]},
 
         { text: '2026-03-29', collapsed: false, items: [
