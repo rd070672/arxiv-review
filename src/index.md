@@ -56,6 +56,7 @@ features:
 ### 2026年4月1日更新
 - [MLアシスト格子モンテカルロ計算](topic/2026-04_HEA-lattice-MC-chemical-order)
 - [粒界における自己ピンニングのKMCシミュレーション](topic/2026-04_grain-boundary-self-pinning-KMC)
+- [GST系相変化材料のアモルファス緩和と結晶化機構](topic/2026-04_GST-beta-relaxation-percolation)
 
 ### 2026年3月31日更新
 - [XMCDによる交替磁性体の研究](topic/2026-03_XMCD-altermagnetism)
