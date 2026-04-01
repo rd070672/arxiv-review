@@ -52,6 +52,8 @@ features:
 ---
 
 ## トピック記事
+### 2026年4月2日更新
+- [多主元素合金における空孔媒介拡散の第一原理的計算](topic/2026-04_MPEA-vacancy-diffusion-eLCE-KMC)
 
 ### 2026年4月1日更新
 - [MLアシスト格子モンテカルロ計算](topic/2026-04_HEA-lattice-MC-chemical-order)

@@ -80,8 +80,10 @@ export default defineConfig({
     sidebar: [
 
       { text: 'Topic summary', collapsed: false, items: [
+        { text: '2026-04-02', collapsed: false, items: [
+          { text: '多主元素合金における空孔媒介拡散の第一原理的計算', link: '/topic/2026-04_MPEA-vacancy-diffusion-eLCE-KMC' },
+        ]},
 
-        
         { text: '2026-04-01', collapsed: false, items: [
           { text: 'MLアシスト格子モンテカルロ計算', link: '/topic/2026-04_HEA-lattice-MC-chemical-order' },
           { text: '粒界における自己ピンニングのKMCシミュレーション', link: '/topic/2026-04_grain-boundary-self-pinning-KMC' },
@@ -99,7 +101,7 @@ export default defineConfig({
           { text: '自己修復ビトリマー', link: '/topic/2026-03_self-healing-vitrimer' },
         ]},
 
-        { text: '2026-03-29', collapsed: false, items: [
+        { text: '2026-03-29', collapsed: true, items: [
           { text: 'フォノン熱ホール効果と電荷プール', link: '/topic/2026-03_phonon-thermal-Hall-charge-puddle' },
           { text: '超伝導ダイオード効果', link: '/topic/2026-03_superconducting-diode-effect' },
           { text: 'カゴメ強磁性体Fe3Sn2における圧力下磁気相図', link: '/topic/2026-03_kagome-Fe3Sn2-pressure' },
@@ -109,21 +111,21 @@ export default defineConfig({
           { text: '反転対称性の工学的破れと非線形光誘起電流', link: '/topic/2026-03_nonlinear-photocurrent-Bi2Se3' },
         ]},
 
-        { text: '2026-03-28', collapsed: false, items: [
+        { text: '2026-03-28', collapsed: true, items: [
           { text: '軌道交替磁性体の電子構造', link: '/review/2026-03_orbital-altermagnetism' },
           { text: '強誘電体における超高速光-電子-フォノン相互作用', link: '/review/2026-03_ultrafast-ferroelectric-phonons' },
           { text: 'カイラルフォノンの軌道熱電変換', link: '/review/2026-03_phonon-orbital-seebeck' },
           { text: '軌道交替磁性体の平坦バンド', link: '/topic/2026-03_altermagnet-CrSb-flatband' },
         ]},
 
-        { text: '2026-03-25', collapsed: false, items: [
+        { text: '2026-03-25', collapsed: true, items: [
           { text: 'PXRDと深層学習を用いた材料解析', link: '/review/2026-03_PXRD-deep-learning' },
           { text: '超高速熱力学', link: '/review/2026-03_ultrafast-phonon-thermodynamics' },
           { text: '高エントロピーセラミックス', link: '/review/2026-03_ultrafast-sintering-HEC' },
           { text: 'ゲートモン量子ビット', link: '/review/2026-03_ultrastrong-coupling-gatemon' },
         ]},
 
-        { text: '2026-03-24', collapsed: false, items: [
+        { text: '2026-03-24', collapsed: true, items: [
           { text: 'アモルファス固体のエネルギー地形', link: '/review/2026-03_amorphous-energy-landscape' },
           { text: 'フェリ磁性の磁壁ダイナミクス', link: '/review/2026-03_domain-wall-dynamics-ferrimagnet' },
           { text: '電子テスラバルブ', link: '/review/2026-03_electron-tesla-valve' },
@@ -132,7 +134,7 @@ export default defineConfig({
           { text: 'Kitaevスピンガラス', link: '/review/2026-03_kitaev-spin-glass' },
         ]},
 
-        { text: '2026-03-23', collapsed: false, items: [
+        { text: '2026-03-23', collapsed: true, items: [
           { text: '交替磁性のトポロジカル物性', link: '/review/2026-03_hall-altermagnet' },
           { text: 'カゴメ平坦バンド共鳴', link: '/review/2026-03_kagome-flat-band-resonance' },
           { text: '強誘電性p波磁性体', link: '/review/2026-03_p-wave-magnet' },
@@ -146,7 +148,7 @@ export default defineConfig({
           { text: '原子電子トモグラフィーのML解析', link: '/review/2026-03_low-dose-AET-PANN' },
         ]},
 
-        { text: '2026-03-23', collapsed: false, items: [
+        { text: '2026-03-23', collapsed: true, items: [
           { text: '高磁化多元素合金の発見', link: '/focus/ML-FeCo-Ir-Pt' },
           { text: 'FeCoIrのXMCD解析', link: '/focus/FeCoIr/FeCoIr-xmcd' },
           { text: 'X線磁気円二色性とsum-rule則', link: '/focus/MCD/1992-03_XMCD-sum-rules' },
@@ -154,7 +156,7 @@ export default defineConfig({
         ]},
       ]},
 
-      { text: 'arXiv review', collapsed: false, items: [
+      { text: 'arXiv review', collapsed: true, items: [
 
         { text: '2026-03-23', collapsed: false, items: [
           { text: '量子機能デバイス', link: '/quantum/2026-03-23' },
