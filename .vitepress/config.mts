@@ -88,6 +88,7 @@ export default defineConfig({
           { text: 'GST系相変化材料のアモルファス緩和と結晶化機構', link: '/topic/2026-04_GST-beta-relaxation-percolation' },
           { text: 'DMFTとサロゲートモデルを用いた電子構造の予測', link: '/topic/2026-04_DMFT-NN-surrogate' },
           { text: 'PINNsによるナノスケール熱輸送', link: '/topic/2026-04_PINNs-phonon-BTE' },
+          { text: 'NEB法を用いた結晶相転移解析', link: '/topic/2026-04_NEB-crystal-phase-transition' },
         ]},
 
         { text: '2026-03-31', collapsed: false, items: [

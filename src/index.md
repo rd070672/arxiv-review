@@ -59,6 +59,7 @@ features:
 - [GST系相変化材料のアモルファス緩和と結晶化機構](topic/2026-04_GST-beta-relaxation-percolation)
 - [DMFTとサロゲートモデルを用いた電子構造の予測](topic/2026-04_DMFT-NN-surrogate)
 - [PINNsによるナノスケール熱輸送](topic/2026-04_PINNs-phonon-BTE)
+- [NEB法を用いた結晶相転移解析](topic/2026-04_NEB-crystal-phase-transition)
 
 ### 2026年3月31日更新
 - [XMCDによる交替磁性体の研究](topic/2026-03_XMCD-altermagnetism)
