@@ -86,6 +86,8 @@ export default defineConfig({
           { text: 'MLアシスト格子モンテカルロ計算', link: '/topic/2026-04_HEA-lattice-MC-chemical-order' },
           { text: '粒界における自己ピンニングのKMCシミュレーション', link: '/topic/2026-04_grain-boundary-self-pinning-KMC' },
           { text: 'GST系相変化材料のアモルファス緩和と結晶化機構', link: '/topic/2026-04_GST-beta-relaxation-percolation' },
+          { text: 'DMFTとサロゲートモデルを用いた電子構造の予測', link: '/topic/2026-04_DMFT-NN-surrogate' },
+          { text: 'PINNsによるナノスケール熱輸送', link: '/topic/2026-04_PINNs-phonon-BTE' },
         ]},
 
         { text: '2026-03-31', collapsed: false, items: [

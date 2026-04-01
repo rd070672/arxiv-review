@@ -57,6 +57,8 @@ features:
 - [MLアシスト格子モンテカルロ計算](topic/2026-04_HEA-lattice-MC-chemical-order)
 - [粒界における自己ピンニングのKMCシミュレーション](topic/2026-04_grain-boundary-self-pinning-KMC)
 - [GST系相変化材料のアモルファス緩和と結晶化機構](topic/2026-04_GST-beta-relaxation-percolation)
+- [DMFTとサロゲートモデルを用いた電子構造の予測](topic/2026-04_DMFT-NN-surrogate)
+- [PINNsによるナノスケール熱輸送](topic/2026-04_PINNs-phonon-BTE)
 
 ### 2026年3月31日更新
 - [XMCDによる交替磁性体の研究](topic/2026-03_XMCD-altermagnetism)
