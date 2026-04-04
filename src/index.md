@@ -52,6 +52,11 @@ features:
 ---
 
 ## トピック記事
+
+### 2026年4月4日更新
+- [QMCを用いた対称性分解エンタングルメント](topic/2026-04_QMC-symmetry-resolved-entanglement)
+- [PDF: アモルファス固体のエネルギー地形](topic/2026-04_PDF-amorphous-GLASS)
+
 ### 2026年4月2日更新
 - [多主元素合金における空孔媒介拡散の第一原理的計算](topic/2026-04_MPEA-vacancy-diffusion-eLCE-KMC)
 

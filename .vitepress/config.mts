@@ -80,6 +80,12 @@ export default defineConfig({
     sidebar: [
 
       { text: 'Topic summary', collapsed: false, items: [
+
+        { text: '2026-04-04', collapsed: false, items: [
+          { text: 'QMCを用いた対称性分解エンタングルメント', link: '/topic/2026-04_QMC-symmetry-resolved-entanglement' },
+          { text: 'PDF: アモルファス固体のエネルギー地形', link: '/topic/2026-04_PDF-amorphous-GLASS' },
+        ]},
+
         { text: '2026-04-02', collapsed: false, items: [
           { text: '多主元素合金における空孔媒介拡散の第一原理的計算', link: '/topic/2026-04_MPEA-vacancy-diffusion-eLCE-KMC' },
         ]},
