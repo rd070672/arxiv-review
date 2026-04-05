@@ -52,6 +52,9 @@ features:
 ---
 
 ## トピック記事
+### 2026年4月6日更新
+- [弾性カロリック効果を持つホイスラー合金](topic/2026-04_elastocaloric-Heusler-record)
+- [スピンアイスのゼロ点エネルギー](topic/2026-04_spin-ice-zero-point-entropy)
 
 ### 2026年4月4日更新
 - [QMCを用いた対称性分解エンタングルメント](topic/2026-04_QMC-symmetry-resolved-entanglement)
