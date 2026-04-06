@@ -84,6 +84,8 @@ export default defineConfig({
         { text: '2026-04-06', collapsed: false, items: [
           { text: '弾性カロリック効果を持つホイスラー合金', link: '/topic/2026-04_elastocaloric-Heusler-record' },
           { text: 'スピンアイスのゼロ点エネルギー', link: '/topic/2026-04_spin-ice-zero-point-entropy' },
+          { text: '電気熱量材料の極性フラストレーション', link: '/topic/2026-04_electrocaloric-polar-frustration' },
+          { text: 'MACEを用いた電気静力学設計空間', link: '/topic/2026-04_MACE-electrostatics-design-space' },
         ]},
 
         { text: '2026-04-04', collapsed: false, items: [

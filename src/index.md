@@ -55,6 +55,8 @@ features:
 ### 2026年4月6日更新
 - [弾性カロリック効果を持つホイスラー合金](topic/2026-04_elastocaloric-Heusler-record)
 - [スピンアイスのゼロ点エネルギー](topic/2026-04_spin-ice-zero-point-entropy)
+- [電気熱量材料の極性フラストレーション](topic/2026-04_electrocaloric-polar-frustration.md)
+- [MACEを用いた電気静力学設計空間](topic/2026-04_MACE-electrostatics-design-space)
 
 ### 2026年4月4日更新
 - [QMCを用いた対称性分解エンタングルメント](topic/2026-04_QMC-symmetry-resolved-entanglement)
