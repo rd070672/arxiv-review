@@ -81,6 +81,11 @@ export default defineConfig({
 
       { text: 'Topic summary', collapsed: false, items: [
 
+        { text: '2026-04-08', collapsed: false, items: [
+          { text: '準結晶の電子構造への第一原理アプローチ', link: '/topic/2026-04_quasicrystal-cutproject-DFT' },
+          { text: 'アモルファス金属の動的非一様性とアバランシェ', link: '/topic/2026-04_amorphous-metal-dynamical-heterogeneity-avalanche' },
+        ]},
+
         { text: '2026-04-06', collapsed: false, items: [
           { text: '弾性カロリック効果を持つホイスラー合金', link: '/topic/2026-04_elastocaloric-Heusler-record' },
           { text: 'スピンアイスのゼロ点エネルギー', link: '/topic/2026-04_spin-ice-zero-point-entropy' },

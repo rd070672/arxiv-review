@@ -52,6 +52,12 @@ features:
 ---
 
 ## トピック記事
+
+
+### 2026年4月8日更新
+- [準結晶の電子構造への第一原理アプローチ](topic/2026-04_quasicrystal-cutproject-DFT)
+- [アモルファス金属の動的非一様性とアバランシェ](topic/2026-04_amorphous-metal-dynamical-heterogeneity-avalanche)
+
 ### 2026年4月6日更新
 - [弾性カロリック効果を持つホイスラー合金](topic/2026-04_elastocaloric-Heusler-record)
 - [スピンアイスのゼロ点エネルギー](topic/2026-04_spin-ice-zero-point-entropy)
