@@ -81,6 +81,11 @@ export default defineConfig({
 
       { text: 'Topic summary', collapsed: false, items: [
 
+        { text: '2026-04-11', collapsed: false, items: [
+          { text: 'スピン波リザーバー計算におけるSAFの応用', link: '/topic/2026-04_spinwave-reservoir-computing-SAF' },
+          { text: 'DQMCを用いたdwave-Hubbardモデル', link: '/topic/2026-04_dqmc-dwave-hubbard' },
+        ]},
+
         { text: '2026-04-08', collapsed: false, items: [
           { text: '準結晶の電子構造への第一原理アプローチ', link: '/topic/2026-04_quasicrystal-cutproject-DFT' },
           { text: 'アモルファス金属の動的非一様性とアバランシェ', link: '/topic/2026-04_amorphous-metal-dynamical-heterogeneity-avalanche' },

@@ -53,6 +53,9 @@ features:
 
 ## トピック記事
 
+### 2026年4月11日更新
+- [スピン波リザーバー計算におけるSAFの応用](topic/2026-04_spinwave-reservoir-computing-SAF)
+- [DQMCを用いたdwave-Hubbardモデル](topic/2026-04_dqmc-dwave-hubbard)
 
 ### 2026年4月8日更新
 - [準結晶の電子構造への第一原理アプローチ](topic/2026-04_quasicrystal-cutproject-DFT)
