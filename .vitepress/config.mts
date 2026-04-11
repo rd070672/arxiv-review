@@ -86,6 +86,9 @@ export default defineConfig({
           { text: 'DQMCを用いたdwave-Hubbardモデル', link: '/topic/2026-04_dqmc-dwave-hubbard' },
           { text: 'ErTe3における電荷密度波とRaman散乱', link: '/topic/2026-04_ErTe3-CDW-Raman-strain' },
           { text: 'ナノグラフェンにおける強磁性近藤効果の実験的発見', link: '/topic/2026-04_ferromagnetic-kondo-nanographene' },
+          { text: 'ニッケレート二重層のARPES研究', link: '/topic/2026-04_nickelate-bilayer-arpes' },
+          { text: '励起子Mott相転移', link: '/topic/2026-04_excitonic-mott-transition' },
+          { text: '強誘電体の光歪み効果', link: '/topic/2026-04_photostriction-BaTiO3-thermalized-carriers' },
         ]},
 
         { text: '2026-04-08', collapsed: false, items: [

@@ -60,6 +60,9 @@ features:
 - [DQMCを用いたdwave-Hubbardモデル](topic/2026-04_dqmc-dwave-hubbard)
 - [ErTe3における電荷密度波とRaman散乱](topic/2026-04_ErTe3-CDW-Raman-strain)
 - [ナノグラフェンにおける強磁性近藤効果の実験的発見](topic/2026-04_ferromagnetic-kondo-nanographene)
+- [ニッケレート二重層のARPES研究](topic/2026-04_nickelate-bilayer-arpes)
+- [励起子Mott相転移](topic/2026-04_excitonic-mott-transition)
+- [強誘電体の光歪み効果](topic/2026-04_photostriction-BaTiO3-thermalized-carriers)
 
 ### 2026年4月8日更新
 - [準結晶の電子構造への第一原理アプローチ](topic/2026-04_quasicrystal-cutproject-DFT)
