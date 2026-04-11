@@ -56,6 +56,8 @@ features:
 ### 2026年4月11日更新
 - [スピン波リザーバー計算におけるSAFの応用](topic/2026-04_spinwave-reservoir-computing-SAF)
 - [DQMCを用いたdwave-Hubbardモデル](topic/2026-04_dqmc-dwave-hubbard)
+- [ErTe3における電荷密度波とRaman散乱](topic/2026-04_ErTe3-CDW-Raman-strain)
+- [ナノグラフェンにおける強磁性近藤効果の実験的発見](topic/2026-04_ferromagnetic-kondo-nanographene)
 
 ### 2026年4月8日更新
 - [準結晶の電子構造への第一原理アプローチ](topic/2026-04_quasicrystal-cutproject-DFT)

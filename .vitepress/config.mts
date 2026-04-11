@@ -84,6 +84,8 @@ export default defineConfig({
         { text: '2026-04-11', collapsed: false, items: [
           { text: 'スピン波リザーバー計算におけるSAFの応用', link: '/topic/2026-04_spinwave-reservoir-computing-SAF' },
           { text: 'DQMCを用いたdwave-Hubbardモデル', link: '/topic/2026-04_dqmc-dwave-hubbard' },
+          { text: 'ErTe3における電荷密度波とRaman散乱', link: '/topic/2026-04_ErTe3-CDW-Raman-strain' },
+          { text: 'ナノグラフェンにおける強磁性近藤効果の実験的発見', link: '/topic/2026-04_ferromagnetic-kondo-nanographene' },
         ]},
 
         { text: '2026-04-08', collapsed: false, items: [
