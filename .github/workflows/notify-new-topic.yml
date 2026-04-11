@@ -8,16 +8,20 @@ on:
       - 'src/topic/**'
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   notify:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v5
+      - name: Checkout repository
+        uses: actions/checkout@v5
         with:
           fetch-depth: 2
 
-      - name: Detect newly added topic files
+      - name: Detect newly added topic markdown files
         id: detect
         shell: bash
         run: |
@@ -51,20 +55,58 @@ jobs:
           NEW_FILES: ${{ steps.detect.outputs.files }}
         run: |
           python - <<'PY' > payload.json
-          import json, os
+          import json
+          import os
+          import re
+          from pathlib import Path
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
 
           base = os.environ["BASE_URL"].rstrip("/")
-          files = [f for f in os.environ["NEW_FILES"].splitlines() if f.strip()]
+          files = [f.strip() for f in os.environ["NEW_FILES"].splitlines() if f.strip()]
+          notify_time = datetime.now(ZoneInfo("Asia/Tokyo")).strftime("%Y-%m-%d %H:%M JST")
 
-          lines = ["新しい記事を公開しました"]
-          for path in files:
-              slug = path[len("src/topic/"):]
+          def extract_title(text: str, path: str) -> str:
+              # 1) front matter の title を優先
+              if text.startswith("---\n"):
+                  parts = text.split("\n---\n", 1)
+                  if len(parts) == 2:
+                      frontmatter = parts[0][4:]
+                      m = re.search(r'^title\s*:\s*["\']?(.*?)["\']?\s*$', frontmatter, re.MULTILINE)
+                      if m and m.group(1).strip():
+                          return m.group(1).strip()
+
+              # 2) 最初の H1 (# タイトル) を使う
+              m = re.search(r'^\#\s+(.+?)\s*$', text, re.MULTILINE)
+              if m and m.group(1).strip():
+                  return m.group(1).strip()
+
+              # 3) 最後の保険としてファイル名
+              return Path(path).stem
+
+          messages = []
+
+          for path_str in files:
+              path = Path(path_str)
+              text = path.read_text(encoding="utf-8")
+
+              slug = path_str[len("src/topic/"):]
               if slug.endswith(".md"):
                   slug = slug[:-3]
-              url = f"{base}/topic/{slug}"
-              lines.append(url)
 
-          print(json.dumps({"text": "\n".join(lines)}, ensure_ascii=False))
+              title = extract_title(text, path_str)
+              url = f"{base}/topic/{slug}"
+
+              message = (
+                  "新しいレビュー記事を公開しました。\n"
+                  f"日時：{notify_time}\n"
+                  f"タイトル：{title}\n"
+                  f"リンク：{url}"
+              )
+              messages.append(message)
+
+          payload = {"text": "\n\n".join(messages)}
+          print(json.dumps(payload, ensure_ascii=False))
           PY
 
       - name: Post to Slack
@@ -72,7 +114,7 @@ jobs:
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
-          curl -X POST \
+          curl --fail-with-body -sS -X POST \
             -H 'Content-type: application/json' \
             --data @payload.json \
             "$SLACK_WEBHOOK_URL"

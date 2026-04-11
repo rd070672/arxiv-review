@@ -53,7 +53,7 @@ features:
 
 ## トピック記事
 
-- [test](topic/2026-04_test.md)
+- [test](topic/2026-04_test2.md)
 
 ### 2026年4月11日更新
 - [スピン波リザーバー計算におけるSAFの応用](topic/2026-04_spinwave-reservoir-computing-SAF)
