@@ -5,7 +5,7 @@ layout: home
 hero:
   name: ""
   text: "arXiv review"
-  tagline: "材料・物性・動的応答をつなぎ、量子機能デバイスにつながる設計原理を探る"
+  tagline: "材料・物性・動的応答をつなぎ、新材料・機能デバイスにつながる設計原理を拓く"
   actions:
     - theme: brand
       text: About
