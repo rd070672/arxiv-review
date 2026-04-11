@@ -62,7 +62,7 @@ jobs:
               if slug.endswith(".md"):
                   slug = slug[:-3]
               url = f"{base}/topic/{slug}"
-              lines.append(f"• {url}")
+              lines.append(url)
 
           print(json.dumps({"text": "\n".join(lines)}, ensure_ascii=False))
           PY
