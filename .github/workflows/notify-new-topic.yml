@@ -1,0 +1,78 @@
+name: Notify Slack for new topic articles
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/topic/**'
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 2
+
+      - name: Detect newly added topic files
+        id: detect
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          BEFORE="${{ github.event.before }}"
+          AFTER="${{ github.sha }}"
+
+          if [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            FILES=$(git diff-tree --no-commit-id --name-only --diff-filter=A -r "$AFTER" | grep '^src/topic/.*\.md$' || true)
+          else
+            FILES=$(git diff --name-only --diff-filter=A "$BEFORE" "$AFTER" | grep '^src/topic/.*\.md$' || true)
+          fi
+
+          if [ -z "$FILES" ]; then
+            echo "has_new=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          {
+            echo "has_new=true"
+            echo "files<<EOF"
+            echo "$FILES"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Build Slack payload
+        if: steps.detect.outputs.has_new == 'true'
+        env:
+          BASE_URL: https://rd070672.github.io/arxiv-review
+          NEW_FILES: ${{ steps.detect.outputs.files }}
+        run: |
+          python - <<'PY' > payload.json
+          import json, os
+
+          base = os.environ["BASE_URL"].rstrip("/")
+          files = [f for f in os.environ["NEW_FILES"].splitlines() if f.strip()]
+
+          lines = ["新しい記事を公開しました"]
+          for path in files:
+              slug = path[len("src/topic/"):]
+              if slug.endswith(".md"):
+                  slug = slug[:-3]
+              url = f"{base}/topic/{slug}"
+              lines.append(f"• {url}")
+
+          print(json.dumps({"text": "\n".join(lines)}, ensure_ascii=False))
+          PY
+
+      - name: Post to Slack
+        if: steps.detect.outputs.has_new == 'true'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          curl -X POST \
+            -H 'Content-type: application/json' \
+            --data @payload.json \
+            "$SLACK_WEBHOOK_URL"
