@@ -53,6 +53,8 @@ features:
 
 ## トピック記事
 
+- [test](topic/2026-04_test.md)
+
 ### 2026年4月11日更新
 - [スピン波リザーバー計算におけるSAFの応用](topic/2026-04_spinwave-reservoir-computing-SAF)
 - [DQMCを用いたdwave-Hubbardモデル](topic/2026-04_dqmc-dwave-hubbard)
