@@ -1,7 +1,6 @@
 # mMACE 徹底解説: 磁性材料のための等変多体メッセージパッシング原子間ポテンシャル
 
 - **執筆日**：2026-04-12
-- **対象 PDF ファイル名**：`2604.08143v1_Equivariant Many-body Message Passing Interatomic Potentials for Magnetic Materials.pdf`
 - **論文タイトル**：Equivariant Many-body Message Passing Interatomic Potentials for Magnetic Materials
 - **著者**：Cheuk Hin Ho, Cas van der Oord, James P. Darby, Theo Keane, Raz L. Benson, Cristian Rebolledo Espinoza, Rutvij Kulkarni, Elina Spinu, Michail Papanikolaou, Richard Tomsett, Robert M. Forrest, Jonathan J. Bean, Gábor Csányi, Christoph Ortner
 - **arXiv ID**：arXiv:2604.08143v1 [cond-mat.mtrl-sci]（2026年4月9日）

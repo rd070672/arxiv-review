@@ -53,8 +53,6 @@ features:
 
 ## トピック記事
 
-- [test](topic/2026-04_test2.md)
-
 ### 2026年4月12日更新
 - [mMACEを用いた磁性材料のMLIP](topic/2026-04_mMACE-magnetic-MLIP)
 - [mMACE 徹底解説](focus/mMACE/2026-04_magnetic-mlip)
