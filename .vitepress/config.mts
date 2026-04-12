@@ -81,6 +81,11 @@ export default defineConfig({
 
       { text: 'Topic summary', collapsed: false, items: [
 
+        { text: '2026-04-12', collapsed: false, items: [
+          { text: 'mMACEを用いた磁性材料のMLIP', link: '/topic/2026-04_mMACE-magnetic-MLIP' },
+          { text: 'mMACE 徹底解説', link: '/focus/mMACE/2026-04_magnetic-mlip' },
+        ]},
+
         { text: '2026-04-11', collapsed: false, items: [
           { text: 'スピン波リザーバー計算におけるSAFの応用', link: '/topic/2026-04_spinwave-reservoir-computing-SAF' },
           { text: 'DQMCを用いたdwave-Hubbardモデル', link: '/topic/2026-04_dqmc-dwave-hubbard' },
