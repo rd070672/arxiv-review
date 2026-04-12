@@ -83,15 +83,18 @@ export default defineConfig({
 
         { text: '2026-04-12', collapsed: false, items: [
           { text: 'mMACEを用いた磁性材料のMLIP', link: '/topic/2026-04_mMACE-magnetic-MLIP' },
+          { text: '因果推論を用いた強誘電体のスイッチング', link: '/topic/2026-04_causal-ML-ferroelectric-switching' },
+          { text: '機械学習ポテンシャルによるアモルファスGSTシミュレーション', link: '/topic/2026-04_amorphous-GST-in-gap-states' },
+          { text: 'PiNNsによるフェーズフィールドシミュレーションの加速', link: '/topic/2026-04_PF-PINO-phase-field-neural-operator' },
         ]},
 
         { text: '2026-04-11', collapsed: false, items: [
-          { text: 'スピン波リザーバー計算におけるSAFの応用', link: '/topic/2026-04_spinwave-reservoir-computing-SAF' },
-          { text: 'DQMCを用いたdwave-Hubbardモデル', link: '/topic/2026-04_dqmc-dwave-hubbard' },
+          { text: 'スピン波物理リザバーコンピューティング', link: '/topic/2026-04_spinwave-reservoir-computing-SAF' },
+          { text: '行列式量子モンテカルロ法とフェルミオン符号問題', link: '/topic/2026-04_dqmc-dwave-hubbard' },
           { text: 'ErTe3における電荷密度波とRaman散乱', link: '/topic/2026-04_ErTe3-CDW-Raman-strain' },
           { text: 'ナノグラフェンにおける強磁性近藤効果の実験的発見', link: '/topic/2026-04_ferromagnetic-kondo-nanographene' },
-          { text: 'ニッケレート二重層のARPES研究', link: '/topic/2026-04_nickelate-bilayer-arpes' },
-          { text: '励起子Mott相転移', link: '/topic/2026-04_excitonic-mott-transition' },
+          { text: '二層ニッケル酸化物超伝導体のARPES実験', link: '/topic/2026-04_nickelate-bilayer-arpes' },
+          { text: '反転分布なき励起子モット転移', link: '/topic/2026-04_excitonic-mott-transition' },
           { text: '強誘電体の光歪み効果', link: '/topic/2026-04_photostriction-BaTiO3-thermalized-carriers' },
         ]},
 
@@ -102,14 +105,14 @@ export default defineConfig({
 
         { text: '2026-04-06', collapsed: false, items: [
           { text: '弾性カロリック効果を持つホイスラー合金', link: '/topic/2026-04_elastocaloric-Heusler-record' },
-          { text: 'スピンアイスのゼロ点エネルギー', link: '/topic/2026-04_spin-ice-zero-point-entropy' },
+          { text: 'スピンアイスにおける温度ゼロKエントロピー', link: '/topic/2026-04_spin-ice-zero-point-entropy' },
           { text: '電気熱量材料の極性フラストレーション', link: '/topic/2026-04_electrocaloric-polar-frustration' },
           { text: 'MACEを用いた電気静力学設計空間', link: '/topic/2026-04_MACE-electrostatics-design-space' },
         ]},
 
         { text: '2026-04-04', collapsed: false, items: [
-          { text: 'QMCを用いた対称性分解エンタングルメント', link: '/topic/2026-04_QMC-symmetry-resolved-entanglement' },
-          { text: 'PDF: アモルファス固体のエネルギー地形', link: '/topic/2026-04_PDF-amorphous-GLASS' },
+          { text: '量子モンテカルロで迫るもつれの物理', link: '/topic/2026-04_QMC-symmetry-resolved-entanglement' },
+          { text: '生成AIが非晶質構造解析の逆問題に挑む', link: '/topic/2026-04_PDF-amorphous-GLASS' },
         ]},
 
         { text: '2026-04-02', collapsed: false, items: [

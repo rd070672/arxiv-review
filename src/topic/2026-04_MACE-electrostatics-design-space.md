@@ -1,7 +1,7 @@
 # MACE基盤ポテンシャルの限界に挑む：長距離静電相互作用の自己無撞着な取り込み
 
 - **執筆日**: 2026-04-06
-- **トピック**: 機械学習インターアトミックポテンシャル（MLIP）における長距離静電相互作用の記述と設計空間
+- **トピック**: 機械学習原子間ポテンシャル（MLIP）における長距離静電相互作用の記述と設計空間
 - **タグ**: Computation and Theory / Defects and Impurities; Thin Films and Interfaces / Machine Learning; Molecular Dynamics
 - **注目論文**: W.J. Baldwin, I. Batatia, M. Vondrák, J.T. Margraf, G. Csányi, "Design Space of Self-Consistent Electrostatic Machine Learning Interatomic Potentials," arXiv:2603.14700 (2026)
 - **参照関連論文数**: 8本
@@ -10,7 +10,7 @@
 
 ## 1. なぜ今この話題なのか
 
-2022年にMACE（Multi-Atomic Cluster Expansion）が登場して以来、機械学習インターアトミックポテンシャル（MLIP: Machine Learning Interatomic Potential）の分野は急速に成熟した。MACEは等変グラフニューラルネットワークを用いた高次のボディオーダーメッセージパッシングにより、量子力学的な精度を保ちながら古典分子動力学シミュレーションに匹敵する高速計算を実現した。今日では、MACEを基盤とした「基盤モデル（foundation model）」——すなわちMACE-MP-0やMACE-OMAＴのような、元素の周期表全体をカバーする汎用ポテンシャル——が次々と公開されており、材料設計から界面科学、電池材料まで幅広い分野で活用されている。
+2022年にMACE（Multi-Atomic Cluster Expansion）が登場して以来、機械学習原子間ポテンシャル（MLIP: Machine Learning Interatomic Potential）の分野は急速に成熟した。MACEは等変グラフニューラルネットワークを用いた高次のボディオーダーメッセージパッシングにより、量子力学的な精度を保ちながら古典分子動力学シミュレーションに匹敵する高速計算を実現した。今日では、MACEを基盤とした「基盤モデル（foundation model）」——すなわちMACE-MP-0やMACE-OMAＴのような、元素の周期表全体をカバーする汎用ポテンシャル——が次々と公開されており、材料設計から界面科学、電池材料まで幅広い分野で活用されている。
 
 しかし、この急速な普及の陰で、ひとつの根本的な問題が置き去りにされてきた。それは**長距離静電相互作用の記述**である。
 
@@ -218,7 +218,7 @@ $$\frac{dq^*}{d\theta} = -\left(I - \frac{\partial F}{\partial q^*}\right)^{-1} 
 
 **1. MACE（Multi-Atomic Cluster Expansion）** ：原子クラスター展開（ACE）をE(3)-等変グラフニューラルネットワークとして実装した機械学習ポテンシャルのアーキテクチャ。高次のボディオーダーメッセージパッシングにより、少ないメッセージパッシング回数で高精度の力場記述を実現する。Batatia らが2022年に発表（NIPS 2022）。
 
-**2. 機械学習インターアトミックポテンシャル（MLIP）** ：原子の配置（座標と元素種）から原子間の力とエネルギーを予測するニューラルネットワークモデル。第一原理計算（DFT）の精度と古典分子動力学の計算速度を両立することを目指す。訓練データはDFT計算で生成する。
+**2. 機械学習原子間ポテンシャル（MLIP）** ：原子の配置（座標と元素種）から原子間の力とエネルギーを予測するニューラルネットワークモデル。第一原理計算（DFT）の精度と古典分子動力学の計算速度を両立することを目指す。訓練データはDFT計算で生成する。
 
 **3. 基盤モデル（Foundation Model）** ：元素の周期表全体をカバーするように大規模データで訓練された汎用MLIPモデル。MACE-MP-0、MACE-OMAT、CHGNet、SevenNetなどが代表例。特定の系に対してファインチューニング（微調整）して用いることも多い。
 

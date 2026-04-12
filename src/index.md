@@ -24,7 +24,7 @@ features:
     details: 材料合成、熱処理、薄膜形成、組織制御を通じて、材料のつくり方と機能の関係を探究します。プロセス・構造・特性の連関を明らかにし、高性能磁性材料や機能性材料の設計指針を築きます。
 
   - title: 電子構造・物性物理
-    details: 電子状態、磁性、輸送現象、相転移に着目し、材料機能の起源を物理の視点から理解します。磁気異方性、磁歪、スピン軌道相互作用と巨視的特性のつながりを重視し、機能発現の本質に迫ります。
+    details: 電子状態、磁性、輸送現象、相転移に着目し、材料の基本的な物理特性を理解します。実験と理論を組み合わせ、電子・スピン・格子の相互作用が生み出す多様な物性を解明します。
 
   - title: 計算材料科学
     details: 第一原理計算や数値シミュレーションを活用し、電子・原子レベルから材料機能の発現機構を解析します。実験では直接見えにくい内部自由度を可視化し、材料設計や応答予測へと展開します。
@@ -43,26 +43,23 @@ features:
 
   - title: 量子機能デバイス
     details: 量子スピン、量子相関、トポロジカル状態を活用した新しいデバイス機能の創出を目指します。量子ビーム計測や第一原理計算と連携し、量子マテリアルの特性を引き出す設計指針を築きます。
-
-  # - title: 連成場シミュレーション
-  #   details: 電磁気、力学、熱、スピン、格子振動といった複数の物理現象が結びつく複雑な応答を統合的に扱います。磁化反転、損失、共鳴、磁歪応答を数理モデルと数値解析で結び、実験と往復しながら理解を深めます。
-
-  # - title: データ駆動材料設計
-  #   details: 実験、計算、計測から得られる多様なデータを統合し、機械学習や統計解析によって材料研究を加速します。複雑なデータの中から重要因子や隠れた相関を抽出し、解釈性のある理解と逆設計につなげます。
 ---
 
 ## トピック記事
 
 ### 2026年4月12日更新
 - [mMACEを用いた磁性材料のMLIP](topic/2026-04_mMACE-magnetic-MLIP)
+- [因果推論を用いた強誘電体のスイッチング](topic/2026-04_causal-ML-ferroelectric-switching)
+- [機械学習ポテンシャルによるアモルファスGSTシミュレーション](topic/2026-04_amorphous-GST-in-gap-states)
+- [PiNNsによるフェーズフィールドシミュレーションの加速](topic/2026-04_PF-PINO-phase-field-neural-operator)
 
 ### 2026年4月11日更新
-- [スピン波リザーバー計算におけるSAFの応用](topic/2026-04_spinwave-reservoir-computing-SAF)
-- [DQMCを用いたdwave-Hubbardモデル](topic/2026-04_dqmc-dwave-hubbard)
+- [スピン波物理リザバーコンピューティング](topic/2026-04_spinwave-reservoir-computing-SAF)
+- [行列式量子モンテカルロ法とフェルミオン符号問題](topic/2026-04_dqmc-dwave-hubbard)
 - [ErTe3における電荷密度波とRaman散乱](topic/2026-04_ErTe3-CDW-Raman-strain)
 - [ナノグラフェンにおける強磁性近藤効果の実験的発見](topic/2026-04_ferromagnetic-kondo-nanographene)
-- [ニッケレート二重層のARPES研究](topic/2026-04_nickelate-bilayer-arpes)
-- [励起子Mott相転移](topic/2026-04_excitonic-mott-transition)
+- [二層ニッケル酸化物超伝導体のARPES実験](topic/2026-04_nickelate-bilayer-arpes)
+- [反転分布なき励起子モット転移](topic/2026-04_excitonic-mott-transition)
 - [強誘電体の光歪み効果](topic/2026-04_photostriction-BaTiO3-thermalized-carriers)
 
 ### 2026年4月8日更新
@@ -71,13 +68,13 @@ features:
 
 ### 2026年4月6日更新
 - [弾性カロリック効果を持つホイスラー合金](topic/2026-04_elastocaloric-Heusler-record)
-- [スピンアイスのゼロ点エネルギー](topic/2026-04_spin-ice-zero-point-entropy)
+- [スピンアイスにおける温度ゼロKエントロピー](topic/2026-04_spin-ice-zero-point-entropy)
 - [電気熱量材料の極性フラストレーション](topic/2026-04_electrocaloric-polar-frustration.md)
 - [MACEを用いた電気静力学設計空間](topic/2026-04_MACE-electrostatics-design-space)
 
 ### 2026年4月4日更新
-- [QMCを用いた対称性分解エンタングルメント](topic/2026-04_QMC-symmetry-resolved-entanglement)
-- [PDF: アモルファス固体のエネルギー地形](topic/2026-04_PDF-amorphous-GLASS)
+- [量子モンテカルロで迫るもつれの物理](topic/2026-04_QMC-symmetry-resolved-entanglement)
+- [生成AIが非晶質構造解析の逆問題に挑む](topic/2026-04_PDF-amorphous-GLASS)
 
 ### 2026年4月2日更新
 - [多主元素合金における空孔媒介拡散の第一原理的計算](topic/2026-04_MPEA-vacancy-diffusion-eLCE-KMC)
