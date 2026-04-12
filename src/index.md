@@ -55,7 +55,6 @@ features:
 
 ### 2026年4月12日更新
 - [mMACEを用いた磁性材料のMLIP](topic/2026-04_mMACE-magnetic-MLIP)
-- [mMACE 徹底解説](focus/mMACE/2026-04_magnetic-mlip)
 
 ### 2026年4月11日更新
 - [スピン波リザーバー計算におけるSAFの応用](topic/2026-04_spinwave-reservoir-computing-SAF)
@@ -148,6 +147,7 @@ features:
 - [FeCoIrのXMCD解析](focus/FeCoIr/FeCoIr-xmcd)
 - [X線磁気円二色性とsum-rule則](focus/MCD/1992-03_XMCD-sum-rules)
 - [スピングラス動力学](focus/spin-glass/spin-glass-dynamics.md)
+- [mMACE 徹底解説](focus/mMACE/2026-04_magnetic-mlip)
 
 
 ## arXiv論文の要約

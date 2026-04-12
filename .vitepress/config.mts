@@ -83,7 +83,6 @@ export default defineConfig({
 
         { text: '2026-04-12', collapsed: false, items: [
           { text: 'mMACEを用いた磁性材料のMLIP', link: '/topic/2026-04_mMACE-magnetic-MLIP' },
-          { text: 'mMACE 徹底解説', link: '/focus/mMACE/2026-04_magnetic-mlip' },
         ]},
 
         { text: '2026-04-11', collapsed: false, items: [
@@ -181,11 +180,12 @@ export default defineConfig({
           { text: '原子電子トモグラフィーのML解析', link: '/review/2026-03_low-dose-AET-PANN' },
         ]},
 
-        { text: '2026-03-23', collapsed: true, items: [
+        { text: '論文の深読み', collapsed: true, items: [
           { text: '高磁化多元素合金の発見', link: '/focus/ML-FeCo-Ir-Pt' },
           { text: 'FeCoIrのXMCD解析', link: '/focus/FeCoIr/FeCoIr-xmcd' },
           { text: 'X線磁気円二色性とsum-rule則', link: '/focus/MCD/1992-03_XMCD-sum-rules' },
           { text: 'スピングラス動力学', link: '/focus/spin-glass/spin-glass-dynamics' },
+          { text: 'mMACE 徹底解説', link: '/focus/mMACE/2026-04_magnetic-mlip' },
         ]},
       ]},
 
