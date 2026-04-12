@@ -17,8 +17,8 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Allow only one concurrent deployment.
+# Keep the currently running deployment alive; newer runs will wait/pending.
 concurrency:
   group: pages
   cancel-in-progress: false
@@ -29,9 +29,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
-          fetch-depth: 0 # Not needed if lastUpdated is not enabled
+          fetch-depth: 0 # Keep full history for safer diff handling in later jobs
       # - uses: pnpm/action-setup@v3 # Uncomment this block if you're using pnpm
       #   with:
       #     version: 9 # Not needed if you've set "packageManager" in package.json
@@ -60,7 +60,126 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     name: Deploy
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # Slack notification job
+  notify:
+    needs: deploy
+    if: ${{ needs.deploy.result == 'success' }}
+    runs-on: ubuntu-latest
+    name: Notify Slack
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Detect newly added topic markdown files
+        id: detect
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # Manual runs should not send article notifications
+          if [ "${{ github.event_name }}" != "push" ]; then
+            echo "has_new=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          BEFORE="${{ github.event.before }}"
+          AFTER="${{ github.sha }}"
+
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            FILES=$(git diff-tree --no-commit-id --name-only --diff-filter=A -r "$AFTER" | grep '^src/topic/.*\.md$' || true)
+          else
+            FILES=$(git diff --name-only --diff-filter=A "$BEFORE" "$AFTER" | grep '^src/topic/.*\.md$' || true)
+          fi
+
+          if [ -z "$FILES" ]; then
+            echo "has_new=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          {
+            echo "has_new=true"
+            echo "files<<EOF"
+            echo "$FILES"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Build Slack payload
+        if: steps.detect.outputs.has_new == 'true'
+        env:
+          BASE_URL: ${{ needs.deploy.outputs.page_url }}
+          NEW_FILES: ${{ steps.detect.outputs.files }}
+        run: |
+          python - <<'PY' > payload.json
+          import json
+          import os
+          import re
+          from pathlib import Path
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          base = os.environ["BASE_URL"].rstrip("/")
+          files = [f.strip() for f in os.environ["NEW_FILES"].splitlines() if f.strip()]
+          notify_time = datetime.now(ZoneInfo("Asia/Tokyo")).strftime("%Y-%m-%d")
+
+          def extract_title(text: str, path: str) -> str:
+              # 1) front matter の title を優先
+              if text.startswith("---\n"):
+                  parts = text.split("\n---\n", 1)
+                  if len(parts) == 2:
+                      frontmatter = parts[0][4:]
+                      m = re.search(r'^title\s*:\s*["\']?(.*?)["\']?\s*$', frontmatter, re.MULTILINE)
+                      if m and m.group(1).strip():
+                          return m.group(1).strip()
+
+              # 2) 最初の H1 を使う
+              m = re.search(r'^\#\s+(.+?)\s*$', text, re.MULTILINE)
+              if m and m.group(1).strip():
+                  return m.group(1).strip()
+
+              # 3) 最後の保険としてファイル名
+              return Path(path).stem
+
+          messages = []
+
+          for path_str in files:
+              path = Path(path_str)
+              text = path.read_text(encoding="utf-8")
+
+              slug = path_str[len("src/topic/"):]
+              if slug.endswith(".md"):
+                  slug = slug[:-3]
+
+              title = extract_title(text, path_str)
+              url = f"{base}/topic/{slug}"
+
+              message = (
+                  "新しいレビュー記事を公開しました。\n"
+                  f"日時：{notify_time}\n"
+                  f"タイトル：{title}\n"
+                  f"リンク：{url}"
+              )
+              messages.append(message)
+
+          payload = {"text": "\n\n".join(messages)}
+          print(json.dumps(payload, ensure_ascii=False))
+          PY
+
+      - name: Post to Slack
+        if: steps.detect.outputs.has_new == 'true'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          curl --fail-with-body -sS -X POST \
+            -H 'Content-type: application/json' \
+            --data @payload.json \
+            "$SLACK_WEBHOOK_URL"
