@@ -47,6 +47,10 @@ features:
 
 ## トピック記事
 
+### 2026年4月13日更新
+-[結晶生成AIとCrystalite](topic/2026-04_crystal-gen-diffusion-transformer)
+-[ポリウレアの粘弾性応答を学習した再帰型ニューラルオペレータ](topic/2026-04_multiscale-RNO-viscoelastic)
+
 ### 2026年4月12日更新
 - [mMACEを用いた磁性材料のMLIP](topic/2026-04_mMACE-magnetic-MLIP)
 - [因果推論を用いた強誘電体のスイッチング](topic/2026-04_causal-ML-ferroelectric-switching)

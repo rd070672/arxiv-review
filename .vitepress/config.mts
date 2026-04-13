@@ -81,6 +81,11 @@ export default defineConfig({
 
       { text: 'Topic summary', collapsed: false, items: [
 
+        { text: '2026-04-13', collapsed: false, items: [
+          { text: '結晶生成AIとCrystalite', link: '/topic/2026-04_crystal-gen-diffusion-transformer' },
+          { text: 'ポリウレアの粘弾性応答を学習した再帰型ニューラルオペレータ', link: '/topic/2026-04_multiscale-RNO-viscoelastic' },
+        ]},
+
         { text: '2026-04-12', collapsed: false, items: [
           { text: 'mMACEを用いた磁性材料のMLIP', link: '/topic/2026-04_mMACE-magnetic-MLIP' },
           { text: '因果推論を用いた強誘電体のスイッチング', link: '/topic/2026-04_causal-ML-ferroelectric-switching' },
