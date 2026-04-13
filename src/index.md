@@ -52,10 +52,10 @@ features:
 - [スピン-フォノン結合のモード選択性と異常輸送](topic/2026-04_magnon-phonon-magnetothermal)
 
 ### 2026年4月13日更新
--[結晶生成AIとCrystalite](topic/2026-04_crystal-gen-diffusion-transformer)
--[粘弾性応答を学習した再帰型ニューラルオペレータ](topic/2026-04_multiscale-RNO-viscoelastic)
--[準結晶のナノメカニカル共鳴器](topic/2026-04_quasicrystal-nanomechanical-resonator)
--[メモリスタのマルチスケール設計](topic/2026-04_memristor-multiscale-simulation)
+- [結晶生成AIとCrystalite](topic/2026-04_crystal-gen-diffusion-transformer)
+- [粘弾性応答を学習した再帰型ニューラルオペレータ](topic/2026-04_multiscale-RNO-viscoelastic)
+- [準結晶のナノメカニカル共鳴器](topic/2026-04_quasicrystal-nanomechanical-resonator)
+- [メモリスタのマルチスケール設計](topic/2026-04_memristor-multiscale-simulation)
 
 ### 2026年4月12日更新
 - [mMACEを用いた磁性材料のMLIP](topic/2026-04_mMACE-magnetic-MLIP)

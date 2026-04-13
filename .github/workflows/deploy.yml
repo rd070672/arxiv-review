@@ -149,9 +149,9 @@ jobs:
               # 3) 最後の保険としてファイル名
               return Path(path).stem
 
-          messages = []
+          article_blocks = []
 
-          for path_str in files:
+          for i, path_str in enumerate(files, start=1):
               path = Path(path_str)
               text = path.read_text(encoding="utf-8")
 
@@ -162,15 +162,20 @@ jobs:
               title = extract_title(text, path_str)
               url = f"{base}/topic/{slug}"
 
-              message = (
-                  "新しいレビュー記事を公開しました。\n"
-                  f"日時：{notify_time}\n"
+              block = (
+                  f"論文-{i}\n"
                   f"タイトル：{title}\n"
                   f"リンク：{url}"
               )
-              messages.append(message)
+              article_blocks.append(block)
 
-          payload = {"text": "\n\n".join(messages)}
+          payload_text = (
+              "新しいレビュー記事を公開しました。\n"
+              f"日時：{notify_time}\n\n"
+              + "\n\n".join(article_blocks)
+          )
+
+          payload = {"text": payload_text}
           print(json.dumps(payload, ensure_ascii=False))
           PY
 
