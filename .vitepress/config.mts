@@ -81,9 +81,16 @@ export default defineConfig({
 
       { text: 'Topic summary', collapsed: false, items: [
 
+        { text: '2026-04-14', collapsed: false, items: [
+          { text: 'ツイストvdW磁性体のマジックアングル', link: '/topic/2026-04_twisted-Fe3GeTe2-magic-angle' },
+          { text: 'スピン-フォノン結合のモード選択性と異常輸送', link: '/topic/2026-04_magnon-phonon-magnetothermal' },
+        ]},
+
         { text: '2026-04-13', collapsed: false, items: [
           { text: '結晶生成AIとCrystalite', link: '/topic/2026-04_crystal-gen-diffusion-transformer' },
-          { text: 'ポリウレアの粘弾性応答を学習した再帰型ニューラルオペレータ', link: '/topic/2026-04_multiscale-RNO-viscoelastic' },
+          { text: '粘弾性応答を学習した再帰型ニューラルオペレータ', link: '/topic/2026-04_multiscale-RNO-viscoelastic' },
+          { text: '準結晶のナノメカニカル共鳴器', link: '/topic/2026-04_quasicrystal-nanomechanical-resonator' },
+          { text: 'メモリスタのマルチスケール設計', link: '/topic/2026-04_memristor-multiscale-simulation' },
         ]},
 
         { text: '2026-04-12', collapsed: false, items: [
