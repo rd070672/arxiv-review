@@ -1,0 +1,275 @@
+\documentclass[prl,aps,twocolumn,showpacs,citeautoscript,reprint,superscriptaddress]{revtex4-1}
+\usepackage{graphicx}
+\usepackage{bm,amsmath,amssymb,wasysym,amsfonts,dcolumn}
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=blue, citecolor=blue, pdfborder={0 0 0}]{hyperref}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{mathrsfs}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{makecell}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\usepackage{hyperref}
+
+\newcommand{\DOI}[1]{\href{https://doi.org/#1}}
+
+\begin{document}
+
+\title{Orbital-excitation-dominated magnetization dissipation and quantum oscillation of Gilbert damping in Fe films}
+
+\author{Yue Chen}
+\altaffiliation{These authors contributed equally to this study.}
+\affiliation{Center for Advanced Quantum Studies and Department of Physics, Beijing Normal University, Beijing 100875, China}
+\affiliation{Institute for Nanoelectronics and Quantum Computing, Fudan University, Shanghai 200433, China}
+\affiliation{Interdisciplinary Center for Theoretical Physics and Information Sciences (ICTPIS), Fudan University, Shanghai 200433, China}
+\author{Haoran Chen}
+\altaffiliation{These authors contributed equally to this study.}
+\author{Xi Shen}
+\affiliation{Department of Physics and State Key Laboratory of Surface Physics, Fudan University, Shanghai 200433, China}
+\author{Weizhao Chen}
+\affiliation{Center for Advanced Quantum Studies and Department of Physics, Beijing Normal University, Beijing 100875, China}
+\affiliation{Institute for Nanoelectronics and Quantum Computing, Fudan University, Shanghai 200433, China}
+\affiliation{Interdisciplinary Center for Theoretical Physics and Information Sciences (ICTPIS), Fudan University, Shanghai 200433, China}
+\author{Yi Liu}
+\affiliation{Institute for Quantum Science and Technology, Department of Physics, Shanghai University, Shanghai 200444, China}
+\author{Yizheng Wu}
+\email{wuyizheng@fudan.edu.cn}
+\affiliation{Department of Physics and State Key Laboratory of Surface Physics, Fudan University, Shanghai 200433, China}
+\affiliation{Shanghai Research Center for Quantum Sciences, Shanghai 201315, China}
+\affiliation{Shanghai Key Laboratory of Metasurfaces for Light Manipulation, Fudan University, Shanghai 200433, China}
+\author{Zhe Yuan}
+\email{yuanz@fudan.edu.cn}
+\affiliation{Institute for Nanoelectronics and Quantum Computing, Fudan University, Shanghai 200433, China}
+\affiliation{Interdisciplinary Center for Theoretical Physics and Information Sciences (ICTPIS), Fudan University, Shanghai 200433, China}
+\date{\today}
+
+\begin{abstract}
+Using first-principles electronic structure calculation, we demonstrate the spin dissipation process in bulk Fe by orbital excitations within the energy bands of pure spin character. The variation of orbitals in the intraband transitions provides an efficient channel to convert spin to orbital angular momentum with spin-orbit interaction. This mechanism dominates the Gilbert damping of Fe below room temperature. The theoretical prediction is confirmed by the ferromagnetic resonance experiment performed on single-crystal Fe(001) films. A significant thickness-dependent damping oscillation is found at low temperature induced by the quantum well states of the corresponding energy bands. Our findings not only explain the microscopic nature of the recently reported ultralow damping of Fe-based alloys, but also help for the understanding of the transport and dissipation process of orbital currents.
+\end{abstract}
+\maketitle
+
+Gilbert damping is a phenomenological parameter to describe the dissipation process of magnetization dynamics using the Landau-Lifshitz-Gilbert equation~\cite{Urban:prl01,Malinowski:apl09,Bonetti:prl16,Li:prl19,Khodadadi:prl20}. Analogous to the viscous damping in a harmonic oscillator, the magnitude of Gilbert damping determines the magnetic switching time~\cite{Sun:prb00}, the critical current density required for switching using spin torques~\cite{Brataas:nm12}, and the velocity of current-driven magnetic textures~\cite{Tatara:pr08,Wang:ne20}. Thus, understanding and controlling Gilbert damping is highly desired to improve the performance of spintronics devices with low energy consumption. 
+
+There is a general consensus that Gilbert damping in metallic ferromagnets arises from the scattering of electrons at the Fermi level during magnetization precession~\cite{Kambsersky:CJP76,Tserkovnyak:rmp05,Scheck:prl07,Brataas:PRL08,Ebert:PRL11,Liu:prl14,Schoen:prb17,Starikov:prb18}, as sketched in Fig.~\ref{fig1}(a). The presence of spin-orbit coupling (SOC) allows spin flipping in the scattering resulting in the dissipation of spin angular momentum and hence the magnetization dissipation occurs because electronic spin is the main source of magnetization in solids. In strongly disordered samples, the damping usually increases with increasing the scattering rate due to the interband transitions. In high-quality single crystals, the damping is found to increase with decreasing the electron scattering rate, which is well described by the breathing Fermi surface (BFS) model with the intraband transition~\cite{Kambersky:cjp70}; see Fig.~\ref{fig1}(b). Nevertheless, the BFS model only explains the energy loss without a detailed picture of angular momentum dissipation. It is well known that orbital angular momentum also contributes to magnetization, and the recently discovered effect of orbital current on the spin-dependent transport has attracted great attention in the field of spintronics~\cite{Ding:prl22,Choi:nat23,Seifert:natnano23}. However, there is still lack of discussion about the effect of the orbital angular momentum on the magnetization dissipation process. A comprehensive understanding of the orbital effect in the Gilbert damping would be also helpful for gaining a deep insight into the transport and dynamics of orbital currents~\cite{Lyalin:prl23,Sala:prl23,Sohn:prl24,Rang:prb24}.
+
+\begin{figure}[b]
+\centering
+\includegraphics[width=\columnwidth]{fig1}
+\caption{(a) Schematic illustration of magnetic damping. The orbital moments (green arrows) are excited and varying during magnetization precession. Then spin (blue arrows) is converted to orbital angular momentum via SOC leading to the magnetic damping. (b) Sketch of the intraband transition. Equilibrium occupation of an energy band (black) evolves out of equilibrium (red) with magnetization precession until intraband transitions bring it back to equilibrium again. (c) Calculated damping of bcc Fe using Eq.~\eqref{eq:tcm} with low (black circles) and high (red squares) scattering rate of conduction electrons. The calculated DOS is plotted (blue line) for comparison.}
+\label{fig1}
+\end{figure}
+
+In this Letter, we investigate the contribution of each energy band for Gilbert damping of bcc Fe via first-principles calculations, and reveal the dominant role of orbital excitations. Intraband transitions in the energy bands with pure spin and hybridized orbitals alter orbital angular momentum, converting spin angular momentum to the orbital degree of freedom via SOC. The orbital angular momentum then dissipates to lattice through electron-phonon interaction. This is essentially the dominant mechanism contributing to Gilbert damping in Fe, attributed to the small hole pockets of $\Delta_5$ character near the H points in the Brillouin zone (BZ). To validate our theoretical predictions, we perform ferromagnetic resonance (FMR) experiment on ultrathin Fe(001) films with continuously varying thicknesses. The measured damping at low temperature exhibits quantum oscillations with the period of approximately 9 atomic layers, in excellent agreement with the quantum well states (QWSs) of $\Delta_5^\uparrow$ bands. Our findings reveal the microscopic nature of the recently reported ultralow damping in Fe-based alloys. The understanding of orbital excitations in the Gilbert damping process sheds light on the transport and dynamical properties of orbital angular momentum.
+
+%%%%%%%%10%%%%%%%%20%%%%%%%%30%%%%%%%%40%%%%%%%%50%%%%%%%%60%%%%%%%%70%%%%%%%%80
+{\it\color{red}Energy-dependent damping of Fe.---}Based upon first-principles electronic structure, the Gilbert damping can be calculated using Kambersk{\'y}'s torque-correlation model (TCM)~\cite{Kambsersky:CJP76,Gilmore:PRL07,Gilmore:JAP08} as
+\begin{equation}
+\alpha=\frac{\pi\hbar\gamma}{\mu_{0}M_s}\sum_{n,m}\int\frac{d^3k}{8\pi^3}\vert\Gamma_{nm}^{-}(\mathbf k)\vert^2\int dEA_{n\mathbf{k}}(E)A_{m\mathbf{k}}(E)\eta(E).\label{eq:tcm}
+\end{equation}
+Here the spectral function $A_{n\mathbf{k}}(E)$ is a Lorentzian centered at the band energies $E_{n\mathbf k}$ with its width corresponding to the scattering rate $\hbar/2\tau$~\cite{Gilmore:JAP08}. $\eta(E)=-\partial f/\partial E$ is the energy derivative of the Fermi-Dirac distribution, restricting the main contribution near the Fermi level $E_F$. The matrix element $\Gamma_{nm}^{-}(\mathbf k)=\langle\psi_{n\mathbf k}\vert[\sigma_-,H_{\rm so}]\vert\psi_{m\mathbf k}\rangle$ describes a torque on electron spin. $H_{\rm so}$ is the SOC Hamiltonian and $\sigma_-=\sigma_x-i\sigma_y$ is defined under the local quantization axis. 
+
+By shifting $E_F$ in Eq.~\eqref{eq:tcm}, the calculated Gilbert damping $\alpha$ of Fe is plotted in Fig.~\ref{fig1}(c) with the scattering rate $\hbar/2\tau=2$~meV and 26~meV corresponding to the calculated $\rho=0.8~\mu\Omega\,{\rm cm}$ and $9.5~\mu\Omega\,{\rm cm}$ at $E_F$, respectively. The latter is comparable to the experimental resistivity of 9.61~$\mu\Omega$~cm at 293 K~\cite{Ho:JPS83}. Some previous studies in literature suggests that $\alpha$ is positively correlated to the total density of states (DOS) at $E_F$~\cite{Schoen:NP16,Chen:natphys18,Chen:prl23,Xu:prb19}, but uncorrelated damping and DOS has also been reported~\cite{Hou:prapplied19,Jiang:prb24,Bera:arxiv24}. Here the calculated DOS is shown in Fig.~\ref{fig1}(c) for comparison. In the energy range of $E-E_F<0.2$~eV, the calculated $\alpha$ with $\hbar/2\tau=2$~meV shows a similar trend as DOS. But this correlation does not hold at $E-E_F>0.5$ eV, where the DOS exhibits a remarkable increase but $\alpha$ is nearly unchanged. With $\hbar/2\tau=26$~meV, the calculated $\alpha$ is also nearly a constant at $E-E_F>0.5$~eV. Thus, the energy-dependent Gilbert damping can not be simply attributed to the DOS. In Fig.~\ref{fig1}(c), $\alpha$ with the low scattering rate is significantly larger than that with the high value indicating that the intraband contribution is dominant below room temperature. It is in agreement with the experimentally measured $\alpha$, which decreases monotonically from low to room temperature~\cite{Khodadadi:prl20}. Therefore, we focus on the intraband transition in the following and identify the band-resolved contribution.
+
+{\it\color{red}Band-resolved damping.---}The intraband contribution can be directly calculated by choosing the same band ($m=n$) in Eq.~\eqref{eq:tcm}, where $\vert\Gamma_{nn}^{-}(\mathbf k)\vert^2$ is related to the dependence of band energy on magnetization orientation. Specifically, for $\mathbf{M}=M_s\hat x$, one has~\cite{Gilmore:JAP08},
+\begin{equation}
+\vert\Gamma_{nn}^{-}(\mathbf k)\vert^2={\left(\frac{\partial E_{n\mathbf k}}{\partial \theta_y} \right)}^2+{\left( \frac{\partial E_{n\mathbf k}}{\partial \theta_z} \right)}^2,\label{eq:Gamma}
+\end{equation}	
+where $\theta_{y}$ ($\theta_{z}$) is the small precessional angle of the magnetization deviating from the $\hat x$ axis towards $\hat y$ ($\hat z$). 
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{fig2}
+\caption{(a) Calculated energy bands of Fe along $\Gamma$H. The color indicates the spin component projected onto the quantization axis and the number on every band identifies the corresponding $\Delta$-symmetry. (b) $k$-resolved intraband matrix element $\vert\Gamma^{-}_{nn}(\mathbf k)\vert^2$ in the (010) plane of the BZ with $\mathbf M\parallel$[100] ($\theta=0^\circ$). $\theta$ represents the angle between magnetization and the crystal axis [100]. (c) Averaged intraband matrix element over the Fermi surface for each band.  (d) Orbital component $d^\uparrow_{xy}$ ($l_z=\pm2$) and $d^\uparrow_{xz(yz)}$ ($l_z=\pm1$) in the $\Delta^\uparrow_5$ bands at $E_F$ near the H point in the dashed frame in panel (b).}
+\label{fig2}
+\end{figure}
+
+The band structure of bulk Fe along [100] is plotted in Fig.~\ref{fig2}(a), where six categories of energy bands cross the Fermi level. To identify the contribution of each band, we explicitly compute $\vert\Gamma_{nn}^{-}(\mathbf k)\vert^2$ using Eq.~\eqref{eq:Gamma} and plot the $\mathbf k$-resolved results in (010) plane ($k_y=0$) of the BZ in Fig.~\ref{fig2}(b). The magnitude of $\vert\Gamma_{nn}^{-}(\mathbf k)\vert^2$ is not the same for every $k$ point and the maximum magnitude appears on the hole pockets around the H point. For each category, the averaged matrix element over the corresponding Fermi sheet $\langle\vert\Gamma^-_n\vert^2\rangle$ is plotted in Fig.~\ref{fig2}(c). Although the $\Delta_5^\uparrow$ bands only have small Fermi sheets near H points, they have the surprisingly dominant contribution, which is an order of magnitude larger than any other bands. The dominance of the $\Delta_5^\uparrow$ bands is independent of the specific orientation of magnetization~\cite{SM}.
+
+Identifying the dominant contribution of Gilbert damping in Fe sheds light on the microscopic nature of the ultralow $\alpha$ of Fe$_{75}$Co$_{25}$~\cite{Schoen:NP16,Lee:NC17}, Fe$_{75}$Al$_{25}$~\cite{Wei:SAv21} and Fe$_{85}$V$_{15}$ alloys~\cite{Arora:prapplied21} observed in recent experiments. We calculated the spectral functions of these Fe-based alloys and discovered that doping Co, Al, or V results in the full occupation of the $\Delta_5^\uparrow$ bands~\cite{SM}. Thus these bands are shifted downwards away from $E_F$ and their contribution is significantly reduced, leading to the ultralow values of $\alpha$. 
+
+{\it\color{red}Orbital-excitations-dominated Gilbert damping.---}The dominant role of the $\Delta_5^\uparrow$ bands can be understood as follows. The torque $\Gamma_{nn}^{-}(\mathbf k)\propto\langle\psi_{n\mathbf k}\vert l_z\sigma_--l_- \sigma_z\vert\psi_{n\mathbf k}\rangle$ requires the mixed components with either different spins or different magnetic quantum numbers $l_z$ in a single band. The $\Delta_5^\uparrow$ bands have pure majority-spin character at equilibrium, as shown in Fig.~\ref{fig2}(a). In contrast, the orbital characters of these states are strongly hybridized. The orbital components of $d_{xy}$ with $l_z=\pm2$ and $d_{xz(yz)}$ with $l_z=\pm1$ are plotted in Fig.~\ref{fig2}(d) with the magnetization rotating from [100] to [001]. It suggests that with magnetization precession, the orbital components keep varying and this quick variation allows reversible conversion between orbital and spin components of these nonequilibrium states through SOC~\cite{Ning:arxiv23}. In another word, the magnetization-precession-induced orbital excitations provide an efficient channel to convert spin to orbital angular momentum. It is worth noting that spin mixing occurs in the $\Delta_1^\uparrow$ band near $E_F$, but the calculated $\langle\vert\Gamma^-_n\vert^2\rangle$ is relatively small because $\Delta_1^\uparrow$ band mainly consists of $s$ and $d_{z^2}$ components with $l_z=0$ for both. Therefore, the Gilbert damping of Fe is dominated by the orbital excitations of $\Delta_5^\uparrow$ bands. At $E-E_F>0.5$~eV in Fig.~\ref{fig1}(c), the increase of DOS arises mainly from the $\Delta_2^\downarrow$ band~\cite{Singh:prb75,Callaway:prb77}, which does not show positive correlation with the calculated $\alpha$. The excited nonequilibrium orbital moments could potentially be detected via X-ray magnetic circular dichroism experiments~\cite{Emori:apl24}, although such detection requires the higher time resolution than that of electron-phonon scattering processes~\cite{Giustino:rmp17}.
+
+%%%%%%%%10%%%%%%%%20%%%%%%%%30%%%%%%%%40%%%%%%%%50%%%%%%%%60%%%%%%%%70%%%%%%%%80
+{\it\color{red}Distinguishing band contributions via QWSs.---}All the partially occupied $d$ bands at the Fermi level contribute to the Gilbert damping and distinguishing them requires finding the fingerprint of each band. QWSs arising from spatial confinement in thin films usually induces quantum oscillation in the DOS at $E_F$ and many related physical properties. The oscillation period depends on the Fermi wave vector $k_F$ of the specific band~\cite{Smith:PRB94}. The quantum oscillation of tunneling magnetoresistance in ultrathin Fe films shows the period of approximately 2 monolayers (MLs) in agreement with $k_F$ of $\Delta_1^\uparrow$ band because this band dominates the tunneling conductance~\cite{Lu:PRL05,Nozaki:PRL06,Niizeki:PRL08,Tao:PRL15}. The magnetocrystalline anisotropy of Fe films is mainly influenced by the $\Delta_2^{\uparrow(\downarrow)}$ bands and hence its quantum oscillation has the period of 5 to 6 MLs~\cite{Wu:PRL05,Li:PRL09}. In the same manner, the QWSs in Fe films shall induce the quantum oscillation of Gilbert damping, allowing us to verify the dominant band. Fig.~\ref{fig3}(a) shows the correspondence of the bulk and film BZs and the calculated energy bands of bulk Fe and a thin film with the thickness of $d_{\rm Fe}=$25 MLs are plotted in Fig.~\ref{fig3}(b). The continuous $\Delta_5^{\uparrow}$ band (red line) along $\Gamma\rm H$ in bulk Fe are discretized into the subbands (red dots) in the thin film, which are located around $\bar{\Gamma}$ point in the 2D BZ. The tops of $\Delta_5^{\uparrow}$ subbands at $\bar{\Gamma}$, which have the largest spectral function due to the zero dispersion, are plotted in Fig.~\ref{fig3}(c) as a function of $d_{\rm Fe}$. With increasing $d_{\rm Fe}$, these QWSs are gradually lifted upwards and cross $E_F$ periodically.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{fig3}
+\caption{(a) Bulk BZ of bcc lattice (black) and 2D BZ of (001) films (blue). (b) Comparison of energy bands of bulk Fe and a 25-ML-thick Fe film. The bands of $\Delta_5^{\uparrow}$ character are marked by red color. SOC is neglected for clarity. (c) Calculated energies of the discrete $\Delta_{5}^{\uparrow}$ QWSs at the $\bar{\Gamma}$ point as a function of Fe thickness. Including SOC results in negligible changes in the energies of QWSs. (d) Calculated damping as a function of Fe thickness with various scattering rates, which are larger than those for bulk calculation to capture the surface scattering effect. The grey dashed lines in (c) and (d) identify the thicknesses, at which the $\Delta_{5}^{\uparrow}$ QWSs are located at $E_F$ corresponding to the maximum values of oscillatory $\alpha$.}
+\label{fig3}
+\end{figure}
+%
+We calculate the intraband contribution using Eq.~\eqref{eq:tcm} with two approximations~\cite{SM}: (1) only the spectral functions at the $\bar{\Gamma}$ point is taken into account; and (2) the $k$-dependent intraband matrix element $\vert\Gamma^{-}_{nn}(\mathbf k)\vert^2$ is replaced by the average over the Fermi sheet $\langle\vert\Gamma^-_n\vert^2\rangle$. Then, Eq.~\eqref{eq:tcm} is simplified as 
+\begin{equation}
+\alpha=\frac{\pi\hbar\gamma}{\mu_0M_s}\sum_{n}\langle\vert\Gamma^-_n\vert^2\rangle\int dE\,A_{n\bar{\Gamma}}^2(E)\eta(E).\label{eq:2d}
+\end{equation}
+The calculated Gilbert damping is plotted in Fig.~\ref{fig3}(d) as a function of $d_{\rm Fe}$, where the scattering rates are larger than those in Fig.~\ref{fig1}(c) to account for the surface scattering effect. At low scattering rate $\hbar/2\tau=25$~meV to 32~meV, $\alpha$ exhibits strong oscillations and the maximum values of $\alpha$ appears at the thickness with the QWS across $E_F$, as indicated by the grey dashed lines.  The oscillation period~\cite{Smith:PRB94,Wu:PRL05} is determined by $\pi/(k_{\rm BZ}-k_F)\approx9$~MLs, where $k_F$ is the Fermi wave vector of the $\Delta_5^\uparrow$ bands and $k_{\rm BZ}$ represent the distance from $\Gamma$ to H in the bulk BZ. The oscillation period is another evidence for the dominant contribution of the $\Delta_5^\uparrow$ bands to $\alpha$. As the scattering rate increases, the oscillation strength gradually decreases and almost vanishes at $\hbar/2\tau=40$~meV. 
+
+%%%%%%%%10%%%%%%%%20%%%%%%%%30%%%%%%%%40%%%%%%%%50%%%%%%%%60%%%%%%%%70%%%%%%%%80
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.9\columnwidth]{fig4}
+\caption{(a) Schematic illustration of the experimental sample. Microwave current ($I_\mathrm{rf}$) is injected into the sample along Fe[110] via the Au coplanar waveguides (yellow shapes) positioned on top of the Fe samples (blue stripes). This setup generates a microwave field in the Fe layer perpendicular to the strips. (b) Representative field-dependent spin rectification voltage measured on a 2.2-nm-thick Fe film at 20 K with frequencies of $f$=10, 12, and 14~GHz. The red and blue lines represent fitting curves for the antisymmetric and symmetric components, respectively. (c) Linewidth ($\Delta H$) as a function of frequency for both 2.2-nm-thick and 2.9-nm-thick samples. The solid lines depict linear fitting. (d) Measured Gilbert damping as a function of Fe thickness (solid symbols) compared with the theoretical calculations (empty symbols). The black solid line illustrates the quantum oscillation of the experimental values at low temperature. 
+}
+\label{fig4}
+\end{figure}
+
+{\it\color{red}Experimental confirmation of damping oscillation.---}The single-crystal Fe films were grown on MgO(001) substrates using molecular beam epitaxy in an ultrahigh vacuum chamber with a base pressure of $2\times10^{-10}$ Torr. The epitaxial growth of wedge-shaped Fe films was carried out at room temperature, as sketched in Fig.~\ref{fig4}(a), with crystalline quality characterized by reflection high-energy electron diffraction and X-ray diffraction~\cite{SM}. Subsequently, 5-nm-thick MgO and 3-nm-thick Pt films were deposited on top of the Fe wedge.  
+
+The samples were patterned into a series of strips with the size of $200\,\mu\mathrm m\times15\,\mu\mathrm m$ using standard ultraviolet lithography and argon ion etching. Subsequently, coplanar waveguides containing the Au(150 nm)/Cr(30 nm) bilayer were fabricated through magnetron sputtering. The microwave current in the Pt layer generates a radio frequency field, exciting FMR of the underlying Fe layer. During the measurement, an in-plane magnetic field was applied along Fe[100], 45$^\circ$ away from the stripes. The spin rectification due to the microwave current and the oscillating anisotropic magnetoresistance of Fe results in an antisymmetric Lorentzian line shape for the measured voltage~\cite{Hu:PRL07,Hu:PhysRep16}, as shown in Fig.~\ref{fig4}(b). The resonant magnetic field $H_\mathrm{r}$ and the linewidth $\Delta H$ were determined by fitting the voltage using the Lorentzian function $V(H)=V_a\frac{\Delta H\left(H-H_{\rm r}\right)}{\left(H-H_{\rm r}\right)^2+\Delta H^2}+V_s\frac{\Delta H^2}{\left(H-H_{\rm r}\right)^2+\Delta H^2}$. The antisymmetric and symmetric components are plotted in Fig.~\ref{fig4}(b) by the red and blue lines, respectively. The symmetric contribution is negligible indicating that MgO is enough thick to block spin pumping~\cite{Pap:APL17}. Fig.~\ref{fig4}(c) presents the typical linear dependence of the linewidth $\Delta H$ on the FMR frequency and the Gilbert damping $\alpha$ was extracted through linear fitting, $\Delta H=\Delta H_0+4\pi \alpha f/\gamma$. Here the gyromagnetic ratio $\gamma=g\mu_0\mu_B/\hbar$ and the $g$-factor are determined by fitting the $f-H_\mathrm{r}$ curves to the Kittel equation~\cite{Kittel:PhysRev48}. While the fitted $g$-factor is nearly thickness-independent~\cite{SM}, the variation of the slopes with thickness in Fig.~\ref{fig4}(c) at 20 K arises from different $\alpha$. Additional analysis confirms that the change in $\alpha$ is not related to the inhomogeneous linewidth $\Delta H_0$ or two-magnon scattering~\cite{SM,TMS1,TMS2}.
+
+The measured Gilbert damping is plotted in Fig.~\ref{fig4}(d) as a function of film thickness. At low temperature, $\alpha$ exhibits a significant oscillation (black solid circles). Both the oscillation period and the thicknesses for the maximum damping are in quantitative agreement with the calculations using the low scattering rate $\hbar/2\tau=25$~meV (blue empty circles). At 300 K, the measured $\alpha$ (red solid squares) is smaller and the oscillation becomes very weak, in agreement with the calculated values using a large scattering rate. The measurement is performed for another independent sample resulting in the same conclusions~\cite{SM}. All the experimental results are in very good agreement with the calculations confirming the dominant contribution of the $\Delta_5^\uparrow$ bands to the Gilbert damping of Fe. %In these bands with pure spin character at equilibrium, the spin dissipation arises mainly from the orbital excitations.
+	
+%%%%%%%%10%%%%%%%%20%%%%%%%%30%%%%%%%%40%%%%%%%%50%%%%%%%%60%%%%%%%%70%%%%%%%%80
+{\it\color{red}Conclusion.---}Using first-principles calculations, we have discovered that the Gilbert damping of Fe is dominated by the orbital excitations of the $\Delta_5^\uparrow$ bands. The variation of orbital angular momentum modifies the spin component through SOC. The dominant role of the  $\Delta_5^\uparrow$ bands is unambiguously confirmed by the excellent agreement between low-temperature experiment and calculations of quantum oscillation of Gilbert damping in ultrathin Fe(001) films. Our findings not only reveals the nature of the recently reported ultralow damping in Fe-rich alloys, but also provides an efficient and general way for controlling Gilbert damping by selectively shifting the relevant bands away from the Fermi level via doping. In two-dimensional magnetic materials, bands shifts can be achieved by gating~\cite{Burch:Nat18,Gong:Sci19,Yang:prb22}. The discovery of orbital excitations in the magnetization dissipation would be helpful for studying transport and dissipation of orbital currents~\cite{Ding:prl22,Choi:nat23,Seifert:natnano23,Lyalin:prl23,Sala:prl23,Sohn:prl24,Rang:prb24}. 
+	
+%%%%%%%%10%%%%%%%%20%%%%%%%%30%%%%%%%%40%%%%%%%%50%%%%%%%%60%%%%%%%%70%%%%%%%%80
+\acknowledgements
+We thank valuable suggestions and comments provided by Professor H. F. Ding and Professor B. Heinrich. The work was supported by the National Key Research and Development Program of China (2022YFA1403300 and 2024YFA1408500), the National Natural Science Foundation of China (Grants No. 12174028, No. 12374101, No. 11974079, and No. 12274083), the Shanghai Municipal Science and Technology Major Project (Grant No. 2019SHZDZX01), the Shanghai Municipal Science and Technology Basic Research Project (No. 22JC1400200 and No. 23dz2260100), and the Open Fund of the State Key Laboratory of Spintronics Devices and Technologies (Grants No. SPL-2408).
+	
+%%%%%%%%10%%%%%%%%20%%%%%%%%30%%%%%%%%40%%%%%%%%50%%%%%%%%60%%%%%%%%70%%%%%%%%80
+\begin{thebibliography}{00}
+\bibitem{Urban:prl01}
+R. Urban, G. Woltersdorf, and B. Heinrich, Gilbert damping in single and multilayer ultrathin films: Role of interfaces in nonlocal spin dynamics. \DOI{10.1103/PhysRevLett.87.217204}{Phys. Rev. Lett. {\bf 87}, 217204 (2001)}.
+\bibitem{Malinowski:apl09}
+G. Malinowski, K. C. Kuiper, R. Lavrijsen, H. J. M. Swagten, and B. Koopmans, Magnetization dynamics and Gilbert damping in ultrathin Co$_{48}$Fe$_{32}$B$_{20}$ films with out-of-plane anisotropy. \DOI{10.1063/1.3093816}{Appl. Phys. Lett. {\bf 94}, 102501 (2009)}.
+\bibitem{Bonetti:prl16}
+S. Bonetti, M. C. Hoffmann, M.-J. Sher, Z. Chen, S.-H. Yang, M. G. Samant, S. S. P. Parkin, and H. A. D{\"u}rr, THz-Driven ultrafast spin-lattice scattering in amorphous metallic ferromagnets. \DOI{10.1103/PhysRevLett.117.087205}{Phys. Rev. Lett. {\bf 117}, 087205 (2016)}.
+\bibitem{Li:prl19}
+Y. Li, F. Zeng S. S.-L. Zhang, H. Shin, H. Saglam, V. Karakas, O. Ozatay, J. E. Pearson, O. G. Heinonen, Y. Z. Wu, A. Hoffmann, and W. Zhang, Giant Anisotropy of Gilbert damping in epitaxial CoFe films. \DOI{10.1103/PhysRevLett.122.117203}{Phys. Rev. Lett. {\bf 122}, 117203 (2019)}.
+\bibitem{Khodadadi:prl20}
+B. Khodadadi, A. Rai, A. Sapkota, A. Srivastava, B. Nepal, Y. Lim, D. A. Smith, C. Mewes, S. Budhathoki, A. J. Hauser, M. Gao, J.-F. Li, D. D. Viehland, Z. Jiang, J. J. Heremans, P. V. Balachandran, T. Mewes, and S. Emori, Conductivitylike Gilbert damping due to intraband scattering in epitaxial iron. \DOI{10.1103/PhysRevLett.124.157201}{Phys. Rev. Lett. {\bf 124}, 157201 (2020)}.
+\bibitem{Sun:prb00}
+J. Z. Sun, Spin-current interaction with a monodomain magnetic body: A model study. \DOI{10.1103/PhysRevB.62.570}{Phys. Rev. B {\bf 62}, 570 (2000).}
+\bibitem{Brataas:nm12}
+A. Brataas, A. D. Kent, H. Ohno, Current-induced torques in magnetic materials. \DOI{10.1038/NMAT3311}{Nat. Mater. {\bf 11}, 372 (2012).}
+\bibitem{Tatara:pr08}
+G. Tatara, H. Kohno, J. Shibata, Microscopic approach to current-driven domain wall dynamics. \DOI{10.1016/j.physrep.2008.07.003}{Phys. Rep. {\bf 468}, 213 (2008).}
+\bibitem{Wang:ne20}
+Z. Wang, M. Guo, H.-A. Zhou, L. Zhao, T. Xu, R. Tomasello, H. Bai, Y. Dong, S.-G. Je, W. Chao, H.-S. Han, S. Lee, K.-S. Lee, Y. Yao, W. Han, C. Song, H. Wu, M. Carpentieri, G. Finocchio, M.-Y. Im, S.-Z. Lin and W. Jiang, Thermal generation, manipulation and thermoelectric detection of skyrmions. \DOI{10.1038/s41928-020-00489-2}{Nat Electron {\bf 3}, 672 (2020).}
+\bibitem{Kambsersky:CJP76}
+V. Kambersk{\'y}, On ferromagnetic resonance damping in metals. \DOI{10.1007/BF01587621}{Czech. J. Phys. B {\bf 26}, 1366 (1976)}.
+\bibitem{Tserkovnyak:rmp05}
+Y. Tserkovnyak, A. Brataas, G. E. W. Bauer, B. I. Halperin, Nonlocal magnetization dynamics in ferromagnetic heterostructures. \DOI{10.1103/RevModPhys.77.1375}{Rev. Mod. Phys. {\bf 77}, 1375 (2005)}.
+\bibitem{Scheck:prl07}
+C. Scheck, L. Cheng, I. Barsukov, Z. Frait, and W. E. Bailey, Low relaxation rate in epitaxial vanadium-doped ultrathin iron films. \DOI{10.1103/PhysRevLett.98.117601}{Phys. Rev. Lett. {\bf 98}, 117601 (2007)}.
+\bibitem{Brataas:PRL08}
+A. Brataas, Y. Tserkovnyak, and G. E. W. Bauer, Scattering theory of Gilbert damping. \DOI{10.1103/PhysRevLett.101.037207}{Phys. Rev. Lett. {\bf 101}, 037207 (2008)}.
+\bibitem{Ebert:PRL11}
+H. Ebert, S. Mankovsky, D. K{\"o}dderitzsch, and P. J. Kelly, Ab initio calculation of the Gilbert damping parameter via the linear response formalism. \DOI{10.1103/PhysRevLett.107.066603}{Phys. Rev. Lett. {\bf 107}, 066603 (2011)}.
+\bibitem{Liu:prl14}
+Y. Liu, Z. Yuan, R. J. H. Wesselink, A. A. Starikov, and P. J. Kelly, Interface enhancement of Gilbert damping from first principles. \DOI{10.1103/PhysRevLett.113.207202}{Phys. Rev. Lett. {\bf 113}, 207202 (2014).}
+\bibitem{Schoen:prb17}
+M. A. W. Schoen, J. Lucassen, H. T. Nembach, B. Koopmans, T. J. Silva, Ch. H. Back, and J. M. Shaw, Magnetic properties in ultrathin 3d transition-metal binary alloys. II. Experimental verification of quantitative theories of damping and spin pumping. \DOI{10.1103/PhysRevB.95.134411}{Phys. Rev. B {\bf 95}, 134411 (2017)}.
+\bibitem{Starikov:prb18}
+A. A. Starikov, Y. Liu, Z. Yuan, and P. J. Kelly, Calculating the transport properties of magnetic materials from first principles including thermal and alloy disorder, noncollinearity, and spin-orbit coupling. \DOI{10.1103/PhysRevB.97.214415}{Phys. Rev. B {\bf 97}, 214415 (2018).}
+\bibitem{Kambersky:cjp70}
+V. Kambersk{\'y}, On the Landau-Lifshitz relaxation in ferromagnetic metals. \DOI{10.1139/p70-361}{Can. J. Phys. {\bf 48}, 2906 (1970).}
+\bibitem{Ding:prl22}
+S. Ding, Z. Liang, D. Go, C. Yun, M. Xue, Z. Liu, S. Becker, W. Yang, H. Du, C. Wang, Y. Yang, G. Jakob, M. Kl{\"a}ui, Y. Mokrousov, and J. Yang, Observation of the orbital Rashba-Edelstein magnetoresistance. \DOI{10.1103/PhysRevLett.128.067201}{Phys. Rev. Lett. {\bf 128}, 067201 (2022).}
+\bibitem{Choi:nat23}
+Y.-G. Choi, D. Jo, K.-H. Ko, D. Go, K.-H. Kim, H. G. Park, C. Kim, B.-C. Min, G.-M. Choi, and H.-W. Lee, Observation of the orbital Hall effect in a light metal Ti. \DOI{10.1038/s41586-023-06101-9}{Nature {\bf 619},52 (2023).}
+\bibitem{Seifert:natnano23}
+T. S. Seifert, D. Go, H. Hayashi, R. Rouzegar, F. Freimuth, K. Ando, Y. Mokrousov, T. Kampfrath, Time-domain observation of ballistic orbital-angular-momentum currents with giant relaxation length in tungsten. \DOI{10.1038/s41565-023-01470-8}{Nature Nanotechn. {\bf 18}, 1132 (2023).}
+\bibitem{Lyalin:prl23}
+I. Lyalin, S. Alikhah, M. Berritta, P. M. Oppeneer, and R. K. Kawakami, Magneto-optical detection of the orbital Hall effect in chromium. \DOI{10.1103/PhysRevLett.131.156702}{Phys. Rev. Lett. {\bf 131}, 156702 (2023).}
+\bibitem{Sala:prl23}
+G. Sala, H. Wang, W. Legrand, and P. Gambardella, Orbital Hanle magnetoresistance in a 3$d$ transition metal. \DOI{10.1103/PhysRevLett.131.156703}{Phys. Rev. Lett. {\bf 131}, 156703 (2023).}
+\bibitem{Sohn:prl24}
+J. Sohn, J. M. Lee, and H.-W. Lee, Dyakonov-Perel-like orbital and spin relaxation in centrosymmetric systems. \DOI{10.1103/PhysRevLett.132.246301}{Phys. Rev. Lett. {\bf 132}, 246301 (2024).}
+\bibitem{Rang:prb24}
+M. Rang and P. J. Kelly, Orbital relaxation length from first-principles scattering calculations. \DOI{10.1103/PhysRevB.109.214427}{Phys. Rev. B {\bf 109}, 214427(2024).}
+
+\bibitem{Gilmore:PRL07}	
+K. Gilmore, Y. U. Idzerda, and M. D. Stiles, Identification of the dominant precession-damping mechanism in Fe, Co, and Ni by first-principles calculations. \DOI{10.1103/PhysRevLett.99.027204}{Phys. Rev. Lett. {\bf 99}, 027204 (2007)}.
+\bibitem{Gilmore:JAP08}
+K. Gilmore, Y. U. Idzerda, and M. D. Stiles, Spin-orbit precession damping in transition metal ferromagnets. \DOI{10.1063/1.2832348}{J. Appl. Phys. {\bf 103}, 07D303 (2008)}.
+\bibitem{Ho:JPS83}
+C. Y. Ho, M. W. Ackerman, K. Y. Wu, T. N. Havill, R. H. Bogaard, R. A. Matula, and S. G. Oh, and H. M. James, Electrical resistivity of ten selected binary alloy systems. \DOI{10.1063/1.555684}{J. Phys. Chem. Ref. Data {\bf 12}, 183 (1983)}.
+\bibitem{Schoen:NP16}
+M. A. W. Schoen, D. Thonig, M. L. Schneider, T. J. Silva, H. T. Nembach, O. Eriksson, O. Karis, and J. M. Shaw, Ultra-low magnetic damping of a metallic ferromagnet. \DOI{10.1038/nphys3770}{Nat. Phys. {\bf 12}, 839 (2016)}.		
+\bibitem{Chen:natphys18}
+L. Chen, S. Mankovsky, S. Wimmer, M.  A. W. Schoen, H. S. K{\"o}rner, M. Kronseder, D. Schuh, D. Bougeard, H. Ebert, D. Weiss, and C. H. Back, Emergence of anisotropic Gilbert damping in ultrathin Fe layers on GaAs(001). \DOI{10.1038/s41567-018-0053-8}{Nat. Phys. {\bf 14}, 490 (2018)}.
+\bibitem{Chen:prl23}
+L. Chen, S. Mankovsky, M. Kronseder, D. Schuh, M. Prager, D. Bougeard, H. Ebert, D. Weiss, and C. H. Back, Interfacial tuning of anisotropic Gilbert damping. \DOI{10.1103/PhysRevLett.130.046704}{Phys. Rev. Lett. {\bf 130}, 046704 (2023)}.
+\bibitem{Xu:prb19}
+S. J. Xu, J. Y. Shi, Y. S. Hou, Z. Zheng, H. B. Zhao, R. Q. Wu, S. M. Zhou, Z. Shi, and W. J. Fan, Tuning of the intrinsic magnetic damping parameter in epitaxial CoNi(001) films : Role of the band-filling effect. \DOI{10.1103/PhysRevB.100.024403}{Phys. Rev. B {\bf 100}, 024403 (2019)}.
+\bibitem{Hou:prapplied19}
+Y. S. Hou and R. Q. Wu, Strongly enhanced Gilbert damping in 3d transition-metal ferromagnet monolayers in contact with the topological insulator Bi$_{2}$Se$_{3}$. \DOI{10.1103/PhysRevApplied.11.054032}{Phys. Rev. Applied {\bf 11}, 054032 (2019)}.
+\bibitem{Jiang:prb24}
+Z. Jiang, A. Hoffmann, and A. Schleife, Influence of temperature, doping, and amorphization on the electronic structure and magnetic damping of iron. \DOI{10.1103/PhysRevB.109.235147}{Phys. Rev. B {\bf 109}, 235147 (2024)}.
+\bibitem{Bera:arxiv24}
+A. Bera, N. Jana, A. Agarwal, and S. Mukhopadhyay, Anisotropic magnetization dynamics in Fe$_5$GeTe$_2$ at room temperature. \DOI{10.1103/PhysRevB.110.224401}{Phys. Rev. B {\bf 110}, 224401 (2024)}.
+
+\bibitem{SM}
+See Supplemental Material at [URL] for computational details, calculated spectral functions of Fe-based alloys and the additional experimental details and analysis, which includes additional Refs.~\cite{Giannozzi:jpcm17,Blochl:prb94,Perdew:prl96,Chen:arxiv24,Pizzi:jpcm20,Bagguley:prsla55}.
+\bibitem{Giannozzi:jpcm17}
+P. Giannozzi {\it et al.}, Advanced capabilities for materials modelling with Quantum ESPRESSO. \DOI{10.1088/1361-648X/aa8f79}{J. Phys.: Condens. Matter {\bf 29}, 465901 (2017)}.
+\bibitem{Blochl:prb94}
+P. E. Bl{\"o}chl, Projector augmented-wave method. \DOI{10.1103/PhysRevB.50.17953}{Phys. Rev. B {\bf 50}, 17953 (1994)}.
+\bibitem{Perdew:prl96}
+J. P. Perdew, K. Burke, and M. Ernzerhof, Generalized gradient approximation made simple. \DOI{10.1103/PhysRevLett.77.3865}{Phys. Rev. Lett. {\bf 77}, 3865 (1996)}.
+\bibitem{Chen:arxiv24}
+W. Chen, Y. Zhang, Y. Liu, Z. Yuan, Symmetry-forbidden intraband transitions leading to ultralow Gilbert damping in van der Waals ferromagnets. \href{https://arxiv.org/abs/2411.12544}{arXiv:2411.12544}.
+\bibitem{Pizzi:jpcm20}
+G. Pizzi {\it et al.}, Wannier90 as a community code: new features and applications. \DOI{10.1088/1361-648X/ab51ff}{J. Phys.: Condens. Matter {\bf 32}, 165902 (2020)}.
+\bibitem{Bagguley:prsla55}
+D. M. S. Bagguley, Ferromagnetic resonance absorption in colloidal suspensions. \href{https://www.jstor.org/stable/99644}{Proc. R. Soc. Lond. {\bf A228}, 549 (1955)}.
+
+\bibitem{Lee:NC17}
+A. J. Lee, J. T. Brangham, Y. Cheng, S. P. White, W. T. Ruane, B. D. Esser, D. W. McComb, P. C. Hammel, and F. Yang, Metallic ferromagnetic films with magnetic damping under 1.4$\times$10$^{-3}$. \DOI{10.1038/s41467-017-00332-x}{Nat. Commun. {\bf 8}, 234 (2017)}.
+\bibitem{Wei:SAv21}
+Y. Wei, W. Zhang, B. Lv, X. Xu, S. Xi, and Z. Ma, Ultralow magnetic damping of a common metallic ferromagnetic film. \DOI{10.1126/sciadv.abc5053}{Sci. Adv. {\bf 7}, eabc5053 (2021)}.
+\bibitem{Arora:prapplied21}
+M. Arora, E. K. Delczeg-Czirjak, G. Riley, T. J. Silva, H. T. Nembach, O. Eriksson, and J. M. Shaw, Magnetic damping in polycrystalline thin-film Fe-V alloys. \DOI{10.1103/PhysRevApplied.15.054031}{Phys. Rev. Applied {\bf 15}, 054031 (2021)}.
+\bibitem{Ning:arxiv23}
+X. Ning, A. Pezo, K.-W. Kim, W. Zhao, K.-J. Lee, and A. Manchon, Orbital diffusion, polarization and swapping in centrosymmetric metals. \DOI{10.1103/PhysRevLett.134.026303}{Phys. Rev. Lett. {\bf 134}, 026303 (2025)}.
+\bibitem{Singh:prb75}
+M. Singh, C. S. Wang, and J. Callaway, Spin-orbit coupling, Fermi surface, and optical conductivity of ferromagnetic iron. \DOI{10.1103/PhysRevB.11.287}{Phys. Rev. B {\bf 11}, 287 (1975)}.
+\bibitem{Callaway:prb77}
+J. Callaway, and C. S. Wang, Energy bands in ferromagnetic iron. \DOI{10.1103/PhysRevB.16.2095}{Phys. Rev. B {\bf 16}, 2095 (1977)}.
+\bibitem{Emori:apl24}
+S. Emori, R. E. Maizel, G. T. Street, J. L. Jones, D. A. Arena, P. Shafer, C. Klewe, Quantifying the orbital-to-spin moment ratio under dynamic excitation. \DOI{10.1063/5.0198326}{Appl. Phys. Lett. {\bf 124}, 122404 (2024)}.
+\bibitem{Giustino:rmp17}
+F. Giustino, Electron-phonon interactions from first principles. \DOI{10.1103/RevModPhys.89.015003}{Rev. Mod. Phys. {\bf 89}, 015003 (2017)}.
+
+\bibitem{Smith:PRB94}
+N. V. Smith, N. B. Brookes, Y. Chang, and P. D. Johnson, Quantum-well and tight-binding analyses of spin-polarized photoemission from Ag/Fe(001) overlayers. \DOI{10.1103/PhysRevB.49.332}{Phys. Rev. B {\bf 49}, 332 (1994)}.
+\bibitem{Wu:PRL05}
+Y. Z. Wu, A. K. Schmid, M. S. Altman, X. F. Jin, and Z. Q. Qiu, Spin-Dependent Fabry-P{\'e}rot interference from a Cu thin film grown on fcc Co(001). \DOI{10.1103/PhysRevLett.94.027201}{Phys. Rev. Lett. {\bf 94}, 027201 (2005)}.
+\bibitem{Lu:PRL05}
+Z. Y. Lu, X.-G. Zhang, and S. T. Pantelides, Spin-dependent resonant tunneling through quantum-well states in magnetic metallic thin films. \DOI{10.1103/PhysRevLett.94.207210}{Phys. Rev. Lett. {\bf 94}, 207210 (2005)}.
+\bibitem{Nozaki:PRL06}
+T. Nozaki, N. Tezuka, and K. Inomata, Quantum oscillation of the tunneling conductance in fully epitaxial double barrier magnetic tunnel junctions. \DOI{10.1103/PhysRevLett.96.027208}{Phys. Rev. Lett. {\bf 96}, 027208 (2006)}.
+\bibitem{Niizeki:PRL08}
+T. Niizeki, N. Tezuka, and K. Inomata, Enhanced tunnel magnetoresistance due to spin dependent quantum well resonance in specific symmetry states of an ultrathin ferromagnetic electrode. \DOI{10.1103/PhysRevLett.100.047207}{Phys. Rev. Lett. {\bf 100}, 047207 (2008)}.
+\bibitem{Tao:PRL15}
+B. S. Tao, H. X. Yang, Y. L. Zuo, X. Devaux, G. Lengaigne, M. Hehn, D. Lacour, S. Andrieu, M. Chshiev, T. Hauet, F. Montaigne, S. Mangin, X. F. Han, and Y. Lu, Long-range phase coherence in double-barrier magnetic tunnel junctions with a large thick metallic quantum well. \DOI{10.1103/PhysRevLett.115.157204}{Phys. Rev. Lett. {\bf 115}, 157204 (2015)}.
+\bibitem{Li:PRL09}
+J. Li, M. Przybylski, F. Yildiz, X. D. Ma, and Y. Z. Wu, Oscillatory magnetic anisotropy originating from quantum well states in Fe films. \DOI{10.1103/PhysRevLett.102.207206}{Phys. Rev. Lett. {\bf 102}, 207206 (2009)}.
+\bibitem{Dabrowski:PRL14}
+M. Dabrowski, T. R. F. Peixoto, M. Pazgan, A. Winkelmann, M. Cinal, T. Nakagawa, Y. Takagi, T. Yokoyama, F. Bisio, U. Bauer, F. Yildiz, M. Przybylski, and J. Kirschner, Oscillations of the orbital magnetic moment due to $d$-Band quantum well states. \DOI{10.1103/PhysRevLett.113.067203}{Phys. Rev. Lett. {\bf 113}, 067203 (2014)}.
+
+\bibitem{Hu:PRL07}
+Y. S. Gui, N. Mecking, X. Zhou, G. Williams, and C.-M. Hu, Realization of a room-temperature spin dynamo: The spin rectification effect. \DOI{10.1103/PhysRevLett.98.107602}{Phys. Rev. Lett. {\bf 98}, 107602 (2007)}.
+\bibitem{Hu:PhysRep16}
+M. Harder, Y. S. Gui, and C.-M. Hu, Electrical detection of magnetization dynamics via spin rectification effects. \DOI{10.1016/j.physrep.2016.10.002}{Phys. Rep. {\bf 661}, 1 (2016)}.
+\bibitem{Pap:APL17}
+L. Mihalceanu, S. Keller, J. Greser, D. Karfaridis, K. Simeonidis, G. Vourlias, T. Kehagias, A. Conca, B. Hillebrands, and E. Th. Papaioannou, Spin-pumping through a varying-thickness MgO interlayer in Fe/Pt system. \DOI{10.1063/1.4989678}{Appl. Phys. Lett. {\bf 110}, 252406 (2017)}.
+\bibitem{Kittel:PhysRev48}
+C. Kittel, On the theory of ferromagnetic resonance absorption. \DOI{10.1103/PhysRev.73.155}{Phys. Rev. {\bf 73}, 155 (1948)}.
+
+\bibitem{TMS1}
+R. Arias and D. L. Mills, Extrinsic contributions to the ferromagnetic resonance response of ultrathin films. \DOI{10.1103/PhysRevB.60.7395}{Phys. Rev. B {\bf 60}, 7395 (1999).}
+\bibitem{TMS2}
+R. D. McMichael and P. Krivosik, Classical model of extrinsic ferromagnetic resonance linewidth in ultrathin films. \DOI{10.1109/TMAG.2003.821564}{IEEE Trans. Magn. {\bf 40}, 2 (2004).}
+\bibitem{Burch:Nat18}
+K. S. Burch, D. Mandrus, and J.-G. Park, Magnetism in two-dimensional van der Waals materials. \DOI{10.1038/s41586-018-0631-z}{Nature {\bf 563}, 47 (2018)}.
+\bibitem{Gong:Sci19}
+C. Gong, X. Zhang, Two-dimensional magnetic crystals and emergent heterostructure devices. \DOI{10.1126/science.aav4450}{Science {\bf 363}, eaav4450 (2019)}.	
+\bibitem{Yang:prb22}
+P. T. Yang, R. X. Liu, Z. Yuan and Y. Liu, Magnetic damping anisotropy in the two-dimensional van der Waals material Fe$_3$GeTe$_2$ from first principles. \DOI{10.1103/PhysRevB.106.134409}{Phys. Rev. B {\bf 106}, 134409 (2022).}
+
+\end{thebibliography}
+	
+\end{document}
+

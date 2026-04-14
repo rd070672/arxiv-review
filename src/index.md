@@ -50,6 +50,8 @@ features:
 ### 2026年4月14日更新
 - [ツイストvdW磁性体のマジックアングル](topic/2026-04_twisted-Fe3GeTe2-magic-angle)
 - [スピン-フォノン結合のモード選択性と異常輸送](topic/2026-04_magnon-phonon-magnetothermal)
+- [粒界における交換軟磁性](topic/2026-04_GB-exchange-soft-magnet)
+- [FeCo超低減衰材料](topic/2026-04_FeCo-ultralow-damping)
 
 ### 2026年4月13日更新
 - [結晶生成AIとCrystalite](topic/2026-04_crystal-gen-diffusion-transformer)

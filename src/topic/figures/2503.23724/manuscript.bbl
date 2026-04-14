@@ -1,0 +1,136 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem{baltz2018antiferromagnetic}
+V.~Baltz, \emph{et~al.}, Antiferromagnetic spintronics. \emph{Rev. Mod. Phys.} \textbf{90}~(1), 015005 (2018).
+
+\bibitem{jungwirth2016antiferromagnetic}
+T.~Jungwirth, X.~Marti, P.~Wadley, J.~Wunderlich, Antiferromagnetic spintronics. \emph{Nature nanotechnology} \textbf{11}~(3), 231--241 (2016).
+
+\bibitem{nvemec2018antiferromagnetic}
+P.~N{\v{e}}mec, M.~Fiebig, T.~Kampfrath, A.~V. Kimel, Antiferromagnetic opto-spintronics. \emph{Nat. Phys.} \textbf{14}~(3), 229--241 (2018).
+
+\bibitem{wadley2016electrical}
+P.~Wadley, \emph{et~al.}, Electrical switching of an antiferromagnet. \emph{Science} \textbf{351}~(6273), 587--590 (2016).
+
+\bibitem{vzelezny2014relativistic}
+J.~{\v{Z}}elezn{\`y}, \emph{et~al.}, Relativistic \textrm{N}{\'e}el-order fields induced by electrical current in antiferromagnets. \emph{Phys. Rev. Lett.} \textbf{113}~(15), 157201 (2014).
+
+\bibitem{bhattacharjee2014prediction}
+S.~Bhattacharjee, S.~Singh, D.~Wang, M.~Viret, L.~Bellaiche, Prediction of novel interface-driven spintronic effects. \emph{Journal of Physics: Condensed Matter} \textbf{26}~(31), 315008 (2014).
+
+\bibitem{duttagupta2020spin}
+S.~DuttaGupta, \emph{et~al.}, Spin-orbit torque switching of an antiferromagnetic metallic heterostructure. \emph{Nat. Comm.} \textbf{11}~(1), 5715 (2020).
+
+\bibitem{lebrun2018tunable}
+R.~Lebrun, \emph{et~al.}, Tunable long-distance spin transport in a crystalline antiferromagnetic iron oxide. \emph{Nature} \textbf{561}~(7722), 222--225 (2018).
+
+\bibitem{wei2022giant}
+X.-Y. Wei, \emph{et~al.}, Giant magnon spin conductivity in ultrathin yttrium iron garnet films. \emph{Nat. Mat.} \textbf{21}~(12), 1352--1356 (2022).
+
+\bibitem{han2023coherent}
+J.~Han, R.~Cheng, L.~Liu, H.~Ohno, S.~Fukami, Coherent antiferromagnetic spintronics. \emph{Nat. Mat.} \textbf{22}~(6), 684--695 (2023).
+
+\bibitem{parsonnet2022nonvolatile}
+E.~Parsonnet, \emph{et~al.}, Nonvolatile electric field control of thermal magnons in the absence of an applied magnetic field. \emph{Phys. Rev. Lett.} \textbf{129}~(8), 087601 (2022).
+
+\bibitem{huang2024manipulating}
+X.~Huang, \emph{et~al.}, Manipulating chiral spin transport with ferroelectric polarization. \emph{Nat. Mat.} p. 898–904 (2024).
+
+\bibitem{hamdi2023spin}
+M.~Hamdi, F.~Posva, D.~Grundler, Spin wave dispersion of ultra-low damping hematite ($\alpha-\textrm{F}e_{2}\textrm{O}_{3}$) at \textrm{GH}z frequencies. \emph{Phys. Rev. Mat.} \textbf{7}~(5), 054407 (2023).
+
+\bibitem{AlbertRMP}
+A.~Fert, R.~Ramesh, V.~Garcia, F.~Casanova, M.~Bibes, Electrical control of magnetism by electric field and current-induced torques. \emph{Rev. Mod. Phys.} \textbf{96}, 015005 (2024).
+
+\bibitem{salahuddin2018era}
+S.~Salahuddin, K.~Ni, S.~Datta, The era of hyper-scaling in electronics. \emph{Nat. Elect.} \textbf{1}~(8), 442--450 (2018).
+
+\bibitem{manipatruni2019scalable}
+S.~Manipatruni, \emph{et~al.}, Scalable energy-efficient magnetoelectric spin--orbit logic. \emph{Nature} \textbf{565}~(7737), 35--42 (2019).
+
+\bibitem{vaz2024voltage}
+D.~C. Vaz, \emph{et~al.}, Voltage-based magnetization switching and reading in magnetoelectric spin-orbit nanodevices. \emph{Nat. Comm.} \textbf{15}~(1), 1902 (2024).
+
+\bibitem{chai2024voltage}
+Y.~Chai, \emph{et~al.}, Voltage control of multiferroic magnon torque for reconfigurable logic-in-memory. \emph{Nat. Comm.} \textbf{15}~(1), 5975 (2024).
+
+\bibitem{cherifi2014electric}
+R.~Cherifi, \emph{et~al.}, Electric-field control of magnetic order above room temperature. \emph{Nat. Mat.} \textbf{13}~(4), 345--351 (2014).
+
+\bibitem{chu2008electric}
+Y.-H. Chu, \emph{et~al.}, Electric-field control of local ferromagnetism using a magnetoelectric multiferroic. \emph{Nat. Mat.} \textbf{7}~(6), 478--482 (2008).
+
+\bibitem{husain2024non}
+S.~Husain, \emph{et~al.}, Non-volatile magnon transport in a single domain multiferroic. \emph{Nat. Comm.} \textbf{15}~(1), 5966 (2024).
+
+\bibitem{beairsto2021confined}
+S.~Beairsto, M.~Cazayous, R.~S. Fishman, R.~de~Sousa, Confined magnons. \emph{Phys. Rev. B} \textbf{104}~(13), 134415 (2021).
+
+\bibitem{mundy2022liberating}
+J.~A. Mundy, \emph{et~al.}, Liberating a hidden antiferroelectric phase with interfacial electrostatic engineering. \emph{Science Advances} \textbf{8}~(5), eabg5860 (2022).
+
+\bibitem{caretta2023non}
+L.~Caretta, \emph{et~al.}, Non-volatile electric-field control of inversion symmetry. \emph{Nat. Mat.} \textbf{22}~(2), 207--215 (2023).
+
+\bibitem{borisevich2010suppression}
+A.~Y. Borisevich, \emph{et~al.}, Suppression of Octahedral Tilts and Associated Changes in Electronic Properties at Epitaxial Oxide Heterostructure Interfaces. \emph{Phys. Rev. Lett.} \textbf{105}, 087204 (2010).
+
+\bibitem{Nicola2012noncollinear}
+C.~Weingart, N.~Spaldin, E.~Bousquet, Noncollinear magnetism and single-ion anisotropy in multiferroic perovskites. \emph{Phys. Rev. B} \textbf{86}~(9), 094413 (2012).
+
+\bibitem{cheong2018broken}
+S.-W. Cheong, D.~Talbayev, V.~Kiryukhin, A.~Saxena, Broken symmetries, non-reciprocity, and multiferroicity. \emph{npj Quantum Mat.} \textbf{3}~(1), 19 (2018).
+
+\bibitem{albrecht2010ferromagnetism}
+D.~Albrecht, \emph{et~al.}, Ferromagnetism in multiferroic $\textrm{B}i\textrm{F}e\textrm{O}_{3}$ films: a first-principles-based study. \emph{Physical Review B—Condensed Matter and Materials Physics} \textbf{81}~(14), 140401 (2010).
+
+\bibitem{dong2019magnetoelectricity}
+S.~Dong, H.~Xiang, E.~Dagotto, Magnetoelectricity in multiferroics: a theoretical perspective. \emph{Nat. Sci. Rev.} \textbf{6}~(4), 629--641 (2019).
+
+\bibitem{bertaut1968representation}
+E.~Bertaut, Representation analysis of magnetic structures. \emph{Acta Crystallographica Section A: Crystal Physics, Diffraction, Theoretical and General Crystallography} \textbf{24}~(1), 217--231 (1968).
+
+\bibitem{heron2014deterministic}
+J.~Heron, \emph{et~al.}, Deterministic switching of ferromagnetism at room temperature using an electric field. \emph{Nature} \textbf{516}~(7531), 370--373 (2014).
+
+\bibitem{kohlrausch1854theorie}
+R.~Kohlrausch, Theorie des elektrischen R{\"u}ckstandes in der Leidener Flasche. \emph{Annalen der Physik} \textbf{167}~(2), 179--214 (1854).
+
+\bibitem{he2007raman}
+H.~He, X.~Tan, Raman spectroscopy study of the phase transitions in \textrm{P}b$_{0.99}$\textrm{N}b$_{0.02}$[(\textrm{Z}r$_{0.57}$\textrm{S}n$_{0.43}$)$_{1-y}$\textrm{T}i$_y$]$_{0.98}$\textrm{O}$_3$ ceramics. \emph{Journal of Physics: Condensed Matter} \textbf{19}~(13), 136003 (2007).
+
+\bibitem{tan2014transformation}
+X.~Tan, \emph{et~al.}, Transformation toughening in an antiferroelectric ceramic. \emph{Acta materialia} \textbf{62}, 114--121 (2014).
+
+\bibitem{ishchuk2000peculiarities}
+V.~Ishchuk, O.~Belichenko, O.~Nikolov, V.~Sobolev, Peculiarities of ferro-antiferroelectric phase transitions. 6. \textrm{E}xperiments on low-frequency dynamics of interphase domain walls. \emph{Ferroelectrics} \textbf{248}~(1), 107--122 (2000).
+
+\bibitem{nadaud2023study}
+K.~Nadaud, \emph{et~al.}, Study of the long time relaxation of the weak ferroelectricity in $\textrm{P}b\textrm{Z}r\textrm{O}_3$. \emph{Thin Solid Films} \textbf{773}, 139817 (2023).
+
+\bibitem{faye2014non}
+R.~Faye, H.~Liu, J.-M. Kiat, B.~Dkhil, P.-E. Janolin, Non-ergodicity and polar features of the transitional phase in lead zirconate. \emph{Applied Physics Letters} \textbf{105}~(16) (2014).
+
+\bibitem{cornelissen2015long}
+L.~Cornelissen, J.~Liu, R.~Duine, J.~B. Youssef, B.~Van~Wees, Long-distance transport of magnon spin information in a magnetic insulator at room temperature. \emph{Nat. Phys.} \textbf{11}~(12), 1022--1026 (2015).
+
+\bibitem{han2020birefringence}
+J.~Han, \emph{et~al.}, Birefringence-like spin transport via linearly polarized antiferromagnetic magnons. \emph{Nat. Nanotech.} \textbf{15}~(7), 563--568 (2020).
+
+\bibitem{de2023long}
+D.~K. De~Wal, \emph{et~al.}, Long-distance magnon transport in the van der Waals antiferromagnet $\textrm{C}r\textrm{PS}_{4}$. \emph{Phy. Rev. B} \textbf{107}~(18), L180403 (2023).
+
+\bibitem{carcan2017phase}
+B.~Carcan, \emph{et~al.}, Phase diagram of $\textrm{B}i\textrm{F}e\textrm{O}_{3}/\textrm{L}a\textrm{F}e\textrm{O}_{3}$ superlattices: antiferroelectric-like state stability arising from strain effects and symmetry Mismatch at Heterointerfaces. \emph{Adv. Mat. Int.} \textbf{4}~(11), 1601036 (2017).
+
+\bibitem{wang2012atomistic}
+D.~Wang, J.~Weerasinghe, L.~Bellaiche, Atomistic molecular dynamic simulations of multiferroics. \emph{Phys. Rev. Lett.} \textbf{109}~(6), 067203 (2012).
+
+\bibitem{cheng2014}
+R.~Cheng, J.~Xiao, Q.~Niu, A.~Brataas, Spin Pumping and Spin-Transfer Torques in Antiferromagnets. \emph{Phys. Rev. Lett.} \textbf{113}, 057601 (2014).
+
+\end{thebibliography}

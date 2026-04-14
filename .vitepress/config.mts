@@ -84,6 +84,8 @@ export default defineConfig({
         { text: '2026-04-14', collapsed: false, items: [
           { text: 'ツイストvdW磁性体のマジックアングル', link: '/topic/2026-04_twisted-Fe3GeTe2-magic-angle' },
           { text: 'スピン-フォノン結合のモード選択性と異常輸送', link: '/topic/2026-04_magnon-phonon-magnetothermal' },
+          { text: '粒界における交換軟磁性', link: '/topic/2026-04_GB-exchange-soft-magnet' },
+          { text: 'FeCo超低減衰材料', link: '/topic/2026-04_FeCo-ultralow-damping' },
         ]},
 
         { text: '2026-04-13', collapsed: false, items: [
