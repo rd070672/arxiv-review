@@ -81,6 +81,17 @@ export default defineConfig({
 
       { text: 'Topic summary', collapsed: false, items: [
 
+        { text: '2026-04-20', collapsed: false, items: [
+          { text: 'マグノン–フォノン結合の第一原理計算', link: '/topic/2026-04_magnon-phonon-coupling' },
+          { text: 'Ga2O3/SiCヘテロ構造の熱伝導特性', link: '/topic/2026-04_TBC-Ga2O3-SiC' },
+        ]},
+
+
+        { text: '2026-04-19', collapsed: false, items: [
+          { text: 'HfO2の強誘電相の第一原理的起源', link: '/topic/2026-04_hafnia-ferroelectric-phases' },
+          { text: 'アモルファス金属のトポロジカル欠陥', link: '/topic/2026-04_amorphous-metal-topological-defects' },
+        ]},
+
         { text: '2026-04-14', collapsed: false, items: [
           { text: 'ツイストvdW磁性体のマジックアングル', link: '/topic/2026-04_twisted-Fe3GeTe2-magic-angle' },
           { text: 'スピン-フォノン結合のモード選択性と異常輸送', link: '/topic/2026-04_magnon-phonon-magnetothermal' },

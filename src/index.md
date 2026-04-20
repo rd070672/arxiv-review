@@ -47,6 +47,14 @@ features:
 
 ## トピック記事
 
+### 2026年4月20日更新
+- [マグノン–フォノン結合の第一原理計算](topic/2026-04_magnon-phonon-coupling)
+- [Ga2O3/SiCヘテロ構造の熱伝導特性](topic/2026-04_TBC-Ga2O3-SiC)
+
+### 2026年4月19日更新
+- [HfO2の強誘電相の第一原理的起源](topic/2026-04_hafnia-ferroelectric-phases)
+- [アモルファス金属のトポロジカル欠陥](topic/2026-04_amorphous-metal-topological-defects)
+
 ### 2026年4月14日更新
 - [ツイストvdW磁性体のマジックアングル](topic/2026-04_twisted-Fe3GeTe2-magic-angle)
 - [スピン-フォノン結合のモード選択性と異常輸送](topic/2026-04_magnon-phonon-magnetothermal)
