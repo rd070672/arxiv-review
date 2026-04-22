@@ -50,6 +50,8 @@ features:
 ### 2026年4月20日更新
 - [マグノン–フォノン結合の第一原理計算](topic/2026-04_magnon-phonon-coupling)
 - [Ga2O3/SiCヘテロ構造の熱伝導特性](topic/2026-04_TBC-Ga2O3-SiC)
+- [2次元強誘電体の多状態強誘電相とフォノンモード](topic/2026-04_NbOI2-multistate-ferroelectric-phonon)
+- [反強磁性体におけるバルクハウゼンジャンプ](topic/2026-04_AFM-Barkhausen-noise)
 
 ### 2026年4月19日更新
 - [HfO2の強誘電相の第一原理的起源](topic/2026-04_hafnia-ferroelectric-phases)

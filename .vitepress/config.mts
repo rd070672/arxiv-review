@@ -84,6 +84,8 @@ export default defineConfig({
         { text: '2026-04-20', collapsed: false, items: [
           { text: 'マグノン–フォノン結合の第一原理計算', link: '/topic/2026-04_magnon-phonon-coupling' },
           { text: 'Ga2O3/SiCヘテロ構造の熱伝導特性', link: '/topic/2026-04_TBC-Ga2O3-SiC' },
+          { text: '2次元強誘電体の多状態強誘電相とフォノンモード', link: '/topic/2026-04_NbOI2-multistate-ferroelectric-phonon' },
+          { text: '反強磁性体におけるバルクハウゼンジャンプ', link: '/topic/2026-04_AFM-Barkhausen-noise' },
         ]},
 
 
