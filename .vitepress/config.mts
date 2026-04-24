@@ -80,6 +80,14 @@ export default defineConfig({
     sidebar: [
 
       { text: 'Topic summary', collapsed: false, items: [
+        
+        { text: '2026-04-24', collapsed: false, items: [
+          { text: '多結晶ニッケルにおける水素拡散の第一原理マルチスケール解析', link: '/topic/2026-04_H-diffusion-kMC-Ni' },
+        ]},
+
+        { text: '2026-04-22', collapsed: false, items: [
+          { text: 'オプトメカニカル発信器ネットワーク', link: '/topic/2026-04_optomechanical-neuromorphic-RC' },
+        ]},
 
         { text: '2026-04-20', collapsed: false, items: [
           { text: 'マグノン–フォノン結合の第一原理計算', link: '/topic/2026-04_magnon-phonon-coupling' },

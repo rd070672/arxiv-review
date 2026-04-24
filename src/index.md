@@ -47,6 +47,12 @@ features:
 
 ## トピック記事
 
+### 2026年4月24日更新
+- [水素拡散の第一原理マルチスケール解析](topic/2026-04_H-diffusion-kMC-Ni)
+
+### 2026年4月22日更新
+- [オプトメカニカル発信器ネットワーク](topic/2026-04_optomechanical-neuromorphic-RC)
+
 ### 2026年4月20日更新
 - [マグノン–フォノン結合の第一原理計算](topic/2026-04_magnon-phonon-coupling)
 - [Ga2O3/SiCヘテロ構造の熱伝導特性](topic/2026-04_TBC-Ga2O3-SiC)
