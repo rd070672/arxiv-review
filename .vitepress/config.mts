@@ -81,6 +81,13 @@ export default defineConfig({
 
       { text: 'Topic summary', collapsed: false, items: [
         
+        { text: '2026-04-25', collapsed: false, items: [
+          { text: 'アモルファス金属の脆性と熱履歴の関係', link: '/topic/2026-04_metallic-glass-ductility-thermal-history' },
+          { text: 'Ge-rich GeSbTe相変化合金の微視的メカニズム', link: '/topic/2026-04_GeSbTe-crystallization' },
+          { text: 'MIにおける因果推論', link: '/topic/2026-04_causal_MI' },
+          { text: 'アモルファス粒界コンプレキシオン（偏析層）', link: '/topic/2026-04_amorphous-GB-complexion' },
+        ]},
+        
         { text: '2026-04-24', collapsed: false, items: [
           { text: '多結晶ニッケルにおける水素拡散の第一原理マルチスケール解析', link: '/topic/2026-04_H-diffusion-kMC-Ni' },
         ]},
