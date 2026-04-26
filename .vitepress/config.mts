@@ -81,6 +81,10 @@ export default defineConfig({
 
       { text: 'Topic summary', collapsed: false, items: [
         
+        { text: '2026-04-26', collapsed: false, items: [
+          { text: 'スライディング強誘電体における2次元分極反転', link: '/topic/2026-04_sliding-ferroelectric-moire-pinning' },
+        ]},
+
         { text: '2026-04-25', collapsed: false, items: [
           { text: 'アモルファス金属の脆性と熱履歴の関係', link: '/topic/2026-04_metallic-glass-ductility-thermal-history' },
           { text: 'Ge-rich GeSbTe相変化合金の微視的メカニズム', link: '/topic/2026-04_GeSbTe-crystallization' },

@@ -47,6 +47,10 @@ features:
 
 ## トピック記事
 
+
+### 2026年4月26日更新
+- [スライディング強誘電体における2次元分極反転](topic/2026-04_sliding-ferroelectric-moire-pinning)
+
 ### 2026年4月25日更新
 - [アモルファス金属の構造不均一性とせん断バンド制御](topic/2026-04_metallic-glass-ductility-thermal-history)
 - [Ge-rich GeSbTe相変化合金の微視的メカニズム](topic/2026-04_GeSbTe-crystallization)
