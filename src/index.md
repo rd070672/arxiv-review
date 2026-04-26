@@ -50,8 +50,8 @@ features:
 ### 2026年4月25日更新
 - [アモルファス金属の構造不均一性とせん断バンド制御](topic/2026-04_metallic-glass-ductility-thermal-history)
 - [Ge-rich GeSbTe相変化合金の微視的メカニズム](topic/2026-04_GeSbTe-crystallization)
-<!-- - [MIにおける因果推論](topic/2026-04_causal_MI) -->
 - [アモルファス粒界コンプレキシオン（偏析層）](topic/2026-04_amorphous-GB-complexion)
+<!-- - [MIにおける因果推論](topic/2026-04_causal-MI) -->
 
 
 ### 2026年4月24日更新
