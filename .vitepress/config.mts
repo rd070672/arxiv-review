@@ -81,15 +81,21 @@ export default defineConfig({
 
       { text: 'Topic summary', collapsed: false, items: [
         
+        { text: '2026-04-27', collapsed: false, items: [
+          { text: 'アモルファス金属の深層緩和', link: '/topic/2026-04_metallic-glass-deep-relaxation' },
+          { text: 'シリカガラスの中距離秩序', link: '/topic/2026-04_SRO-MRO-MLIP-glass' },
+        ]},
+
         { text: '2026-04-26', collapsed: false, items: [
           { text: 'スライディング強誘電体における2次元分極反転', link: '/topic/2026-04_sliding-ferroelectric-moire-pinning' },
+          { text: '長距離相互作用に基づく量子相転移', link: '/topic/2026-04_LR-spin1-nonconformal-criticality' },
         ]},
 
         { text: '2026-04-25', collapsed: false, items: [
           { text: 'アモルファス金属の脆性と熱履歴の関係', link: '/topic/2026-04_metallic-glass-ductility-thermal-history' },
           { text: 'Ge-rich GeSbTe相変化合金の微視的メカニズム', link: '/topic/2026-04_GeSbTe-crystallization' },
-          { text: 'MIにおける因果推論', link: '/topic/2026-04_causal-MI' },
           { text: 'アモルファス粒界コンプレキシオン（偏析層）', link: '/topic/2026-04_amorphous-GB-complexion' },
+          { text: '顕微鏡データにおける因果推論', link: '/topic/2026-04_causal-MI' },
         ]},
         
         { text: '2026-04-24', collapsed: false, items: [

@@ -48,15 +48,19 @@ features:
 ## トピック記事
 
 
+### 2026年4月27日更新
+- [アモルファス金属の深層緩和](topic/2026-04_metallic-glass-deep-relaxation)
+- [シリカガラスの中距離秩序](topic/2026-04_SRO-MRO-MLIP-glass)
+
 ### 2026年4月26日更新
 - [スライディング強誘電体における2次元分極反転](topic/2026-04_sliding-ferroelectric-moire-pinning)
+- [長距離相互作用に基づく量子相転移](topic/2026-04_LR-spin1-nonconformal-criticality)
 
 ### 2026年4月25日更新
 - [アモルファス金属の構造不均一性とせん断バンド制御](topic/2026-04_metallic-glass-ductility-thermal-history)
 - [Ge-rich GeSbTe相変化合金の微視的メカニズム](topic/2026-04_GeSbTe-crystallization)
 - [アモルファス粒界コンプレキシオン（偏析層）](topic/2026-04_amorphous-GB-complexion)
-- [MIにおける因果推論](topic/2026-04_causal-MI)
-
+- [顕微鏡データにおける因果推論](topic/2026-04_causal-MI)
 
 ### 2026年4月24日更新
 - [水素拡散の第一原理マルチスケール解析](topic/2026-04_H-diffusion-kMC-Ni)
