@@ -51,6 +51,8 @@ features:
 ### 2026年4月27日更新
 - [アモルファス金属の深層緩和](topic/2026-04_metallic-glass-deep-relaxation)
 - [シリカガラスの中距離秩序](topic/2026-04_SRO-MRO-MLIP-glass)
+- [アダプティブ動的モンテカルロ法](topic/2026-04_adaptive-KMC)
+- [第一原理スピンモンテカルロ](topic/2026-04_first-principles-spin-monte-carlo)
 
 ### 2026年4月26日更新
 - [スライディング強誘電体における2次元分極反転](topic/2026-04_sliding-ferroelectric-moire-pinning)

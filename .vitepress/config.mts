@@ -84,6 +84,8 @@ export default defineConfig({
         { text: '2026-04-27', collapsed: false, items: [
           { text: 'アモルファス金属の深層緩和', link: '/topic/2026-04_metallic-glass-deep-relaxation' },
           { text: 'シリカガラスの中距離秩序', link: '/topic/2026-04_SRO-MRO-MLIP-glass' },
+          { text: 'アダプティブ動的モンテカルロ法', link: '/topic/2026-04_adaptive-KMC' },
+          { text: '第一原理スピンモンテカルロ', link: '/topic/2026-04_first-principles-spin-monte-carlo' },
         ]},
 
         { text: '2026-04-26', collapsed: false, items: [
