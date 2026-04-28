@@ -81,6 +81,15 @@ export default defineConfig({
 
       { text: 'Topic summary', collapsed: false, items: [
         
+
+        { text: '2026-04-28', collapsed: false, items: [
+          { text: '巨大圧電効果に対する量子イオン揺らぎ', link: '/topic/2026-04_quantum-piezoelectricity' },
+          { text: 'スピン-格子結合の微視的起源', link: '/topic/2026-04_spin-lattice-coupling' },
+          { text: '鉄系化合物への軽元素侵入型添加', link: '/topic/2026-04_LaFeSiH_light_element' },
+          { text: '2026年4月のまとめ', link: '/summary/2026-April' }
+
+        ]},
+
         { text: '2026-04-27', collapsed: false, items: [
           { text: 'アモルファス金属の深層緩和', link: '/topic/2026-04_metallic-glass-deep-relaxation' },
           { text: 'シリカガラスの中距離秩序', link: '/topic/2026-04_SRO-MRO-MLIP-glass' },

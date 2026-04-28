@@ -48,6 +48,12 @@ features:
 ## トピック記事
 
 
+### 2026年4月28日更新
+- [巨大圧電効果に対する量子イオン揺らぎ](topic/2026-04_quantum-piezoelectricity)
+- [スピン-格子結合の微視的起源](topic/2026-04_spin-lattice-coupling) 
+- [鉄系化合物への軽元素侵入型添加](topic/2026-04_LaFeSiH_light_element)
+- [2026年4月のまとめ](summary/2026-April)
+
 ### 2026年4月27日更新
 - [アモルファス金属の深層緩和](topic/2026-04_metallic-glass-deep-relaxation)
 - [シリカガラスの中距離秩序](topic/2026-04_SRO-MRO-MLIP-glass)
