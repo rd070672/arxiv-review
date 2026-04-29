@@ -47,11 +47,15 @@ features:
 
 ## トピック記事
 
+### 2026年4月29日更新
+- [欠陥を含む高エントロピー合金の原子配置](topic/2026-04_HEA-defect-configuration)
+- [X線光電子回折（XPD）が明かすIrTe₂の表面対称性破れ](topic/2026-04_photoelectron-diffraction-IrTe2)
 
 ### 2026年4月28日更新
 - [巨大圧電効果に対する量子イオン揺らぎ](topic/2026-04_quantum-piezoelectricity)
 - [スピン-格子結合の微視的起源](topic/2026-04_spin-lattice-coupling) 
 - [鉄系化合物への軽元素侵入型添加](topic/2026-04_LaFeSiH_light_element)
+- [強誘電トポロジカル絶縁体](topic/2026-04_ferroelectric-topological-insulator)
 - [2026年4月のまとめ](summary/2026-April)
 
 ### 2026年4月27日更新
