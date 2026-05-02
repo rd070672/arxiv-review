@@ -1,0 +1,10 @@
+date,topic,arxiv_id,title,category,role,used_in_article,main-area,sub-area,method-tag
+2026-05-02,altermagnet-quantum-geometry,2604.28088,Giant Spin Magnetization from Quantum Geometry in Altermagnets,cond-mat.mes-hall,anchor,yes,Magnetism and Spin,Topological Properties;Spin-Orbit Interaction,First-Principles Calculations
+2026-05-02,altermagnet-quantum-geometry,2604.28184,Intrinsic anomalous thermal Hall effect as a signature of quantum metric in d-wave altermagnets,cond-mat.mes-hall,related,yes,Magnetism and Spin,Topological Properties;Spin-Orbit Interaction,First-Principles Calculations
+2026-05-02,altermagnet-quantum-geometry,2604.27746,The second altermagnet candidate in organic conductors: kappa-(BEDT-TTF)2 m-HOOCC6H4SO3,cond-mat.mtrl-sci,related,yes,Magnetism and Spin,Low-Dimensional Materials,
+2026-05-02,altermagnet-quantum-geometry,2604.27294,Electrically Tunable Terahertz Chirality from Quantum Geometry,cond-mat.mes-hall,related,yes,Magnetism and Spin,Topological Properties,
+2026-05-02,altermagnet-quantum-geometry,2604.28091,Observation of the Magnus Nonlinear Hall effect from Chiral Weyl Monopoles,cond-mat.mes-hall,related,yes,Magnetism and Spin,Topological Properties,Transport Measurements
+2026-05-02,altermagnet-quantum-geometry,2105.05820,Altermagnetism: spin-momentum locked phase protected by non-relativistic symmetries,cond-mat.mtrl-sci,related,yes,Magnetism and Spin,Topological Properties;Spin-Orbit Interaction,First-Principles Calculations
+2026-05-02,altermagnet-quantum-geometry,2604.26239,Topological Altermagnetism in 2D Janus FeSeX,cond-mat.mes-hall,related,yes,Magnetism and Spin,Topological Properties;Low-Dimensional Materials,First-Principles Calculations
+2026-05-02,altermagnet-quantum-geometry,2505.22183,Intrinsic Berry Curvature Probed in Weyl Semimetal Co3Sn2S2,cond-mat.mes-hall,related,yes,Magnetism and Spin,Topological Properties,Transport Measurements
+2026-05-02,altermagnet-quantum-geometry,2309.01607,Unconventional p-wave magnets,cond-mat.mtrl-sci,related,yes,Magnetism and Spin,Topological Properties;Spin-Orbit Interaction,First-Principles Calculations

@@ -47,6 +47,13 @@ features:
 
 ## トピック記事
 
+### 2026年5月02日更新
+- [交替磁性における量子幾何学](topic/2605/2026-05_altermagnet-quantum-geometry)
+- [量子幾何からの巨大スピン磁化](topic/2605/2026-05_altermagnetism_quantum_geometry))
+
+### 2026年4月30日更新
+- [イットリア安定化正方晶ジルコニアの自己治癒機能](topic/2026-04_self-healing-ceramic)
+
 ### 2026年4月29日更新
 - [欠陥を含む高エントロピー合金の原子配置](topic/2026-04_HEA-defect-configuration)
 - [X線光電子回折（XPD）が明かすIrTe₂の表面対称性破れ](topic/2026-04_photoelectron-diffraction-IrTe2)

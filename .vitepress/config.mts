@@ -79,9 +79,20 @@ export default defineConfig({
 
     sidebar: [
 
-      { text: 'Topic summary', collapsed: false, items: [
+      { text: 'May, 2026', collapsed: false, items: [
         
+        { text: '2026-05-02', collapsed: false, items: [
+          { text: '交替磁性における量子幾何からの巨大スピン磁化', link: '/topic/2605/2026-05_altermagnet-quantum-geometry' },
+        ]},
 
+        
+      ]},
+
+      
+      { text: 'April, 2026', collapsed: true, items: [
+        { text: '2026-04-30', collapsed: false, items: [
+          { text: 'イットリア安定化正方晶ジルコニアの自己治癒機能', link: '/topic/2026-04_self-healing-ceramic' },
+        ]},
         { text: '2026-04-29', collapsed: false, items: [
           { text: '欠陥を含む高エントロピー合金の原子配置', link: '/topic/2026-04_HEA-defect-configuration' },
           { text: 'X線光電子回折（XPD）が明かすIrTe₂の表面対称性破れ', link: '/topic/2026-04_photoelectron-diffraction-IrTe2' },
