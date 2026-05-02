@@ -1,0 +1,117 @@
+\documentclass[prx,aps,twocolumn,preprintnumbers,amsmath,amssymb,superscriptaddress,showpacs]{revtex4-2}
+%\documentclass[aps,prb,twocolumn,showpacs,superscriptaddress]{revtex4}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{color}
+\graphicspath{{fig/}{figsgaoerb/}}
+\usepackage[colorlinks,linkcolor=blue,anchorcolor=blue,citecolor=blue]{hyperref}
+
+\newcommand{\yi}[1]{\textcolor{blue}{#1}}
+
+\begin{document}
+\title {Identifying the structure of La$_3$Ni$_2$O$_7$ in the pressurized superconducting state}
+\author{Hengyuan Zhang}
+\thanks{These authors contribute equally to this work.} 
+\author{Jielong Zhang}
+\thanks{These authors contribute equally to this work.} 
+\author{Mengwu Huo}
+\author{Junfeng Chen}
+\author{Deyuan Hu}
+\author{Dao-Xin Yao}
+\affiliation{Guangdong Provincial Key Laboratory of Magnetoelectric Physics and Devices, School of Physics, Sun Yat-Sen University, Guangzhou, Guangdong 510275, China}
+\author{Hualei Sun}
+\affiliation{School of Science, Sun Yat-Sen University, Shenzhen, Guangdong 518107, China}
+\author{Kun Cao}
+\email{Corresponding author: caok7@mail.sysu.edu.cn}
+\affiliation{Guangdong Provincial Key Laboratory of Magnetoelectric Physics and Devices, School of Physics, Sun Yat-Sen University, Guangzhou, Guangdong 510275, China}
+\author{Meng Wang}
+\email{Corresponding author: wangmeng5@mail.sysu.edu.cn}
+\affiliation{Guangdong Provincial Key Laboratory of Magnetoelectric Physics and Devices, School of Physics, Sun Yat-Sen University, Guangzhou, Guangdong 510275, China}
+
+\begin{abstract}
+The precise crystal structure of La$_3$Ni$_2$O$_7$ in its high-pressure superconducting state has been a subject of intense debate, with proposed models including both orthorhombic and tetragonal symmetries. Using high-pressure Raman spectroscopy combined with first-principles calculations, we unravel the structural evolution of La$_3$Ni$_2$O$_7$ under pressure up to 32.7~GPa. We identify a clear structural transition sequence: from the orthorhombic $Amam$ phase to a mixed $Amam$+$Fmmm$ phase at $\sim$4~GPa, followed by a complete transition to the tetragonal $I4/mmm$ phase at 14.5~GPa, which is signaled by a pronounced phonon renormalization. The emergence of bulk superconductivity is found to coincide precisely with this transition to the $I4/mmm$ phase. Our results definitively establish the tetragonal $I4/mmm$ structure as the host of superconductivity in La$_3$Ni$_2$O$_7$, resolving a central controversy and providing a critical foundation for understanding the superconducting mechanism in nickelates.
+\end{abstract}
+
+\maketitle
+
+
+{\it Introduction} -- The discovery of high-temperature superconductivity in Ruddlesden-Popper (RP) nickelates has established a major new family of unconventional superconductors~\cite{Wang2024nor,Wang2025r}. Superconductivity has been observed in bulk samples of bilayer~\cite{Sun2023,Zhang2024h,Hou2023}, trilayer~\cite{Zhu2024s}, and hybrid structural phases~\cite{Shi2025s,Huang2025s} under high pressure, as well as in thin-film specimens at ambient pressure~\cite{Ko2025,Zhou2025a}. Among these, the bilayer compound La$_3$Ni$_2$O$_7$ and its doped derivatives exhibit the highest superconducting transition temperature, $T_\text{c}$~\cite{Li2025a,Zhong2025ev,Qiu2025i}. This material consists of alternating LaO layers and corner-sharing bilayer NiO$_6$ octahedra, crystallizing in the orthorhombic $Amam$ space group at ambient pressure~\cite{Sun2023, Li2025i, Zhang2024h, Wang2025c, Wang2024s, Zhang2024eff}. A key structural feature is the bilayer of NiO$_6$ octahedra linked by shared apical oxygen, which is suggested as the fundamental structural unit for superconductivity in RP nickelates~\cite{luo2023b,yang2024o,liu2024e,qu2024,Lu2024i1,Sakakibara2024p,Zhang2024str,Jiang2025t,Yang2023i,Lechermann2023}. In La$_3$Ni$_2$O$_7$, superconductivity emerges above 14~GPa, forming a distinctive right-triangular-like phase diagram~\cite{Li2025i} that contrasts with the conventional dome-shaped phase diagrams of heavy-fermion systems, cuprates, and iron-based superconductors~\cite{Crawford2005,Zhang2015Effects, Massidda2016, Medvedev2009E}. Identifying the crystal structure in the superconducting state is therefore a crucial first step toward elucidating the underlying mechanism. However, high-pressure constraints and the technical challenges associated with diamond anvil cells (DACs) have hindered structural investigations in this regime. Consequently, the crystallography of La$_3$Ni$_2$O$_7$ in its superconducting state remains a subject of ongoing debate.
+
+Neutron diffraction measurements at ambient pressure confirm an orthorhombic structure for La$_3$Ni$_2$O$_7$ with a Ni--O--Ni bond angle of 168$^\circ$ along the $c$ axis (Fig. \ref{fig:1}a). However, high-pressure structural studies using synchrotron X-ray diffraction (XRD) have yielded conflicting results, largely due to experimental constraints imposed by the diamond anvil cell (DAC) environment. Three primary structural candidates for the superconducting state have emerged: the unchanged $Amam$ phase~\cite{Shi2025p}, an orthorhombic $Fmmm$ phase~\cite{Sun2023,Li2025i}, and a tetragonal $I4/mmm$ phase~\cite{Wang2024s,Wang2025c}, as shown in Figs. \ref{fig:1}a, b. The $Fmmm$ phase, characterized by a 180$^\circ$ Ni--O--Ni bond angle along the $c$ axis, was proposed based on a combination of XRD data and first-principles calculations~\cite{Sun2023, Zhang2024h, Zhang2024eff,Li2025i}. In contrast, the $I4/mmm$ phase was identified from Rietveld refinement of XRD patterns in the superconducting state and the merging of the (0~2~0) and (2~0~0) reflection peaks under pressure~\cite{Puphal2024, Wang2025c,Wang2024s}. The reported pressure for this transition varies, either coinciding with or preceding the emergence of superconductivity, and appears sensitive to the pressure-transmitting medium (PTM) and sample form. Consequently, it remains unclear whether the tetragonal phase is a prerequisite for superconductivity~\cite{Shi2025p}. As a non-destructive optical method, Raman spectroscopy has inherent sensitivity to phonons, making it advantageous for detecting structural symmetry. It has been employed to distinguish the bilayer phase from the other RP nickelates \cite{Li2025d} and investigate the electronic correlations in La$_4$Ni$_3$O$_{10}$ at ambient pressure \cite{suthar2025,Gim2025,Zhang2025d}.
+
+In this work, we investigated the high-pressure structure of La$_3$Ni$_2$O$_7$ by Raman spectroscopy. Our results suggest that La$_3$Ni$_2$O$_7$ undergoes three stages of phase transitions: $Amam$$\xrightarrow{ \sim\ 4 \ GPa}$$Amam+Fmmm$$\xrightarrow{ 14.5 \ GPa}$$I$4/$mmm$. Raman spectra clearly detected a phonon renormalization of La$_3$Ni$_2$O$_7$ at 14.5 GPa, which matches well with our first-principles calculations. The abrupt changes in Raman spectral intensity are attributed to altered phonon vibration patterns accompanying the structural phase transition. More importantly, we identify the structure of La$_3$Ni$_2$O$_7$ in the pressurized superconducting state as belonging to the $I4/mmm$ space group, and resolve the ongoing debates on the correlation of its superconductivity and structural phase transitions.
+
+
+\begin{figure}[t]
+  \includegraphics[width=0.5\textwidth]{figures/Figure1.png}
+    \centering
+    \caption{\textbf{Crystal structures of La$_3$Ni$_2$O$_7$.}  (a) The low-pressure orthorhombic unit cell ($Amam$ or $Fmmm$ space groups), characterized by a Ni--O--Ni bond angle of 168$^\circ$ or 180$^\circ$ along the $c$ axis, respectively. (b) The high-pressure tetragonal unit cell ($I4/mmm$ space group).}
+    \label{fig:1}
+\end{figure}
+
+
+{\it Experiment and Calculations} -- Single crystals of La$_3$Ni$_2$O$_7$, grown using a high-pressure optical floating-zone furnace (HKZ, SciDre GmbH), were used in this study~\cite{Liu2023e}. Samples from the same batch were previously characterized in high-pressure electrical transport and XRD experiments~\cite{Sun2023,Li2025i,Wang2024s}. For the present high-pressure Raman measurements, samples were cleaved along the $ab$-plane and loaded into a DAC. Either neon or helium gas was used as the PTM to ensure a hydrostatic environment. Raman spectra were acquired in a confocal configuration (MoniVista CRS3) using a 633~nm laser as the excitation source, with the power maintained below 3~mW. Low-temperature measurements were performed using an optical magnetic cryostat (Quantum Design), enabling temperature control from 2 to 300~K.
+
+Density functional theory (DFT) calculations were carried out using the Vienna $ab\ initio$ Simulation Package (VASP)~\cite{Abinitio, VASP}. We employed the Perdew-Burke-Ernzerhof (PBE) functional within the generalized gradient approximation, including onsite Hubbard corrections (PBE+$U$)~\cite{GGA}. Phonons were computed via density functional perturbation theory in combination with the PHONOPY code. The results were visualized using the VESTA software package~\cite{phonopy-phono3py-JPCM, phonopy-phono3py-JPSJ, VESTA}. Detailed parameters are provided in the Supplemental Material.
+
+
+
+
+
+ \begin{figure}[t]
+  \includegraphics[width=0.9\columnwidth]{figures/Figure2.png}
+    \caption{\label{fig:2} \textbf{High-pressure Raman spectra of La$_3$Ni$_2$O$_7$.} Raman spectra measured from 0 to 32.7~GPa, offset vertically for clarity. At ambient pressure, the spectrum corresponds to the orthorhombic $Amam$ phase. Between 3.1 and 12.2~GPa, the system enters a mixed phase of $Amam$ and $Fmmm$. Above 14.5~GPa, a transition to the tetragonal $I4/mmm$ phase occurs, accompanied by a reorganization of phonon modes. All spectra were acquired under identical experimental conditions.}
+\end{figure}
+
+\begin{figure}[t]
+      \centering
+      \includegraphics[width=1\columnwidth]{figures/Figure3.png}
+    \caption{\label{fig:3}\textbf{Raman spectral analysis of La$_3$Ni$_2$O$_7$ under pressure.} 
+ (a) Ambient-pressure spectrum with a linear combination of Lorentzian and Gaussian fits (pink).  The phonon modes are deconvoluted into eight peaks (A1--A8), indicated by distinct colored areas. Vertical dashed lines indicate calculated $ab$-plane phonon frequencies. 
+(b)--(d) Fitted spectra at 6.4, 12.2, and 19.2~GPa (300 K), respectively. Peaks associated with the $Fmmm$ phase (F1--F4) and the $I4/mmm$ phase (I1--I5) are highlighted with colored areas. The vertical lines at the bottom show calculated frequencies for each phase.
+(e) Spectrum measured at 17.3~GPa and 3~K. For a better visualization, the weak signals in the dashed box were magnified by a factor of (a, b) 15, (c) 7.5. The whole spectra in (d) and (e) were magnified 15 and 1.5, respectively. (f) Pressure dependence of the Raman shifts for all identified phonon modes, labeled according to their respective structural phases: $Amam$ (A1--A8), $Fmmm$ (F1--F4), and $I4/mmm$ (I1--I5).
+(g)--(i) Pressure evolution of the intensity and full width at half maximum (FWHM) for selected Raman-active phonons.}
+\end{figure}
+
+
+Our backscattering Raman experiment, performed with both incident and scattered light polarized in the $ab$-plane propagating along the $c$ axis, probes Raman activity in the $ab$-plane, i.e., the derivative of in-plane electric polarizability with respect to phonon modes. Symmetry analysis is performed to provide the forms of Raman tensors for each phase and their corresponding irreducible representations (ir-reps) (see Section~1 in the supplemental material), with which one can calculate the Raman activity by
+$I_{ij}\propto\sum_{m}{|\alpha_{ij}|}^2$,
+where $i,\ j = x,\ y,\ z$ denote the polarizations of incident and scattered light respectively, and $\alpha_{ij}$ is the $(i, j)$ th element of the Raman tensor\cite{ramanactivity}. Therefore, under our experimental setup, only the phonon modes with ir-reps $A_g$, $A_{1g}$ and $B_{1g}$ will exhibit Raman activity since the others do not possess any nonzero $\alpha_{xx}$, $\alpha_{xy}$ or $\alpha_{yy}$ elements\cite{csr}.
+
+{\it Results and Discussions} -- Raman spectra of a La$_3$Ni$_2$O$_7$ single crystal measured within the $ab$-plane at pressures up to 32.7~GPa are presented in Fig.~\ref{fig:2}. At ambient pressure, the spectrum for the $Amam$ space group exhibits two primary peaks at 350~cm$^{-1}$ and 570~cm$^{-1}$, along with several weaker features, consistent with previous reports~\cite{Wen2024,Li2025d,Meng2024}. Under increasing pressure, the Raman peaks shift to higher wavenumbers due to lattice compression and broaden progressively, as expected. Above 3.1~GPa, the systematic evolution of the Raman peak at 287~cm$^{-1}$ signals the onset of a progressive structural transition. A more pronounced transformation occurs at 14.5~GPa and above, where the spectra show a marked renormalization of phonon modes and the disappearance of the modes at 286, 408, and 582~cm$^{-1}$, clearly indicating a structural phase transition coincidental with the emergence of superconductivity (See supplementary Fig. S1).
+
+\begin{figure}[t]
+  \includegraphics[width=1\columnwidth]{figures/Figure4.png}
+    \centering
+    \caption{\textbf{Visualization of selected phonon mode vibrations.}  (a) Three-dimensional view of the atomic displacements for phonon modes A7 (magenta arrows) and A8 (azure arrows) in the $Amam$ phase. (b, c) Comparative visualization of a characteristic in-phase vibrational mode in the (b) $Fmmm$ (peak F2) and (c) $I4/mmm$ (peak I4) phases. Atomic displacements are indicated by arrows. For clarity, the illustrations are restricted to the atoms of a single bilayer within the unit cell. The red balls represent O atoms and the grey balls represent Ni atoms. La atoms are omitted as they exhibit negligible displacement in these modes. The corresponding wavenumbers are derived from theoretical calculations.}
+    \label{fig:4}
+\end{figure}
+
+
+To elucidate the pressure-dependent structural evolution, we compared the experimental Raman spectra measured at selected pressures 0, 6.4, 12.2, and 19.2~GPa (room temperature) with first-principles calculations (Figs.~\ref{fig:3}a--d). The spectral intensity below 300~cm$^{-1}$ is magnified for clarity. At ambient pressure (Fig.~\ref{fig:3}a), eight phonon modes (labeled A1--A8) are observed, consistent with the calculated $A_g$ and $B_{1g}$ modes of the orthorhombic $Amam$ phase. The reduced number of observed phonon modes compared to calculations is attributed to the Raman spectrometer resolution. At 6.4~GPa, a new peak emerges at 196~cm$^{-1}$ and the existing peak at 396~cm$^{-1}$ becomes asymmetric. The spectrum at 12.2~GPa (Fig.~\ref{fig:3}c) reveals newly emerged peaks (labeled F1--F5) that align with the orthorhombic $Fmmm$ phase, in which the Ni--O--Ni bond angle along the $c$ axis becomes 180$^\circ$. A broad peak (labeled $\star$) is also resolved in the fit, which has been interpreted as an indicator of incipient superconductivity at low pressures.  The coexistence of Raman peaks at 6.4 and 12.2~GPa indicates a mixed phase of $Amam$ and $Fmmm$. At 19.2~GPa (Fig.~\ref{fig:3}d), the phonon modes (labeled I1--I5) match the calculations for the tetragonal $I4/mmm$ phase, characterized by a prominent peak shift to 481~cm$^{-1}$. Crucially, Raman spectra measured at 3~K in the superconducting state are identical to those at room temperatures, confirming that the structure of superconducting La$_3$Ni$_2$O$_7$ under pressure is the tetragonal $I4/mmm$ phase (Fig.~\ref{fig:3}e and supplementary Fig. S3).
+
+The dependence of the Raman shifts, intensities, and full width at half maximum (FWHM) on all the applied pressures is detailed in Figs.~\ref{fig:3}f--i. All observed Raman peaks shift to higher wavenumbers with increasing pressure, consistent with lattice compression. Peaks associated with the $Fmmm$ phase emerge above approximately 4~GPa. In the 4--12~GPa range, the $Amam$ and $Fmmm$ phases coexist, with the relative fraction of the $Amam$ phase decreasing and that of the $Fmmm$ phase increasing gradually, as evidenced by the evolution of peak intensities in Fig.~\ref{fig:3}g--i. The FWHM of representative modes (A8 and F3) also exhibits anomalies at the structural transition pressures. Above 14~GPa, the Raman spectra undergo an abrupt change due to the transition to the $I4/mmm$ phase, indicative of a first-order structural transition.
+
+
+To further elucidate the connection between the Raman spectra and structural phase transitions, we identified the relevant phonon modes corresponding to the experimental Raman peaks and plotted their displacement patterns, as shown in Fig.~\ref{fig:4}. For the primary Raman peak A8 ($B_{1g}$) in the $Amam$ phase, the associated phonon mode involves vibrations localized on half of the in-plane oxygen atoms within the NiO$_6$ octahedra (Fig.~\ref{fig:4}a). These vibrations directly modulate the in-plane bond lengths, resulting in relatively high Raman intensity due to strong coupling with the in-plane polarizability, analogous to a symmetric stretching mode in molecular systems. In contrast, the A7 peak (also $B_{1g}$) exhibits a similar pattern but is facilitated by the other half of the in-plane oxygen atoms, which are positioned closer to the adjacent layer. Upon transitioning to the $Fmmm$ and $I4/mmm$ phases, where the Ni--O--Ni bond angle along the $c$ axis becomes 180$^\circ$, the prominent A7 and A8 modes renormalize to form a new vibrational mode. This new mode belongs to the irreducible representations $B_{3g}$ and $E_g$, respectively (see Supplementary Fig. S5), and is Raman-inactive in our backscattering geometry. Notably, within the $Amam$ space group, the phonon vibration patterns are not sensitive to the tilting angles of the NiO$_6$ octahedra. Therefore, the emergence of the new Raman peaks F1--F5 at moderate pressures is more likely attributable to the coexistence of the $Amam$ and $Fmmm$ phases, rather than to a continuous pressure-induced change of the Ni--O bond angles within the $Amam$ phase.
+
+
+Symmetry analysis classifies the F1--F3 and F5 modes as belonging to the $A_{g}$ irreducible representation, while the I1, I2, I4, and I5 modes belong to $A_{1g}$; the remaining F4 and I3 modes are of $B_{1g}$ symmetry. The $A_{g}$ and $A_{1g}$ modes involve in-phase vibrations of the in-plane oxygen atoms along the $c$ axis, modulating both the in-plane and out-of-plane components of the polarizability, as indicated by the non-zero diagonal elements of their Raman tensors (See supplementary Section 3). Figures \ref{fig:4}b and c display the in-phase vibrational patterns of modes F2 and I4, which correspond to the $Fmmm$ and $I4/mmm$ phases, respectively. In contrast, the $B_{1g}$ modes are characterized by out-of-phase vibrations of the in-plane oxygen atoms. A notable observation is the significant reduction in Raman intensity for the relatively high-frequency modes (F2--F4) across the transition to the $I4/mmm$ phase. These modes, primarily associated with oxygen atom vibrations, undergo blue shifts during the phase transition, which contributes to the observed intensity suppression~\cite{HOLZER1969}. Conversely, the low-frequency modes (F1 and F5), which mainly involve vibrations of La or Ni atoms, exhibit minimal frequency shifts and maintain relatively constant Raman intensities throughout the phase transition.
+
+
+This Raman spectroscopy study establishes that the structure of La$_3$Ni$_2$O$_7$ in the pressurized superconducting state is the tetragonal $I4/mmm$ phase, with the emergence of superconductivity coinciding with this structural transition (See supplementary Fig. S1). The apparent discrepancies between high-pressure Raman spectroscopy and synchrotron XRD results can be understood by considering their differing probe depths. Unlike powder samples, single crystals under external pressure develop internal lattice stress, with strain diminishing progressively from the surface to the interior. Our Raman measurements employ a 633~nm laser with an estimated probe depth of $\sim$219~nm, whereas a typical synchrotron XRD experiment (wavelength 0.6199~\AA) probes the sample with a depth of $\sim$159~$\mu$m~\cite{Borowicz2016}. For this estimation, we used the absorption coefficient $k$ of LaNiO$_3$, given its structural similarity to La$_3$Ni$_2$O$_7$. In high-pressure configurations where the sample thickness is typically below 50~$\mu$m, synchrotron radiation probes the volume-averaged structure, whereas Raman spectroscopy is inherently surface-sensitive, detecting regions where the pressure most closely matches the applied hydrostatic pressure. This gradient in internal lattice stress leads to a distribution of structural states within single crystals. Such inhomogeneity can account for the low superconducting volume fraction observed in single-crystal samples and their pronounced sensitivity to the hydrostaticity of the pressure medium. Furthermore, the well-defined orthorhombic-to-tetragonal transition observed in sol-gel derived powder samples, which lack significant internal stress, provides additional evidence for the presence of substantial strain gradients in single crystals. 
+
+
+{\it Summary} -- Our high-pressure Raman spectroscopy study, supported by theoretical analysis, elucidates the structural evolution of La$_3$Ni$_2$O$_7$. We identify a clear, multi-stage transition pathway: the ambient-pressure orthorhombic $Amam$ phase first transitions to a mixed phase of $Amam$ and $Fmmm$ at approximately 4~GPa, before undergoing a complete transition to the tetragonal $I4/mmm$ phase at 14.5~GPa. This final transition is marked by a significant renormalization of the phonon spectra. Crucially, the pressure at which superconductivity emerges aligns remarkably with this orthorhombic-to-tetragonal structural transition at 14.5~GPa. Our findings therefore definitively identify the tetragonal $I4/mmm$ structure as the crystalline framework for superconductivity in pressurized La$_3$Ni$_2$O$_7$. This result not only resolves a key controversy in the field but also establishes a profound structural parallel with the high-$T_\text{c}$ superconducting phases of cuprates and iron-based superconductors, suggesting potentially universal aspects in the lattice environment conducive to unconventional superconductivity.
+ 
+
+{\it Acknowledgments}--This work was supported by the National Natural Science Foundation of China (Grants No. 12425404, 12494591, 12474137, and 12474249), the National Key Research and Development Program of China (Grants No. 2023YFA1406000, 2023YFA1406500), the Guangdong Basic and Applied Basic Research Funds (Grant No. 2024B1515020040, 2025B1515020008, 2024A1515030030), the Shenzhen Science and Technology Program (Grants No. RCYX20231211090245050), the Guangzhou Basic and Applied Basic Research Funds (Grant No. 2024A04J6417), the CAS Superconducting Research Project (Grant No. SCZX-0101), the Guangdong Provincial Key Laboratory of Magnetoelectric Physics and Devices (Grant No. 2022B1212010008), and Research Center for Magnetoelectric Physics of Guangdong Province (Grant No. 2024B0303390001). 
+
+
+\bibliography{reference}
+
+\end{document}
+
+
+
