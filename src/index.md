@@ -50,6 +50,7 @@ features:
 ### 2026年5月02日更新
 - [交替磁性における量子幾何学](topic/2605/2026-05_altermagnet-quantum-geometry)
 - [量子幾何からの巨大スピン磁化](topic/2605/2026-05_altermagnetism_quantum_geometry)
+- [FeSe超伝導体ダイオード](topic/2605/2026-05_FeSe-superconducting-diode)
 
 ### 2026年4月30日更新
 - [イットリア安定化正方晶ジルコニアの自己治癒機能](topic/2604/2026-04_self-healing-ceramic)

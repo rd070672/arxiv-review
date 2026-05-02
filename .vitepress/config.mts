@@ -83,12 +83,12 @@ export default defineConfig({
         
         { text: '2026-05-02', collapsed: false, items: [
           { text: '交替磁性における量子幾何からの巨大スピン磁化', link: '/topic/2605/2026-05_altermagnet-quantum-geometry' },
+          { text: '量子幾何からの巨大スピン磁化', link: '/topic/2605/2026-05_altermagnetism_quantum_geometry' },
+          { text: 'FeSe超伝導体ダイオード', link: '/topic/2605/2026-05_FeSe-superconducting-diode' },
         ]},
 
-        
       ]},
-
-      
+            
       { text: 'April, 2026', collapsed: true, items: [
         { text: '2026-04-30', collapsed: false, items: [
           { text: 'イットリア安定化正方晶ジルコニアの自己治癒機能', link: '/topic/2604/2026-04_self-healing-ceramic' },
