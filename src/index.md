@@ -51,6 +51,8 @@ features:
 - [交替磁性における量子幾何学](topic/2605/2026-05_altermagnet-quantum-geometry)
 - [量子幾何からの巨大スピン磁化](topic/2605/2026-05_altermagnetism_quantum_geometry)
 - [FeSe超伝導体ダイオード](topic/2605/2026-05_FeSe-superconducting-diode)
+- [モアレ超格子における弾道的エキシトン輸送](topic/2605/2026-05_moire-ballistic-exciton-transport)
+- [二次元強誘電体の超高速分極スイッチング](topic/2605/2026-05_sliding-ferroelectric-hBN)
 
 ### 2026年4月30日更新
 - [イットリア安定化正方晶ジルコニアの自己治癒機能](topic/2604/2026-04_self-healing-ceramic)
@@ -168,7 +170,7 @@ features:
   
 ### 2026年3月28日更新
 - [軌道交替磁性体の平坦バンド](topic/2603/2026-03_altermagnet-CrSb-flatband)
-- [強誘電体における超高速光-電子-フォノン相互作用](topic/2603/2026-03_BaTiO3-ultrafast-carrier)
+- [強誘電体の高速光応答](topic/2603/2026-03_BaTiO3-ultrafast-carrier)
 - [La₃Ni₂O₇における電荷秩序](topic/2603/2026-03_La3Ni2O7-charge-order)
 - [酸化物異質構造における電荷移転](topic/2603/2026-03_oxide-heterostructure-charge-transfer)
 - [軌道交替磁性体の電子構造](review/2026-03_orbital-altermagnetism)

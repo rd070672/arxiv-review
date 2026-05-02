@@ -85,6 +85,8 @@ export default defineConfig({
           { text: '交替磁性における量子幾何からの巨大スピン磁化', link: '/topic/2605/2026-05_altermagnet-quantum-geometry' },
           { text: '量子幾何からの巨大スピン磁化', link: '/topic/2605/2026-05_altermagnetism_quantum_geometry' },
           { text: 'FeSe超伝導体ダイオード', link: '/topic/2605/2026-05_FeSe-superconducting-diode' },
+          { text: 'モアレ超格子における弾道的エキシトン輸送', link: '/topic/2605/2026-05_moire-ballistic-exciton-transport' },
+          { text: '二次元強誘電体の超高速分極スイッチング', link: '/topic/2605/2026-05_sliding-ferroelectric-hBN' },
         ]},
 
       ]},
@@ -227,14 +229,14 @@ export default defineConfig({
         ]},
 
         { text: '2026-03-28', collapsed: true, items: [
-          { text: 'PXRDと深層学習を用いた材料解析', link: '/topic/2603/2026-03_altermagnet-CrSb-flatband' },
-          { text: 'PXRDと深層学習を用いた材料解析', link: '/topic/2603/2026-03_BaTiO3-ultrafast-carrier' },
-          { text: 'PXRDと深層学習を用いた材料解析', link: '/topic/2603/2026-03_La3Ni2O7-charge-order' },
-          { text: 'PXRDと深層学習を用いた材料解析', link: '/topic/2603/2026-03_oxide-heterostructure-charge-transfer' },
-          { text: 'PXRDと深層学習を用いた材料解析', link: '/review/2026-03_orbital-altermagnetism' },
-          { text: 'PXRDと深層学習を用いた材料解析', link: '/review/2026-03_ultrafast-ferroelectric-phonons' },
-          { text: 'PXRDと深層学習を用いた材料解析', link: '/review/2026-03_phonon-orbital-seebeck' },
-          
+          { text: '軌道交替磁性体の平坦バンド', link: '/topic/2603/2026-03_altermagnet-CrSb-flatband' },
+          { text: '強誘電体の高速光応答', link: '/topic/2603/2026-03_BaTiO3-ultrafast-carrier' },
+          { text: 'La₃Ni₂O₇における電荷秩序', link: '/topic/2603/2026-03_La3Ni2O7-charge-order' },
+          { text: '酸化物異質構造における電荷移転', link: '/topic/2603/2026-03_oxide-heterostructure-charge-transfer' },
+          { text: '軌道交替磁性体の電子構造', link: '/review/2026-03_orbital-altermagnetism' },
+          { text: '強誘電体における超高速光-電子-フォノン相互作用', link: '/review/2026-03_ultrafast-ferroelectric-phonons' },
+          { text: 'カイラルフォノンの軌道熱電変換', link: '/review/2026-03_phonon-orbital-seebeck' },
+
         ]},
 
         { text: '2026-03-25', collapsed: true, items: [
