@@ -56,6 +56,8 @@ features:
 ### 2026年5月03日更新
 - [金属有機構造体(MOF)の多形予測](topic/2605/2026-05_ZIF-polymorph-ML)
 - [MAX相のLLMによる予測](topic/2605/2026-05_MAX-phase-LLM)
+- [Transformerを用いたスピンサンプリング](topic/2605/2026-05_transformer-spin-sampler)
+- [Vicsekモデルを用いたMLによる相転移予測](topic/2605/2026-05_vicsek-ml-phase)
 
 
 ### 2026年5月02日更新
@@ -64,6 +66,8 @@ features:
 - [FeSe超伝導体ダイオード](topic/2605/2026-05_FeSe-superconducting-diode)
 - [モアレ超格子における弾道的エキシトン輸送](topic/2605/2026-05_moire-ballistic-exciton-transport)
 - [二次元強誘電体の超高速分極スイッチング](topic/2605/2026-05_sliding-ferroelectric-hBN)
+- [トポロジカル絶縁体の熱輸送](topic/2605/2026-05_TMD-thermal-transport)
+- [光誘起フォノン電流](topic/2605/2026-05_optical-phonoelectric)
 
 ### 2026年4月30日更新
 - [イットリア安定化正方晶ジルコニアの自己治癒機能](topic/2604/2026-04_self-healing-ceramic)

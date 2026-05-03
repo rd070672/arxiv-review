@@ -81,12 +81,21 @@ export default defineConfig({
 
       { text: 'May, 2026', collapsed: false, items: [
         
+        { text: '2026-05-03', collapsed: false, items: [
+          { text: '金属有機構造体(MOF)の多形予測', link: '/topic/2605/2026-05_ZIF-polymorph-ML' },
+          { text: 'MAX相のLLMによる予測', link: '/topic/2605/2026-05_MAX-phase-LLM' },
+          { text: 'Transformerを用いたスピンサンプリング', link: '/topic/2605/2026-05_transformer-spin-sampler' },
+          { text: 'Vicsekモデルを用いたMLによる相転移予測', link: '/topic/2605/2026-05_vicsek-ml-phase' },
+        ]},
+
         { text: '2026-05-02', collapsed: false, items: [
           { text: '交替磁性における量子幾何からの巨大スピン磁化', link: '/topic/2605/2026-05_altermagnet-quantum-geometry' },
           { text: '量子幾何からの巨大スピン磁化', link: '/topic/2605/2026-05_altermagnetism_quantum_geometry' },
           { text: 'FeSe超伝導体ダイオード', link: '/topic/2605/2026-05_FeSe-superconducting-diode' },
           { text: 'モアレ超格子における弾道的エキシトン輸送', link: '/topic/2605/2026-05_moire-ballistic-exciton-transport' },
           { text: '二次元強誘電体の超高速分極スイッチング', link: '/topic/2605/2026-05_sliding-ferroelectric-hBN' },
+          { text: 'トポロジカル絶縁体の熱輸送', link: '/topic/2605/2026-05_TMD-thermal-transport' },
+          { text: '光誘起フォノン電流', link: '/topic/2605/2026-05_optical-phonoelectric' },
         ]},
 
       ]},
