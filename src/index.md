@@ -53,6 +53,11 @@ features:
 
 ## トピック記事
 
+### 2026年5月03日更新
+- [金属有機構造体(MOF)の多形予測](topic/2605/2026-05_ZIF-polymorph-ML)
+- [MAX相のLLMによる予測](topic/2605/2026-05_MAX-phase-LLM)
+
+
 ### 2026年5月02日更新
 - [交替磁性における量子幾何学](topic/2605/2026-05_altermagnet-quantum-geometry)
 - [量子幾何からの巨大スピン磁化](topic/2605/2026-05_altermagnetism_quantum_geometry)
