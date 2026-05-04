@@ -54,6 +54,12 @@ features:
 ## トピック記事
 
 ### 2026年5月03日更新
+- [スピンクビットの自動調整](topic/2605/2026-05_spin-qubit-autotuning)
+- [バンドギャップ予測のGNNベンチマーク](topic/2605/2026-05_bandgap-GNN-benchmark)
+- [強化学習による等価回路モデル自動生成](topic/2605/2026-05_EIS-RL-AutoREC)
+- [多体電子モデルの新基盤モデル](topic/2605/2026-05-04_QERNEL-large-electron-model)
+
+### 2026年5月03日更新
 - [金属有機構造体(MOF)の多形予測](topic/2605/2026-05_ZIF-polymorph-ML)
 - [MAX相のLLMによる予測](topic/2605/2026-05_MAX-phase-LLM)
 - [Transformerを用いたスピンサンプリング](topic/2605/2026-05_transformer-spin-sampler)

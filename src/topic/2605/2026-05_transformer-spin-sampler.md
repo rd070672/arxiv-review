@@ -1,7 +1,7 @@
-# トランスフォーマーで統計力学を解く：スピン系の機械学習サンプリングの最前線
+# トランスフォーマーを用いた2次元スピン系のボルツマン分布サンプリング
 
 - 執筆日：2026-05-03
-- トピック：トランスフォーマーを用いた2次元スピン系のボルツマン分布サンプリング
+- トピック：トランスフォーマーで統計力学を解く：スピン系の機械学習サンプリングの最前線
 - タグ：Computation and Theory / Phase Transitions; Spin Liquids and Quantum Many-Body Systems / Machine Learning
 - 注目論文：arXiv:2604.27738 "Sampling two-dimensional spin systems with transformers"
 - 参照論文数：6

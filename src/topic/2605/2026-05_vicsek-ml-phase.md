@@ -1,7 +1,7 @@
-# ヴィクセックモデルの相図を機械学習で描く：集団運動の秩序-無秩序転移を解剖する
+# ヴィクセックモデルの機械学習による相分類
 
 - 執筆日：2026年5月3日
-- トピック：ヴィクセックモデルの機械学習による相分類
+- トピック：ヴィクセックモデルの相図を機械学習で描く：集団運動の秩序-無秩序転移を解剖する
 - タグ：Nonequilibrium and Dynamic Response / Nonequilibrium Phase Transitions / Machine Learning
 - 注目論文：arXiv:2604.28167「Mapping the Phase Diagram of the Vicsek Model with Machine Learning」Bai & Le (2026)
 - 参照論文数：6本

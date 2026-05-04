@@ -1,7 +1,7 @@
-# ZIF多形選択の謎：機械学習と分子シミュレーションが解き明かす結晶化の起源
+# ゼオライト様イミダゾレート骨格（ZIF）の多形選択メカニズムと結晶化の起源
 
 - **執筆日**: 2026年5月3日
-- **トピック**: ゼオライト様イミダゾレート骨格（ZIF）の多形選択メカニズムを、機械学習分類器と反応性分子動力学シミュレーションを組み合わせて解明した研究
+- **トピック**: ZIFの多形選択メカニズムを、機械学習分類器と反応性分子動力学シミュレーションを組み合わせて解明した研究
 - **タグ**: Materials Synthesis and Processing / Phase Transitions; Nanostructures / Machine Learning; Molecular Dynamics
 - **注目論文**: arXiv:2604.28106 — Emilio Méndez, Rocio Semino, "Machine Learning and Molecular Simulations Reveal Mechanisms of ZIFs Polymorph Selection" (2026)
 - **参照論文数**: 6
