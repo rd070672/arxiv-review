@@ -86,6 +86,8 @@ export default defineConfig({
           { text: 'バンドギャップ予測のGNNベンチマーク', link: '/topic/2605/2026-05_bandgap-GNN-benchmark' },
           { text: '強化学習による等価回路モデル自動生成', link: '/topic/2605/2026-05_EIS-RL-AutoREC' },
           { text: '多体電子モデルの新基盤モデル', link: '/topic/2605/2026-05-04_QERNEL-large-electron-model' },
+          { text: 'ナノインデンテーション押し込みサイズ効果補正', link: '/topic/2605/2026-05-04_nanoindentation-size-correction' },
+          { text: '磁壁ダイナミクスと過剰損失', link: '/focus/mbn/2026-05_MBN-DomainWall' },
         ]},
 
         { text: '2026-05-03', collapsed: false, items: [

@@ -58,6 +58,8 @@ features:
 - [バンドギャップ予測のGNNベンチマーク](topic/2605/2026-05_bandgap-GNN-benchmark)
 - [強化学習による等価回路モデル自動生成](topic/2605/2026-05_EIS-RL-AutoREC)
 - [多体電子モデルの新基盤モデル](topic/2605/2026-05-04_QERNEL-large-electron-model)
+- [ナノインデンテーション押し込みサイズ効果補正](topic/2605/2026-05-04_nanoindentation-size-correction)
+- [磁壁ダイナミクスと過剰損失](focus/mbn/2026-05_MBN-DomainWall)
 
 ### 2026年5月03日更新
 - [金属有機構造体(MOF)の多形予測](topic/2605/2026-05_ZIF-polymorph-ML)
