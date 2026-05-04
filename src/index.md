@@ -53,7 +53,7 @@ features:
 
 ## トピック記事
 
-### 2026年5月03日更新
+### 2026年5月04日更新
 - [スピンクビットの自動調整](topic/2605/2026-05_spin-qubit-autotuning)
 - [バンドギャップ予測のGNNベンチマーク](topic/2605/2026-05_bandgap-GNN-benchmark)
 - [強化学習による等価回路モデル自動生成](topic/2605/2026-05_EIS-RL-AutoREC)

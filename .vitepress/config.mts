@@ -81,6 +81,13 @@ export default defineConfig({
 
       { text: 'May, 2026', collapsed: false, items: [
         
+        { text: '2026-05-04', collapsed: false, items: [
+          { text: 'スピン量子ビットの自動調整', link: '/topic/2605/2026-05_spin-qubit-autotuning' },
+          { text: 'バンドギャップ予測のGNNベンチマーク', link: '/topic/2605/2026-05_bandgap-GNN-benchmark' },
+          { text: '強化学習による等価回路モデル自動生成', link: '/topic/2605/2026-05_EIS-RL-AutoREC' },
+          { text: '多体電子モデルの新基盤モデル', link: '/topic/2605/2026-05-04_QERNEL-large-electron-model' },
+        ]},
+
         { text: '2026-05-03', collapsed: false, items: [
           { text: '金属有機構造体(MOF)の多形予測', link: '/topic/2605/2026-05_ZIF-polymorph-ML' },
           { text: 'MAX相のLLMによる予測', link: '/topic/2605/2026-05_MAX-phase-LLM' },
