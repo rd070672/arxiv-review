@@ -56,7 +56,9 @@ features:
 ### 2026年5月06日更新
 - [LLG方程式のサロゲートモデル](topic/2605/2026-05-06_llg-surrogate-model)
 - [非相反カーン・ヒリアード方程式](topic/2605/2026-05-06_nonreciprocal-active-phase)
--
+- [SrTiO3におけるトポロジカル欠陥と回位](topic/2605/2026-05-06_dislocation-defects)
+- [アモルファス材料の破壊エネルギー](topic/2605/2026-05-06_amorphous-fracture-energy-velocity)
+- [ニューラル演算子による磁性コアの鉄損予測](topic/2605/2026-05-06_magnetic-hysteresis-ml)
 
 ### 2026年5月04日更新
 - [スピンクビットの自動調整](topic/2605/2026-05_spin-qubit-autotuning)

@@ -84,6 +84,10 @@ export default defineConfig({
         { text: '2026-05-04', collapsed: false, items: [
           { text: 'LLG方程式のサロゲートモデル', link: '/topic/2605/2026-05-06_llg-surrogate-model' },
           { text: '非相反カーン・ヒリアード方程式', link: '/topic/2605/2026-05-06_nonreciprocal-active-phase' },
+          { text: 'アモルファス材料の破壊エネルギー', link: '/topic/2605/2026-05-06_amorphous-fracture-energy-velocity' },
+          { text: 'トポロジカル欠陥と回位ダイナミクス', link: '/topic/2605/2026-05-06_dislocation-defects' },
+          { text: 'ニューラル演算子による磁性コアの鉄損予測', link: '/topic/2605/2026-05-06_magnetic-hysteresis-ml' },
+          
         ]},
 
         { text: '2026-05-04', collapsed: false, items: [
