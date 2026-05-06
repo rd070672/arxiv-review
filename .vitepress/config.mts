@@ -87,6 +87,8 @@ export default defineConfig({
           { text: 'アモルファス材料の破壊エネルギー', link: '/topic/2605/2026-05-06_amorphous-fracture-energy-velocity' },
           { text: 'トポロジカル欠陥と回位ダイナミクス', link: '/topic/2605/2026-05-06_dislocation-defects' },
           { text: 'ニューラル演算子による磁性コアの鉄損予測', link: '/topic/2605/2026-05-06_magnetic-hysteresis-ml' },
+          { text: 'MLポテンシャルSevenNetを用いた材料設計', link: '/topic/2605/2026-05-06_sevennet-nano' },
+          { text: '拡散モデルによる結晶の逆設計', link: '/topic/2605/2026-05-06_joint-crystal-edesc-diffusion' },
           
         ]},
 

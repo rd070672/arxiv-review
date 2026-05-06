@@ -59,6 +59,8 @@ features:
 - [SrTiO3におけるトポロジカル欠陥と回位](topic/2605/2026-05-06_dislocation-defects)
 - [アモルファス材料の破壊エネルギー](topic/2605/2026-05-06_amorphous-fracture-energy-velocity)
 - [ニューラル演算子による磁性コアの鉄損予測](topic/2605/2026-05-06_magnetic-hysteresis-ml)
+- [MLポテンシャルSevenNetを用いた材料設計](topic/2605/2026-05-06_sevennet-nano)
+- [拡散モデルによる結晶の逆設計](topic/2605/2026-05-06_joint-crystal-edesc-diffusion)
 
 ### 2026年5月04日更新
 - [スピンクビットの自動調整](topic/2605/2026-05_spin-qubit-autotuning)
