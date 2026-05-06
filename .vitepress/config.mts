@@ -82,6 +82,11 @@ export default defineConfig({
       { text: 'May, 2026', collapsed: false, items: [
         
         { text: '2026-05-04', collapsed: false, items: [
+          { text: 'LLG方程式のサロゲートモデル', link: '/topic/2605/2026-05_llg-surrogate-model' },
+          { text: '非相反カーン・ヒリアード方程式', link: '/topic/2605/2026-05-06_nonreciprocal-active-phase' },
+        ]},
+
+        { text: '2026-05-04', collapsed: false, items: [
           { text: 'スピン量子ビットの自動調整', link: '/topic/2605/2026-05_spin-qubit-autotuning' },
           { text: 'バンドギャップ予測のGNNベンチマーク', link: '/topic/2605/2026-05_bandgap-GNN-benchmark' },
           { text: '強化学習による等価回路モデル自動生成', link: '/topic/2605/2026-05_EIS-RL-AutoREC' },

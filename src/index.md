@@ -53,6 +53,11 @@ features:
 
 ## トピック記事
 
+### 2026年5月06日更新
+- [LLG方程式のサロゲートモデル](topic/2605/2026-05_llg-surrogate-model)
+- [非相反カーン・ヒリアード方程式](topic/2605/2026-05-06_nonreciprocal-active-phase)
+-
+
 ### 2026年5月04日更新
 - [スピンクビットの自動調整](topic/2605/2026-05_spin-qubit-autotuning)
 - [バンドギャップ予測のGNNベンチマーク](topic/2605/2026-05_bandgap-GNN-benchmark)
