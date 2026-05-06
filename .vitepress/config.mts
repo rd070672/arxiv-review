@@ -82,7 +82,7 @@ export default defineConfig({
       { text: 'May, 2026', collapsed: false, items: [
         
         { text: '2026-05-04', collapsed: false, items: [
-          { text: 'LLG方程式のサロゲートモデル', link: '/topic/2605/2026-05_llg-surrogate-model' },
+          { text: 'LLG方程式のサロゲートモデル', link: '/topic/2605/2026-05-06_llg-surrogate-model' },
           { text: '非相反カーン・ヒリアード方程式', link: '/topic/2605/2026-05-06_nonreciprocal-active-phase' },
         ]},
 
