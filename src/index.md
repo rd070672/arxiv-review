@@ -54,7 +54,7 @@ features:
 ## トピック記事
 
 ### 2026年5月06日更新
-- [LLG方程式のサロゲートモデル](topic/2605/2026-05_llg-surrogate-model)
+- [LLG方程式のサロゲートモデル](topic/2605/2026-05-06_llg-surrogate-model)
 - [非相反カーン・ヒリアード方程式](topic/2605/2026-05-06_nonreciprocal-active-phase)
 -
 
