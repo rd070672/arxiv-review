@@ -81,7 +81,14 @@ export default defineConfig({
 
       { text: 'May, 2026', collapsed: false, items: [
         
-        { text: '2026-05-04', collapsed: false, items: [
+        { text: '2026-05-07', collapsed: false, items: [
+          { text: '高エントロピー酸化物における軌道・磁気・構造連成相転移', link: '/topic/2605/2026-05-07_HEO-coupled-phase-transitions' },
+          { text: 'メタダイナミクスを用いた空孔拡散', link: '/topic/2605/2026-05-07_metadynamics-vacancy-diffusion' },
+          { text: 'シンボリック回帰による材料設計式の発見', link: '/topic/2605/2026-05-07_symbolic-regression-materials' },
+          
+        ]},
+
+        { text: '2026-05-06', collapsed: false, items: [
           { text: 'LLG方程式のサロゲートモデル', link: '/topic/2605/2026-05-06_llg-surrogate-model' },
           { text: '非相反カーン・ヒリアード方程式', link: '/topic/2605/2026-05-06_nonreciprocal-active-phase' },
           { text: 'アモルファス材料の破壊エネルギー', link: '/topic/2605/2026-05-06_amorphous-fracture-energy-velocity' },

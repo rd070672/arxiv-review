@@ -53,6 +53,11 @@ features:
 
 ## トピック記事
 
+### 2026年5月07日更新
+- [高エントロピー酸化物における軌道・磁気・構造連成相転移](topic/2605/2026-05-07_HEO-coupled-phase-transitions)
+- [メタダイナミクスを用いた空孔拡散](topic/2605/2026-05-07_metadynamics-vacancy-diffusion)
+- [シンボリック回帰による材料設計式の発見](topic/2605/2026-05-07_symbolic-regression-materials)
+
 ### 2026年5月06日更新
 - [LLG方程式のサロゲートモデル](topic/2605/2026-05-06_llg-surrogate-model)
 - [非相反カーン・ヒリアード方程式](topic/2605/2026-05-06_nonreciprocal-active-phase)
