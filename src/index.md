@@ -53,6 +53,12 @@ features:
 
 ## トピック記事
 
+### 2026年5月09日更新
+- [多目的ベイズ最適化による電池フォーメーション最適化](topic/2605/2026-05-09_battery-formation-bayesian)
+- [LLMを用いた材料科学](topic/2605/2026-05-09_LLM-materials-science)
+- [熱電材料のGNNによる輸送特性予測](topic/2605/2026-05-09_thermoelectric-GNN-transport)
+- [結晶GNNを用いた共有再帰畳み込みによる材料設計](topic/2605/2026-05-09_SR-CGCNN)
+
 ### 2026年5月07日更新
 - [高エントロピー酸化物における軌道・磁気・構造連成相転移](topic/2605/2026-05-07_HEO-coupled-phase-transitions)
 - [メタダイナミクスを用いた空孔拡散](topic/2605/2026-05-07_metadynamics-vacancy-diffusion)

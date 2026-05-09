@@ -81,11 +81,17 @@ export default defineConfig({
 
       { text: 'May, 2026', collapsed: false, items: [
         
+        { text: '2026-05-09', collapsed: false, items: [
+          { text: 'バッテリー形成のベイズ推定', link: '/topic/2605/2026-05-09_battery-formation-bayesian' },
+          { text: 'LLMを用いた材料科学', link: '/topic/2605/2026-05-09_LLM-materials-science' },
+          { text: '熱電材料のGNNによる輸送特性予測', link: '/topic/2605/2026-05-09_thermoelectric-GNN-transport' },
+          { text: '結晶GNNを用いた共有再帰畳み込みによる材料設計', link: '/topic/2605/2026-05-09_SR-CGCNN' },
+        ]},
+
         { text: '2026-05-07', collapsed: false, items: [
           { text: '高エントロピー酸化物における軌道・磁気・構造連成相転移', link: '/topic/2605/2026-05-07_HEO-coupled-phase-transitions' },
           { text: 'メタダイナミクスを用いた空孔拡散', link: '/topic/2605/2026-05-07_metadynamics-vacancy-diffusion' },
           { text: 'シンボリック回帰による材料設計式の発見', link: '/topic/2605/2026-05-07_symbolic-regression-materials' },
-          
         ]},
 
         { text: '2026-05-06', collapsed: false, items: [
