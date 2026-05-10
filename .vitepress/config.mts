@@ -85,6 +85,8 @@ export default defineConfig({
           { text: '磁歪と磁気ダンピングの第一原理的解明', link: '/focus/miura/2026-05_magnetostriction-damping' },
           { text: '触媒設計のためのメタ学習', link: '/topic/2605/2026-05-10_meta-legnet-interpretable-catalysis' },
           { text: '原子多極子表現による電気応答と分光スペクトル', link: '/topic/2605/2026-05-10_polarizable-multipole-mlip-spectroscopy' },
+          { text: 'β-Ga₂O₃/SiC界面の熱境界コンダクタンス', link: '/topic/2605/2026-05-10_NNP-TBC-Ga2O3-SiC' },
+          { text: '組成重み付き記号回帰', link: '/topic/2605/2026-05-10_composition-SR' },
         ]},
 
         { text: '2026-05-09', collapsed: false, items: [
