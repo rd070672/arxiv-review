@@ -53,11 +53,19 @@ features:
 
 ## トピック記事
 
+
+### 2026年5月10日更新
+- [磁歪と磁気ダンピングの第一原理的解明](focus/miura/2026-05_magnetostriction-damping)
+- [触媒設計のためのメタ学習](topic/2605/2026-05-10_meta-legnet-interpretable-catalysis)
+- [原子多極子表現による電気応答と分光スペクトル](topic/2605/2026-05-10_polarizable-multipole-mlip-spectroscopy)
+
 ### 2026年5月09日更新
 - [多目的ベイズ最適化による電池フォーメーション](topic/2605/2026-05-09_battery-formation-bayesian)
 - [LLMを用いた材料科学](topic/2605/2026-05-09_LLM-materials-science)
 - [熱電材料のGNNによる輸送特性予測](topic/2605/2026-05-09_thermoelectric-GNN-transport)
 - [結晶GNNを用いた共有再帰畳み込みによる材料設計](topic/2605/2026-05-09_SR-CGCNN)
+- [自己駆動型実験室](topic/2605/2026-05-09_born-qualified-autonomous-materials)
+- [スピン緩和時間のAI的予測](topic/2605/2026-05-09_NV-center-spin-dynamics-ML)
 
 ### 2026年5月07日更新
 - [高エントロピー酸化物における軌道・磁気・構造連成相転移](topic/2605/2026-05-07_HEO-coupled-phase-transitions)

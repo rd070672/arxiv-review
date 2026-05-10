@@ -81,11 +81,19 @@ export default defineConfig({
 
       { text: 'May, 2026', collapsed: false, items: [
         
+        { text: '2026-05-10', collapsed: false, items: [
+          { text: '磁歪と磁気ダンピングの第一原理的解明', link: '/focus/miura/2026-05_magnetostriction-damping' },
+          { text: '触媒設計のためのメタ学習', link: '/topic/2605/2026-05-10_meta-legnet-interpretable-catalysis' },
+          { text: '原子多極子表現による電気応答と分光スペクトル', link: '/topic/2605/2026-05-10_polarizable-multipole-mlip-spectroscopy' },
+        ]},
+
         { text: '2026-05-09', collapsed: false, items: [
           { text: 'バッテリー形成のベイズ推定', link: '/topic/2605/2026-05-09_battery-formation-bayesian' },
           { text: 'LLMを用いた材料科学', link: '/topic/2605/2026-05-09_LLM-materials-science' },
           { text: '熱電材料のGNNによる輸送特性予測', link: '/topic/2605/2026-05-09_thermoelectric-GNN-transport' },
           { text: '結晶GNNを用いた共有再帰畳み込みによる材料設計', link: '/topic/2605/2026-05-09_SR-CGCNN' },
+          { text: '自己駆動型実験室', link: '/topic/2605/2026-05-09_born-qualified-autonomous-materials' },
+          { text: 'スピン緩和時間のAI的予測', link: '/topic/2605/2026-05-09_NV-center-spin-dynamics-ML' },
         ]},
 
         { text: '2026-05-07', collapsed: false, items: [
