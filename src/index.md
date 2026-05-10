@@ -59,7 +59,8 @@ features:
 - [触媒設計のためのメタ学習](topic/2605/2026-05-10_meta-legnet-interpretable-catalysis)
 - [原子多極子表現による電気応答と分光スペクトル](topic/2605/2026-05-10_polarizable-multipole-mlip-spectroscopy)
 - [β-Ga₂O₃/SiC界面の熱境界コンダクタンス](topic/2605/2026-05-10_NNP-TBC-Ga2O3-SiC)
-- [組成重み付き記号回帰](topic/2605/2026-05-10_composition-SR)
+- [組成重み付きシンボリック回帰](topic/2605/2026-05-10_composition-SR)
+- [固体電解質Li₃YCl₆におけるひずみ依存イオン輸送](topic/2605/2026-05-10_Li3YCl6-strain-ionic-transport)
 
 ### 2026年5月09日更新
 - [多目的ベイズ最適化による電池フォーメーション](topic/2605/2026-05-09_battery-formation-bayesian)
