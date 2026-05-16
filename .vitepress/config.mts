@@ -86,6 +86,7 @@ export default defineConfig({
           { text: '自律型原子間力顕微鏡とLLMの融合', link: '/topic/2605/2026-05-16_autonomous-SPM-LLM-hypothesis' },
           { text: '二重原子触媒と機械学習の融合', link: '/topic/2605/2026-05-16_dual-atom-catalyst-ML' },
           { text: '言語モデルとMLIPの融合', link: '/topic/2605/2026-05-16_lang2mlip-autonomous-mlip' },
+          { text: 'LLMによる中性子回折データのリートベルト精密化', link: '/topic/2605/2026-05-17_rongzai-rietveld-llm' },
         ]},
 
         { text: '2026-05-15', collapsed: false, items: [

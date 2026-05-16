@@ -58,6 +58,7 @@ features:
 - [自律型原子間力顕微鏡とLLMの融合](topic/2605/2026-05-16_automat-agentic-descriptor)
 - [二重原子触媒の機械学習予測](topic/2605/2026-05-16_dual-atom-catalyst-ML)
 - [言語モデルを用いたMLIPの自律開発](topic/2605/2026-05-16_lang2mlip-autonomous-mlip)
+- [LLMによる中性子回折データのリートベルト精密化](topic/2605/2026-05-17_rongzai-rietveld-llm)
 
 ### 2026年5月15日更新
 - [自律型原子間力顕微鏡とLLMの融合](topic/2605/2026-05-15_autonomous-SPM-LLM-hypothesis)
