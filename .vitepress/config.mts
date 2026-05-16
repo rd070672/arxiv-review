@@ -81,6 +81,24 @@ export default defineConfig({
 
       { text: 'May, 2026', collapsed: false, items: [
         
+        { text: '2026-05-16', collapsed: false, items: [
+          { text: 'アモルファス軟磁性合金の高靭性の起源', link: '/focus/FePC/2026-05_FePCCu-ductility' },
+          { text: '自律型原子間力顕微鏡とLLMの融合', link: '/topic/2605/2026-05-16_autonomous-SPM-LLM-hypothesis' },
+          { text: '二重原子触媒と機械学習の融合', link: '/topic/2605/2026-05-16_dual-atom-catalyst-ML' },
+          { text: '言語モデルとMLIPの融合', link: '/topic/2605/2026-05-16_lang2mlip-autonomous-mlip' },
+        ]},
+
+        { text: '2026-05-15', collapsed: false, items: [
+          { text: '自律型原子間力顕微鏡とLLMの融合', link: '/topic/2605/2026-05-15_autonomous-SPM-LLM-hypothesis' },
+          { text: 'kappa-latによるサロゲートモデルのベンチマーク', link: '/topic/2605/2026-05-15_kappa-lat-surrogate-benchmark' },
+        ]},
+
+        { text: '2026-05-14', collapsed: false, items: [
+          { text: 'GNNによる交替磁性体の自動発見', link: '/topic/2605/2026-05-14_altermagnet-equivariant-gnn' },
+          { text: '結晶生成AIの安定性問題', link: '/topic/2605/2026-05-14_CrystalREPA' },
+          { text: '非共線性反強磁性体の超高速ダイナミクス', link: '/topic/2605/2026-05-14_noncollinear_afm_ultrafast' }
+        ]},
+
         { text: '2026-05-10', collapsed: false, items: [
           { text: '磁歪と磁気ダンピングの第一原理的解明', link: '/focus/miura/2026-05_magnetostriction-damping' },
           { text: '触媒設計のためのメタ学習', link: '/topic/2605/2026-05-10_meta-legnet-interpretable-catalysis' },
