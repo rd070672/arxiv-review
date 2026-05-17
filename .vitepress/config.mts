@@ -89,7 +89,6 @@ export default defineConfig({
           { text: '原子多極子表現による電気応答と分光スペクトル', link: '/topic/2605/2026-05-10_polarizable-multipole-mlip-spectroscopy' },
           { text: 'β-Ga₂O₃/SiC界面の熱境界コンダクタンス', link: '/topic/2605/2026-05-10_NNP-TBC-Ga2O3-SiC' },
           { text: '組成重み付きシンボリック回帰', link: '/topic/2605/2026-05-10_composition-SR' },
-
         ]},
 
         { text: '2026-05-09', collapsed: false, items: [
