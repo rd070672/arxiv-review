@@ -81,34 +81,8 @@ export default defineConfig({
 
       { text: 'May, 2026', collapsed: false, items: [
         
-        { text: '2026-05-17', collapsed: false, items: [
-          { text: 'LLMによる中性子回折データのリートベルト精密化', link: '/topic/2605/2026-05-17_rongzai-rietveld-llm' },
-          { text: '高エントロピー合金における電子密度多様体', link: '/topic/2605/2026-05-17_hea-electron-density-ml' },
-          { text: 'BCCナノ結晶の塑性を支配する変態媒介双晶', link: '/topic/2605/2026-05-17_bcc-nanocrystal-transformation-twinning' },
-          { text: '鉄鋼粒界における軽元素偏析', link: '/topic/2605/2026-05-17_grain-boundary-segregation-DFT-ML' },
-          { text: '高エントロピー合金のエネルギー予測におけるグラフ学習', link: '/topic/2605/2026-05-17_HEA-CrysFracGNN' },
-        ]},
-
-        { text: '2026-05-16', collapsed: false, items: [
-          { text: 'アモルファス軟磁性合金の高靭性の起源', link: '/focus/FePC/2026-05_FePCCu-ductility' },
-          { text: '自律型原子間力顕微鏡とLLMの融合', link: '/topic/2605/2026-05-16_autonomous-SPM-LLM-hypothesis' },
-          { text: '二重原子触媒と機械学習の融合', link: '/topic/2605/2026-05-16_dual-atom-catalyst-ML' },
-          { text: '言語モデルとMLIPの融合', link: '/topic/2605/2026-05-16_lang2mlip-autonomous-mlip' },
-          { text: 'LLMによる中性子回折データのリートベルト精密化', link: '/topic/2605/2026-05-17_rongzai-rietveld-llm' },
-        ]},
-
-        { text: '2026-05-15', collapsed: false, items: [
-          { text: '自律型原子間力顕微鏡とLLMの融合', link: '/topic/2605/2026-05-15_autonomous-SPM-LLM-hypothesis' },
-          { text: 'kappa-latによるサロゲートモデルのベンチマーク', link: '/topic/2605/2026-05-15_kappa-lat-surrogate-benchmark' },
-        ]},
-
-        { text: '2026-05-14', collapsed: false, items: [
-          { text: 'GNNによる交替磁性体の自動発見', link: '/topic/2605/2026-05-14_altermagnet-equivariant-gnn' },
-          { text: '結晶生成AIの安定性問題', link: '/topic/2605/2026-05-14_CrystalREPA' },
-          { text: '非共線性反強磁性体の超高速ダイナミクス', link: '/topic/2605/2026-05-14_noncollinear_afm_ultrafast' }
-        ]},
-
         
+
         { text: '2026-05-10', collapsed: false, items: [
           { text: '磁歪と磁気ダンピングの第一原理的解明', link: '/focus/miura/2026-05_magnetostriction-damping' },
           { text: '触媒設計のためのメタ学習', link: '/topic/2605/2026-05-10_meta-legnet-interpretable-catalysis' },
