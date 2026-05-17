@@ -81,9 +81,17 @@ export default defineConfig({
 
       { text: 'May, 2026', collapsed: false, items: [
         
+        { text: '2026-05-17', collapsed: false, items: [
+          { text: 'LLMによる中性子回折データのリートベルト精密化', link: '/topic/2605/2026-05-17_rongzai-rietveld-llm' },
+          { text: '高エントロピー合金における電子密度多様体', link: '/topic/2605/2026-05-17_hea-electron-density-ml' },
+          { text: 'BCCナノ結晶の塑性を支配する変態媒介双晶', link: '/topic/2605/2026-05-17_bcc-nanocrystal-transformation-twinning' },
+          { text: '鉄鋼粒界における軽元素偏析', link: '/topic/2605/2026-05-17_grain-boundary-segregation-DFT-ML' },
+          { text: '高エントロピー合金のエネルギー予測におけるグラフ学習', link: '/topic/2605/2026-05-17_HEA-CrysFracGNN' },
+        ]},
+
         { text: '2026-05-16', collapsed: false, items: [
           { text: 'アモルファス軟磁性合金の高靭性の起源', link: '/focus/FePC/2026-05_FePCCu-ductility' },
-          { text: '自律型原子間力顕微鏡とLLMの融合', link: '/topic/2605/2026-05-16_autonomous-SPM-LLM-hypothesis' },
+          { text: '自律型原子間力顕微鏡とLLMの融合', link: '/topic/2605/2026-05-16_automat-agentic-descriptor' },
           { text: '二重原子触媒と機械学習の融合', link: '/topic/2605/2026-05-16_dual-atom-catalyst-ML' },
           { text: '言語モデルとMLIPの融合', link: '/topic/2605/2026-05-16_lang2mlip-autonomous-mlip' },
           { text: 'LLMによる中性子回折データのリートベルト精密化', link: '/topic/2605/2026-05-17_rongzai-rietveld-llm' },
