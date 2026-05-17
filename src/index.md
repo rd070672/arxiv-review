@@ -53,21 +53,6 @@ features:
 
 ## トピック記事
 
-### 2026年5月16日更新
-- [アモルファス軟磁性合金の高靭性の起源](focus/FePC/2026-05_FePCCu-ductility)
-- [自律型原子間力顕微鏡とLLMの融合](topic/2605/2026-05-16_automat-agentic-descriptor)
-- [二重原子触媒の機械学習予測](topic/2605/2026-05-16_dual-atom-catalyst-ML)
-- [言語モデルを用いたMLIPの自律開発](topic/2605/2026-05-16_lang2mlip-autonomous-mlip)
-- [LLMによる中性子回折データのリートベルト精密化](topic/2605/2026-05-17_rongzai-rietveld-llm)
-
-### 2026年5月15日更新
-- [自律型原子間力顕微鏡とLLMの融合](topic/2605/2026-05-15_autonomous-SPM-LLM-hypothesis)
-- [kappa-latによるサロゲートモデルのベンチマーク](topic/2605/2026-05-15_kappa-lat-surrogate-benchmark)
-
-### 2026年5月14日更新
-- [GNNによる交替磁性体の自動発見](topic/2605/2026-05-14_altermagnet-equivariant-gnn)
-- [結晶生成AIの安定性問題](topic/2605/2026-05-14_CrystalREPA)
-- [非共線性反強磁性体の超高速ダイナミクス](topic/2605/2026-05-14_noncollinear_afm_ultrafast)
 
 
 ### 2026年5月10日更新
