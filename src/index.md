@@ -53,13 +53,6 @@ features:
 
 ## トピック記事
 
-### 2026年5月17日更新
-- [LLMによる中性子回折データのリートベルト精密化](topic/2605/2026-05-17_rongzai-rietveld-llm)
-- [高エントロピー合金における電子密度多様体](topic/2605/2026-05-17_hea-electron-density-ml)
-- [BCCナノ結晶の塑性を支配する変態媒介双晶](topic/2605/2026-05-17_bcc-nanocrystal-transformation-twinning)
-- [鉄鋼粒界における軽元素偏析](topic/2605/2026-05-17_grain-boundary-segregation-DFT-ML)
-- [高エントロピー合金のエネルギー予測におけるグラフ学習](topic/2605/2026-05-17_HEA-CrysFracGNN)
-
 ### 2026年5月16日更新
 - [アモルファス軟磁性合金の高靭性の起源](focus/FePC/2026-05_FePCCu-ductility)
 - [自律型原子間力顕微鏡とLLMの融合](topic/2605/2026-05-16_automat-agentic-descriptor)
