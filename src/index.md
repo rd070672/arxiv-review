@@ -53,12 +53,21 @@ features:
 
 ## トピック記事
 
+
+### 2026年5月18日更新
+- [ドメイン固有のMLIPによる金属材料の設計](topic/2605/2026-05-18_domain-specific-MLIP-metals)
+- [分散型マルチエージェント材料科学](topic/2605/2026-05-18_openaaas-distributed-multiagent-materials)
+- [合成プロトコルを主要設計変数としたAI材料探索](topic/2605/2026-05-18_beyond-structure)
+- [CALPHADとGATを用いた相図予測](topic/2605/2026-05-19_calphad-gat-phase-diagram)
+- [積層造形における粒界エンベロープのフェーズフィールド法](topic/2605/2026-05-19_grain-envelope-phasefield-AM)
+
 ### 2026年5月17日更新
 - [LLMによる中性子回折データのリートベルト精密化](topic/2605/2026-05-17_rongzai-rietveld-llm)
 - [高エントロピー合金における電子密度多様体](topic/2605/2026-05-17_hea-electron-density-ml)
 - [BCCナノ結晶の塑性を支配する変態媒介双晶](topic/2605/2026-05-17_bcc-nanocrystal-transformation-twinning)
 - [鉄鋼粒界における軽元素偏析](topic/2605/2026-05-17_grain-boundary-segregation-DFT-ML)
 - [高エントロピー合金のエネルギー予測におけるグラフ学習](topic/2605/2026-05-17_HEA-CrysFracGNN)
+- [非相反性スピン波の二層構造](topic/2605/2026-05-17_nonreciprocal-spinwave-bilayer)
 
 ### 2026年5月16日更新
 - [アモルファス軟磁性合金の高靭性の起源](focus/FePC/2026-05_FePCCu-ductility)

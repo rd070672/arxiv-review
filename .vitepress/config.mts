@@ -81,6 +81,14 @@ export default defineConfig({
 
       { text: 'May, 2026', collapsed: false, items: [
         
+        { text: '2026-05-18', collapsed: false, items: [
+          { text: 'ドメイン固有のMLIPによる金属材料の設計', link: '/topic/2605/2026-05-18_domain-specific-MLIP-metals' },
+          { text: '分散型マルチエージェント材料科学', link: '/topic/2605/2026-05-18_openaaas-distributed-multiagent-materials' },
+          { text: '合成プロトコルを主要設計変数としたAI材料探索', link: '/topic/2605/2026-05-18_beyond-structure' },
+          { text: 'CALPHADとGATを用いた相図予測', link: '/topic/2605/2026-05-19_calphad-gat-phase-diagram' },
+          { text: '積層造形における粒界エンベロープのフェーズフィールド法', link: '/topic/2605/2026-05-19_grain-envelope-phasefield-AM' },
+        ]},
+
         { text: '2026-05-17', collapsed: false, items: [
           { text: 'LLMによる中性子回折データのリートベルト精密化', link: '/topic/2605/2026-05-17_rongzai-rietveld-llm' },
           { text: '高エントロピー合金における電子密度多様体', link: '/topic/2605/2026-05-17_hea-electron-density-ml' },
