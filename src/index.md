@@ -53,13 +53,18 @@ features:
 
 ## トピック記事
 
-
+### 2026年5月19日更新
+- [CALPHADとGATを用いた相図予測](topic/2605/2026-05-19_calphad-gat-phase-diagram)
+- [積層造形における粒界エンベロープのフェーズフィールド法](topic/2605/2026-05-19_grain-envelope-phasefield-AM)
+- [電子密度の機械学習予測](topic/2605/2026-05-19_charge-density-ml-prediction)
+- [WGANを用いたスピン再構築](topic/2605/2026-05-19_wgan-spin-reconstruction-bkt)
+- [La3Ni2O7の磁気特性と中性子散乱](topic/2605/2026-05-19_La3Ni2O7-magnetism-neutron)
+- [磁気秩序を示さないギャップレス量子スピン液体](topic/2605/2026-05-19_3d-bipartite-qsl-trimer)
+  
 ### 2026年5月18日更新
 - [ドメイン固有のMLIPによる金属材料の設計](topic/2605/2026-05-18_domain-specific-MLIP-metals)
 - [分散型マルチエージェント材料科学](topic/2605/2026-05-18_openaaas-distributed-multiagent-materials)
 - [合成プロトコルを主要設計変数としたAI材料探索](topic/2605/2026-05-18_beyond-structure)
-- [CALPHADとGATを用いた相図予測](topic/2605/2026-05-19_calphad-gat-phase-diagram)
-- [積層造形における粒界エンベロープのフェーズフィールド法](topic/2605/2026-05-19_grain-envelope-phasefield-AM)
 
 ### 2026年5月17日更新
 - [LLMによる中性子回折データのリートベルト精密化](topic/2605/2026-05-17_rongzai-rietveld-llm)

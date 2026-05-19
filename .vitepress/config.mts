@@ -81,6 +81,16 @@ export default defineConfig({
 
       { text: 'May, 2026', collapsed: false, items: [
         
+        { text: '2026-05-19', collapsed: false, items: [
+          { text: 'CALPHADとGATを用いた相図予測', link: '/topic/2605/2026-05-19_calphad-gat-phase-diagram' },
+          { text: '積層造形における粒界エンベロープのフェーズフィールド法', link: '/topic/2605/2026-05-19_grain-envelope-phasefield-AM' },
+          { text: '電子密度の機械学習予測', link: '/topic/2605/2026-05-19_charge-density-ml-prediction' },
+          { text: 'WGANを用いたスピン再構築', link: '/topic/2605/2026-05-19_wgan-spin-reconstruction-bkt' },
+          { text: 'La3Ni2O7の磁気特性と中性子散乱', link: '/topic/2605/2026-05-19_La3Ni2O7-magnetism-neutron' },
+          { text: '磁気秩序を示さないギャップレス量子スピン液体', link: '/topic/2605/2026-05-19_3d-bipartite-qsl-trimer' },
+        ]},
+
+
         { text: '2026-05-18', collapsed: false, items: [
           { text: 'ドメイン固有のMLIPによる金属材料の設計', link: '/topic/2605/2026-05-18_domain-specific-MLIP-metals' },
           { text: '分散型マルチエージェント材料科学', link: '/topic/2605/2026-05-18_openaaas-distributed-multiagent-materials' },
