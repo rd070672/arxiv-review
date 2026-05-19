@@ -69,6 +69,13 @@ $$H_{\rm trimer} = J\left(\boldsymbol{S}_1 \cdot \boldsymbol{S}_2 + \boldsymbol{
 
 弾性・非弾性中性子散乱実験は、この描像を定量的に確認した。$E_i = 60$ meV の非弾性中性子散乱（Panther 分光計）は $\sim 34$ meV（$\sim 400$ K）に幅広い磁気励起を示し、これはトライマー内四重項励起（$J \approx 190$ K 相当）に対応する。$T = 2$ K での IN5 ($\lambda = 2.2$ Å) 測定では低エネルギー励起が観測され、さらに計算スペクトルとの一致から、トライマーの磁気励起スペクトルが理論予言と整合することが確認された。
 
+![Figure 2](figures/2605.06752/fig2.png)
+
+![Figure 3](figures/2605.06752/fig3.png)
+
+![Figure 4: ](figures/2605.06752/fig4.png)
+
+
 ### 3-3. 三次元二部格子上のギャップレス QSL 基底状態
 
 温度が有効トライマー間結合 $J'$（$\sim 1$ K）のスケール以下になると、擬スピン-1/2 どうしの相互作用が重要になる。これらの擬スピンが形成するネットワークが三次元二部格子である。通常の Heisenberg 反強磁性体ならば Néel 秩序が期待される状況だが、KBCVO では以下の実験結果すべてが磁気秩序の不在とギャップレス動的基底状態を支持した。
@@ -98,8 +105,8 @@ $$\tilde{H}_{\alpha\beta} = \sum_{\mu\nu} \tilde{J}^{\mu\nu}_{\alpha\beta} \tild
 
 この増幅された異方性 $\epsilon \gtrsim 60\%$ が Kitaev-like な結合依存型異方性をもたらし、Néel 秩序を不安定化して QSL 状態を安定化する。MC 計算はこの有効 Hamiltonian を持つモデルが実際にギャップレス QSL 領域に位置することを確認した。
 
-![Figure 5: Spin correlations and dynamics](figures/2605.06752/fig7.png)
-*図3. 磁気相関とギャップレスダイナミクス。(a),(b) D7 中性子拡散散乱（150 K, 50 mK）と二スピン相関フィット。(c)–(f) NMR および μSR による低温動的証拠。(arXiv:2605.06752, CC BY 4.0)*
+![Figure 5: Spin correlations and dynamics](figures/2605.06752/fig5.png)
+*図5. KBCVO のスピン相関とダイナミクス。(a) D7 での磁気拡散散乱スペクトル、(b) μSR 縦場依存性 $\lambda_L^{-1} \propto B^{0.32}$。(arXiv:2605.06752, CC BY 4.0)*
 
 ### 3-5. 論文の新規性と限界
 
