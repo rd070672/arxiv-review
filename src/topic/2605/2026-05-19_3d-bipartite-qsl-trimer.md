@@ -73,7 +73,7 @@ $$H_{\rm trimer} = J\left(\boldsymbol{S}_1 \cdot \boldsymbol{S}_2 + \boldsymbol{
 
 ![Figure 3](figures/2605.06752/fig3.png)
 
-![Figure 4: ](figures/2605.06752/fig4.png)
+![Figure 4](figures/2605.06752/fig4.png)
 
 
 ### 3-3. 三次元二部格子上のギャップレス QSL 基底状態
