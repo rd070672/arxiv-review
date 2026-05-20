@@ -81,6 +81,11 @@ export default defineConfig({
 
       { text: 'May, 2026', collapsed: false, items: [
         
+        { text: '2026-05-20', collapsed: false, items: [
+          { text: 'タスク適応型物理リザバーコンピューティング', link: '/focus/reservoir/2024-01_task-adaptive-RC' },
+          { text: 'ニッケレートにおける常圧超伝導', link: '/focus/nickelate/2026-05_nickelate-ambientpressure-SC' },
+        ]},
+
         { text: '2026-05-19', collapsed: false, items: [
           { text: 'CALPHADとGATを用いた相図予測', link: '/topic/2605/2026-05-19_calphad-gat-phase-diagram' },
           { text: '積層造形における粒界エンベロープのフェーズフィールド法', link: '/topic/2605/2026-05-19_grain-envelope-phasefield-AM' },
