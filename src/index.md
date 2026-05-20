@@ -54,7 +54,7 @@ features:
 ## トピック記事
 ### 2026年5月20日更新
 - [タスク適応型物理リザバーコンピューティング](focus/reservoir/2024-01_task-adaptive-RC)
-- [ニッケレートにおける常圧超伝導](focus/nickelate/2026-05_nickelate-ambientpressure-SC)
+- [ニッケレートにおける常圧超伝導](topic/2605/2026-05-20_nickelate-ambientpressure-SC)
 
 ### 2026年5月19日更新
 - [CALPHADとGATを用いた相図予測](topic/2605/2026-05-19_calphad-gat-phase-diagram)

@@ -83,7 +83,7 @@ export default defineConfig({
         
         { text: '2026-05-20', collapsed: false, items: [
           { text: 'タスク適応型物理リザバーコンピューティング', link: '/focus/reservoir/2024-01_task-adaptive-RC' },
-          { text: 'ニッケレートにおける常圧超伝導', link: '/focus/nickelate/2026-05_nickelate-ambientpressure-SC' },
+          { text: 'ニッケレートにおける常圧超伝導', link: '/topic/2605/2026-05-20_nickelate-ambientpressure-SC' },
         ]},
 
         { text: '2026-05-19', collapsed: false, items: [
