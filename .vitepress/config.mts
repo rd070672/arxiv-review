@@ -81,6 +81,22 @@ export default defineConfig({
 
       { text: 'May, 2026', collapsed: false, items: [
         
+        { text: '2026-05-24', collapsed: false, items: [
+          { text: 'CHGNetを用いた磁気モーメントの予測', link: '/topic/2605/2026-05-24_DRX-cathode-CHGNet-magmom' },
+          { text: '非アーベルエニオンの熱力学的同定', link: '/topic/2605/2026-05-24_fractional-entropy-multichannel-kondo' },
+          { text: 'フェーズフィールド法を用いた亀裂成長のサロゲートモデル', link: '/topic/2605/2026-05-24_phasefield-fracture-surrogate' },
+          { text: '量子電子と準周期構造', link: '/topic/2605/2026-05-24_quantum-electron-quasicrystal' },
+          { text: 'テレジスタ（telesistor）量子計算アーキテクチャ', link: '/topic/2605/2026-05-24_telesistor-quantum-computing' }
+        ]},
+
+        { text: '2026-05-23', collapsed: false, items: [
+          { text: '電荷密度波カスケードとフォノン不安定性', link: '/topic/2605/2026-05-23_VSe2-CDW-cascade' }
+        ]},
+
+        { text: '2026-05-22', collapsed: false, items: [
+          { text: '絶縁体における熱分極効果', link: '/topic/2605/2026-05-22_thermopolarization-flexoelectric' }
+        ]},
+
         { text: '2026-05-20', collapsed: false, items: [
           { text: 'タスク適応型物理リザバーコンピューティング', link: '/focus/reservoir/2024-01_task-adaptive-RC' },
           { text: 'ニッケレートにおける常圧超伝導', link: '/topic/2605/2026-05-20_nickelate-ambientpressure-SC' },

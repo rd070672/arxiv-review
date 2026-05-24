@@ -52,6 +52,20 @@ features:
 ---
 
 ## トピック記事
+
+### 2026年5月24日更新
+- [CHGNetを用いた磁気モーメントの予測](topic/2605/2026-05-24_DRX-cathode-CHGNet-magmom)
+- [非アーベルエニオンの熱力学的同定](topic/2605/2026-05-24_fractional-entropy-multichannel-kondo)
+- [フェーズフィールド法を用いた亀裂成長のサロゲートモデル](topic/2605/2026-05-24_phasefield-fracture-surrogate)
+- [量子電子と準周期構造](topic/2605/2026-05-24_quantum-electron-quasicrystal)
+- [テレジスタ（telesistor）量子計算アーキテクチャ](topic/2605/2026-05-24_telesistor-quantum-computing)
+
+### 2026年5月23日更新
+- [電荷密度波カスケードとフォノン不安定性](topic/2605/2026-05-23_VSe2-CDW-cascade)
+
+### 2026年5月22日更新
+- [絶縁体における熱分極効果](topic/2605/2026-05-22_thermopolarization-flexoelectric)
+
 ### 2026年5月20日更新
 - [タスク適応型物理リザバーコンピューティング](focus/reservoir/2024-01_task-adaptive-RC)
 - [ニッケレートにおける常圧超伝導](topic/2605/2026-05-20_nickelate-ambientpressure-SC)
