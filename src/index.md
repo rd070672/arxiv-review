@@ -59,6 +59,9 @@ features:
 - [フェーズフィールド法を用いた亀裂成長のサロゲートモデル](topic/2605/2026-05-24_phasefield-fracture-surrogate)
 - [量子電子と準周期構造](topic/2605/2026-05-24_quantum-electron-quasicrystal)
 - [テレジスタ（telesistor）量子計算アーキテクチャ](topic/2605/2026-05-24_telesistor-quantum-computing)
+- [MetaDNSを用いたメタダイナミクス](topic/2605/2026-05-24_MetaDNS-discrete-neural-sampler-metadynamics)
+- [フォノン流体力学](topic/2605/2026-05-24_phonon-hydrodynamics)
+
 
 ### 2026年5月23日更新
 - [電荷密度波カスケードとフォノン不安定性](topic/2605/2026-05-23_VSe2-CDW-cascade)

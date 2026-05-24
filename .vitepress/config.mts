@@ -86,7 +86,9 @@ export default defineConfig({
           { text: '非アーベルエニオンの熱力学的同定', link: '/topic/2605/2026-05-24_fractional-entropy-multichannel-kondo' },
           { text: 'フェーズフィールド法を用いた亀裂成長のサロゲートモデル', link: '/topic/2605/2026-05-24_phasefield-fracture-surrogate' },
           { text: '量子電子と準周期構造', link: '/topic/2605/2026-05-24_quantum-electron-quasicrystal' },
-          { text: 'テレジスタ（telesistor）量子計算アーキテクチャ', link: '/topic/2605/2026-05-24_telesistor-quantum-computing' }
+          { text: 'テレジスタ（telesistor）量子計算アーキテクチャ', link: '/topic/2605/2026-05-24_telesistor-quantum-computing' },
+          { text: 'MetaDNSを用いたメタダイナミクス', link: '/topic/2605/2026-05-24_MetaDNS-discrete-neural-sampler-metadynamics' },
+          { text: 'フォノン流体力学', link: '/topic/2605/2026-05-24_phonon-hydrodynamics' }
         ]},
 
         { text: '2026-05-23', collapsed: false, items: [
