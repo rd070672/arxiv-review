@@ -11,10 +11,7 @@ export default defineConfig({
     
   lang: 'ja-JP',
 
-  lastUpdated: {
-    text: '最終更新',
-    formatOptions: { dateStyle: 'short', timeStyle: 'medium' }
-  },
+  lastUpdated: true,
 
   cleanUrls: true,
 
