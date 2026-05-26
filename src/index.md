@@ -53,6 +53,12 @@ features:
 
 ## トピック記事
 
+
+### 2026年5月26日更新
+- [フロケットトポロジカル輸送](topic/2605/2026-05-26_floquet-topological-transport)
+- [フォノン時間結晶](topic/2605/2026-05-26_photonic-time-crystal)
+- [マグノン-ポラロン-スピン結合](focus/magnon/2026-05-26_magnon-polaron-spin-coupling)
+
 ### 2026年5月24日更新
 - [CHGNetを用いた磁気モーメントの予測](topic/2605/2026-05-24_DRX-cathode-CHGNet-magmom)
 - [非アーベルエニオンの熱力学的同定](topic/2605/2026-05-24_fractional-entropy-multichannel-kondo)
@@ -61,7 +67,7 @@ features:
 - [テレジスタ（telesistor）量子計算アーキテクチャ](topic/2605/2026-05-24_telesistor-quantum-computing)
 - [MetaDNSを用いたメタダイナミクス](topic/2605/2026-05-24_MetaDNS-discrete-neural-sampler-metadynamics)
 - [フォノン流体力学](topic/2605/2026-05-24_phonon-hydrodynamics)
-
+- [交替磁性体と配位子スピン分裂](topic/2605/2026-05-24_altermagnet-ligand-spin-split)
 
 ### 2026年5月23日更新
 - [電荷密度波カスケードとフォノン不安定性](topic/2605/2026-05-23_VSe2-CDW-cascade)

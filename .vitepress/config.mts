@@ -81,6 +81,13 @@ export default defineConfig({
 
       { text: 'May, 2026', collapsed: false, items: [
         
+        
+        { text: '2026-05-26', collapsed: false, items: [
+          { text: 'フロケットトポロジカル輸送', link: '/topic/2605/2026-05-26_floquet-topological-transport' },
+          { text: 'フォノン時間結晶', link: '/topic/2605/2026-05-26_photonic-time-crystal' },
+          { text: 'マグノン-ポラロン-スピン結合', link: '/focus/magnon/2026-05-26_magnon-polaron-spin-coupling' },
+        ]},
+
         { text: '2026-05-24', collapsed: false, items: [
           { text: 'CHGNetを用いた磁気モーメントの予測', link: '/topic/2605/2026-05-24_DRX-cathode-CHGNet-magmom' },
           { text: '非アーベルエニオンの熱力学的同定', link: '/topic/2605/2026-05-24_fractional-entropy-multichannel-kondo' },
@@ -88,7 +95,8 @@ export default defineConfig({
           { text: '量子電子と準周期構造', link: '/topic/2605/2026-05-24_quantum-electron-quasicrystal' },
           { text: 'テレジスタ（telesistor）量子計算アーキテクチャ', link: '/topic/2605/2026-05-24_telesistor-quantum-computing' },
           { text: 'MetaDNSを用いたメタダイナミクス', link: '/topic/2605/2026-05-24_MetaDNS-discrete-neural-sampler-metadynamics' },
-          { text: 'フォノン流体力学', link: '/topic/2605/2026-05-24_phonon-hydrodynamics' }
+          { text: 'フォノン流体力学', link: '/topic/2605/2026-05-24_phonon-hydrodynamics' },
+          { text: '交替磁性体と配位子スピン分裂', link: '/topic/2605/2026-05-24_altermagnet-ligand-spin-split' },
         ]},
 
         { text: '2026-05-23', collapsed: false, items: [
