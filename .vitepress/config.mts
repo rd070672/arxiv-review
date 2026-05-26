@@ -81,7 +81,6 @@ export default defineConfig({
 
       { text: 'May, 2026', collapsed: false, items: [
         
-        
         { text: '2026-05-26', collapsed: false, items: [
           { text: 'フロケットトポロジカル輸送', link: '/topic/2605/2026-05-26_floquet-topological-transport' },
           { text: 'フォノン時間結晶', link: '/topic/2605/2026-05-26_photonic-time-crystal' },
