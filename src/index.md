@@ -54,6 +54,17 @@ features:
 ## トピック記事
 
 
+### 2026年5月28日更新
+- [CrI3におけるディラックマグノン](topic/2605/2026-05-28_CrI3-dirac-magnons)
+- [フォノン駆動型交換ダイナミクス](topic/2605/2026-05-28_phonon-driven-exchange-dynamics)
+
+### 2026年5月27日更新
+- [電子スピン共鳴走査型トンネル顕微鏡とスピンポンピング](topic/2605/2026-05-27_ESR-STM-spin-pumping)
+- [GaAs-表面弾性共振器における低温特性](topic/2605/2026-05-27_GaAs-SAW-resonator-cryogenic)
+- [無限層ニッケル酸化物超伝導体](topic/2605/2026-05-27_nickelate-pressure-Tc)
+- [準周期構造におけるスピンアイス](topic/2605/2026-05-27_quasicrystal-octahedral-spin-ice)
+- [遷移金属ダイカルコゲナイドにおける量子特性](topic/2605/2026-05-27_TMD-growth-quantum)
+
 ### 2026年5月26日更新
 - [フロケットトポロジカル輸送](topic/2605/2026-05-26_floquet-topological-transport)
 - [フォノン時間結晶](topic/2605/2026-05-26_photonic-time-crystal)

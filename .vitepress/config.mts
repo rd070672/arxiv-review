@@ -78,6 +78,19 @@ export default defineConfig({
 
       { text: 'May, 2026', collapsed: false, items: [
         
+        { text: '2026-05-28', collapsed: false, items: [
+          { text: 'CrI3におけるディラックマグノン', link: '/topic/2605/2026-05-28_CrI3-dirac-magnons' },
+          { text: 'フォノン駆動型交換ダイナミクス', link: '/topic/2605/2026-05-28_phonon-driven-exchange-dynamics' },
+        ]},
+
+        { text: '2026-05-27', collapsed: false, items: [
+          { text: '電子スピン共鳴走査型トンネル顕微鏡とスピンポンピング', link: '/topic/2605/2026-05-27_ESR-STM-spin-pumping' },
+          { text: 'GaAs-表面弾性共振器における低温特性', link: '/topic/2605/2026-05-27_GaAs-SAW-resonator-cryogenic' },
+          { text: '無限層ニッケル酸化物超伝導体', link: '/topic/2605/2026-05-27_nickelate-pressure-Tc' },
+          { text: '準周期構造におけるスピンアイス', link: '/topic/2605/2026-05-27_quasicrystal-octahedral-spin-ice' },
+          { text: '遷移金属ダイカルコゲナイドにおける量子特性', link: '/topic/2605/2026-05-27_TMD-growth-quantum' },
+        ]},
+
         { text: '2026-05-26', collapsed: false, items: [
           { text: 'フロケットトポロジカル輸送', link: '/topic/2605/2026-05-26_floquet-topological-transport' },
           { text: 'フォノン時間結晶', link: '/topic/2605/2026-05-26_photonic-time-crystal' },
