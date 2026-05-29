@@ -58,6 +58,7 @@ features:
 - [arXivサーベイ：2026-05-29](survey/2605/2026-05-29)
 - [ElementsClawを用いた自律型超伝導体発見](topic/2605/2026-05-29_ElementsClaw-autonomous-superconductor-discovery)
 - [Ising-Pottsマシン](topic/2605/2026-05-29_ising-potts-machines)
+- [統計物理学とニューラルネットワーク](topic/2605/2026-05-29_stat-phys-neural-networks)
 
 ### 2026年5月28日更新
 - [CrI3におけるディラックマグノン](topic/2605/2026-05-28_CrI3-dirac-magnons)
