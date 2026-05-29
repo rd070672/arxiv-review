@@ -21,7 +21,7 @@ fetch in batches of 25 papers.
 
 各論文について、次の形式で記載する。
 
-### [論文タイトル](arXivのabstractページURL)
+### 論文タイトル + arXivのabstractページURL
 
 * 分野：
 * 概要：

@@ -80,6 +80,8 @@ export default defineConfig({
         
         { text: '2026-05-29', collapsed: false, items: [
           { text: 'arXivサーベイ：2026-05-29', link: '/survey/2605/2026-05-29' },
+          { text: 'ElementsClawを用いた自律型超伝導体発見', link: '/topic/2605/2026-05-29_ElementsClaw-autonomous-superconductor-discovery' },
+          { text: 'Ising-Pottsマシン', link: '/topic/2605/2026-05-29_ising-potts-machines' },
         ]},
 
         { text: '2026-05-28', collapsed: false, items: [
