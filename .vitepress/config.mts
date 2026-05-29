@@ -78,9 +78,15 @@ export default defineConfig({
 
       { text: 'May, 2026', collapsed: false, items: [
         
+        { text: '2026-05-29', collapsed: false, items: [
+          { text: 'arXivサーベイ：2026-05-29', link: '/survey/2605/2026-05-29' },
+        ]},
+
         { text: '2026-05-28', collapsed: false, items: [
           { text: 'CrI3におけるディラックマグノン', link: '/topic/2605/2026-05-28_CrI3-dirac-magnons' },
           { text: 'フォノン駆動型交換ダイナミクス', link: '/topic/2605/2026-05-28_phonon-driven-exchange-dynamics' },
+          { text: 'カゴメ超伝導体における電荷密度波とラマン散乱', link: '/topic/2605/2026-05-28_AV3Sb5-CDW-Raman' },
+          { text: 'モアレ超格子と2Dペロブスカイト強誘電体', link: '/topic/2605/2026-05-28_moire-exciton-2D-perovskite' },
         ]},
 
         { text: '2026-05-27', collapsed: false, items: [
