@@ -53,6 +53,12 @@ features:
 
 ## トピック記事
 
+
+### 2026年6月1日更新
+- [機械学習ポテンシャルでDFTを超えた結晶構造予測](topic/2606/2026-06-01_CSP-MACE)
+- [格子熱伝導率の機械学習予測](topic/2606/2026-06-01_kappa-surrogate)
+- [リチウム拡散の機械学習ポテンシャル](topic/2606/2026-06-01_NMC-MACE)
+
 ### 2026年5月30日更新
 - [粉末X線回折による第一原理的結晶構造の決定](topic/2605/2026-05-30_ab-initio-PXRD-crystal-structure)
 - [スピンと格子をつなぐ第一原理動力学](topic/2605/2026-05-30_ab-initio-sld-magnetic-mlip)

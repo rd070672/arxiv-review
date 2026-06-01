@@ -76,10 +76,16 @@ export default defineConfig({
 
     sidebar: [
 
+      { text: 'June, 2026', collapsed: false, items: [
+        { text: '2026-06-01', collapsed: false, items: [
+          { text: '機械学習ポテンシャルでDFTを超えた結晶構造予測', link: '/topic/2606/2026-06-01_CSP-MACE' },
+          { text: '格子熱伝導率の機械学習予測', link: '/topic/2606/2026-06-01_kappa-surrogate' },
+          { text: 'リチウム拡散の機械学習ポテンシャル', link: '/topic/2606/2026-06-01_NMC-MACE' },
+        ]},
+      ]},
+
       { text: 'May, 2026', collapsed: false, items: [
-        
         { text: '2026-05-30', collapsed: false, items: [
-          
           { text: '粉末X線回折による第一原理的結晶構造の決定', link: '/topic/2605/2026-05-30_ab-initio-PXRD-crystal-structure' },
           { text: 'スピンと格子をつなぐ第一原理動力学', link: '/topic/2605/2026-05-30_ab-initio-sld-magnetic-mlip' },
           { text: 'LLMエージェントによる交換相関汎関数の探索', link: '/topic/2605/2026-05-30_agentic-XC-functional-discovery' },
