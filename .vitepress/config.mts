@@ -78,6 +78,30 @@ export default defineConfig({
 
       { text: 'May, 2026', collapsed: false, items: [
         
+        { text: '2026-05-30', collapsed: false, items: [
+          
+          { text: '粉末X線回折による第一原理的結晶構造の決定', link: '/topic/2605/2026-05-30_ab-initio-PXRD-crystal-structure' },
+          { text: 'スピンと格子をつなぐ第一原理動力学', link: '/topic/2605/2026-05-30_ab-initio-sld-magnetic-mlip' },
+          { text: 'LLMエージェントによる交換相関汎関数の探索', link: '/topic/2605/2026-05-30_agentic-XC-functional-discovery' },
+          { text: 'AI研究エージェントは科学探索を狭める', link: '/topic/2605/2026-05-30_AI-agents-narrow-science-exploration' },
+          { text: '構造材料のための自律実験室：AIMD-L', link: '/topic/2605/2026-05-30_AIMD-L-structural-materials-SDL' },
+          { text: 'LLMエージェントによる支配方程式の自律的探索', link: '/topic/2605/2026-05-30_autonomous-LLM-theory-discovery' },
+          { text: '化学的無秩序のモデリング', link: '/topic/2605/2026-05-30_chemical-disorder-bridging-classical-AI' },
+          { text: '量子気体実験の機械学習', link: '/topic/2605/2026-05-30_explainable-ML-quantum-gas-experiments' },
+          { text: 'ヘッセ行列マッチングによる粗視化分子動力学の精密化', link: '/topic/2605/2026-05-30_Hessian-matching-CGMD-proteins' },
+          { text: '二段階機械学習による自由エネルギー地形解析', link: '/topic/2605/2026-05-30_hybrid-perovskite-alloy-stability-ML' },
+          { text: '新規相変化メモリ材料の多装置自律探索', link: '/topic/2605/2026-05-30_MAD-PCM-multiinstrument' },
+          { text: 'エネルギー散逸ダイナミクスの高速化', link: '/topic/2605/2026-05-30_PFNet-physics-informed-microstructure-operator' },
+          { text: 'プロトタイプ誘導型潜在空間アライメント', link: '/topic/2605/2026-05-30_prototype-guided-MLIP-finetuning' },
+          { text: 'スケーラブルな変分モンテカルロ', link: '/topic/2605/2026-05-30_PSR-NQS-scalable-variational-Monte-Carlo' },
+          { text: 'ハイブリッド量子古典AIに基づく量子プロセッサと変換器', link: '/topic/2605/2026-05-30_QiankunNet-QSCI-hybrid-quantum-AI' },
+          { text: '多階層学習を活用した高精度量子モンテカルロ（QMC）法', link: '/topic/2605/2026-05-30_QMC-accuracy-MLIP-multifidelity-MoS2' },
+          { text: '強化学習エージェントによる原子スケールの反応経路探索', link: '/topic/2605/2026-05-30_RL-goal-directed-atomistic-timescale' },
+          { text: 'フォトニクス向け相変化材料の異方的結晶化', link: '/topic/2605/2026-05-30_Sb2S3-PCM-crystallization-MLFF' },
+          { text: '確率的機械学習ポテンシャルと不確かさ定量化', link: '/topic/2605/2026-05-30_uncertainty-aware-MLIP-CRPS' },
+          { text: '量子多体問題のスケーリング則', link: '/topic/2605/2026-05-30_WF-Bench-NQS-scaling-laws' },
+        ]},
+
         { text: '2026-05-29', collapsed: false, items: [
           { text: 'arXivサーベイ：2026-05-29', link: '/survey/2605/2026-05-29' },
           { text: 'ElementsClawを用いた自律型超伝導体発見', link: '/topic/2605/2026-05-29_ElementsClaw-autonomous-superconductor-discovery' },

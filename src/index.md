@@ -53,6 +53,27 @@ features:
 
 ## トピック記事
 
+### 2026年5月30日更新
+- [粉末X線回折による第一原理的結晶構造の決定](topic/2605/2026-05-30_ab-initio-PXRD-crystal-structure)
+- [スピンと格子をつなぐ第一原理動力学](topic/2605/2026-05-30_ab-initio-sld-magnetic-mlip)
+- [LLMエージェントによる交換相関汎関数の探索](topic/2605/2026-05-30_agentic-XC-functional-discovery)
+- [AI研究エージェントは科学探索を狭める](topic/2605/2026-05-30_AI-agents-narrow-science-exploration)
+- [構造材料のための自律実験室：AIMD-L](topic/2605/2026-05-30_AIMD-L-structural-materials-SDL)
+- [LLMエージェントによる支配方程式の自律的探索](topic/2605/2026-05-30_autonomous-LLM-theory-discovery)
+- [化学的無秩序のモデリング](topic/2605/2026-05-30_chemical-disorder-bridging-classical-AI)
+- [量子気体実験の機械学習](topic/2605/2026-05-30_explainable-ML-quantum-gas-experiments)
+- [ヘッセ行列マッチングによる粗視化分子動力学の精密化](topic/2605/2026-05-30_Hessian-matching-CGMD-proteins)
+- [二段階機械学習による自由エネルギー地形解析](topic/2605/2026-05-30_hybrid-perovskite-alloy-stability-ML)
+- [新規相変化メモリ材料の多装置自律探索](topic/2605/2026-05-30_MAD-PCM-multiinstrument)
+- [エネルギー散逸ダイナミクスの高速化](topic/2605/2026-05-30_PFNet-physics-informed-microstructure-operator)
+- [プロトタイプ誘導型潜在空間アライメント](topic/2605/2026-05-30_prototype-guided-MLIP-finetuning)
+- [スケーラブルな変分モンテカルロ](topic/2605/2026-05-30_PSR-NQS-scalable-variational-Monte-Carlo)
+- [ハイブリッド量子古典AIに基づく量子プロセッサと変換器](topic/2605/2026-05-30_QiankunNet-QSCI-hybrid-quantum-AI)
+- [多階層学習を活用した高精度量子モンテカルロ（QMC）法](topic/2605/2026-05-30_QMC-accuracy-MLIP-multifidelity-MoS2)
+- [強化学習エージェントによる原子スケールの反応経路探索](topic/2605/2026-05-30_RL-goal-directed-atomistic-timescale)
+- [フォトニクス向け相変化材料の異方的結晶化](topic/2605/2026-05-30_Sb2S3-PCM-crystallization-MLFF)
+- [確率的機械学習ポテンシャルと不確かさ定量化](topic/2605/2026-05-30_uncertainty-aware-MLIP-CRPS)
+- [量子多体問題のスケーリング則](topic/2605/2026-05-30_WF-Bench-NQS-scaling-laws)
 
 ### 2026年5月29日更新
 - [arXivサーベイ：2026-05-29](survey/2605/2026-05-29)
